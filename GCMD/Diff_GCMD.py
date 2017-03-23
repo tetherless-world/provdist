@@ -39,8 +39,8 @@ c = 0
 for i in new.subjects(RDF.type, SKOS.Concept):
 	changeNote = "<br>\n              ".join(g1.objects(i, SKOS.changeNote))
 	output.write((u'''        <tr about="AddChange%i" typeof="vo:Change">
-            <td property="vo:resultsIn">
-              <a href="%s?version=%s" resource="%s?version%s" typeof="vo:Attribute">Link</a>
+            <td property="vo:resultsIn" resource="%s?version%s" typeof="vo:Attribute">
+              <a href="%s?version=%s">Link</a>
             </td>
             <td about="%s?version=%s" property="http://www.w3.org/2004/02/skos/core#prefLabel">%s</td>
             <td property="http://www.w3.org/2004/02/skos/core#changeNote">%s</td>
