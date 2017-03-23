@@ -1,11 +1,11 @@
-import glob, json, rdflib, codecs
+import glob, json, rdflib
 from rdflib import URIRef, Literal, Namespace
 from rdflib.namespace import RDF, SKOS
 
 GCMD = Namespace("http://gcmdservices.gsfc.nasa.gov/kms/concept/")
 
 GCMDfile = ['GCMD8_3.rdf', 'GCMD8_4.rdf','GCMD8_4_1.rdf']
-output = open('/home/blee/GCMD/webGCMD83_84.html', 'w')
+output = open('/home/blee/provdist/GCMD/webGCMD83_84.html', 'w')
 #output = codecs.open('/home/blee/GCMD/GCMD8_3to8_4.html', mode='w', encoding='utf-8')
 
 g0 = rdflib.Graph()
