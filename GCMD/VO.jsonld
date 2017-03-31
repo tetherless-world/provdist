@@ -1,15 +1,18 @@
 {
-        "type"  :       "@type" ,
-        "id"    :       "@id" ,
-        "gcmd"  :       "http://gcmdservices.gsfc.nasa.gov/kms/concept/" ,
-        "skos"  :       "http://www.w3.org/2004/02/skos/core#" ,
-        "vo"    :       "http://orion.tw.rpi.edu/~blee/VersionOntology.owl#" ,
-        "label" :       "skos:prefLabel" ,
-        "resultsIn"     :       { "@id": "vo:resultsIn", "@type": "@id" } ,
-        "absentFrom"    :       { "@id": "vo:absentFrom", "@type": "@id" } ,
-	"invalidatedBy"	:	{ "@id": "vo:invalidatedBy", "@type": "@id" } ,
-        "hasAttribute"  :       { "@id": "vo:hasAttribute", "@type": "@id" } ,
-        "undergoes"     :       { "@id": "vo:undergoes", "@type": "@id" } ,
-	"this"		:	"http://orion.tw.rpi.edu/~blee/provdist/GCMD/webGCMD83_84.html#"
+	"@context":
+	{
+	        "type"  :       "@type" ,
+	        "id"    :       "@id" ,
+	        "gcmd"  :       "http://gcmdservices.gsfc.nasa.gov/kms/concept/" ,
+		"skos"  :       "http://www.w3.org/2004/02/skos/core#" ,
+	        "vo"    :       "http://orion.tw.rpi.edu/~blee/VersionOntology.owl#" ,
+	        "label" :       "skos:prefLabel" ,
+	        "resultsIn"     :       { "@id": "vo:resultsIn", "@type": "@id" } ,
+	        "absentFrom"    :       { "@id": "vo:absentFrom", "@type": "@id" } ,
+		"invalidatedBy"	:	{ "@id": "vo:invalidatedBy", "@type": "@id" } ,
+	        "hasAttribute"  :       { "@id": "vo:hasAttribute", "@type": "@id" } ,
+	        "undergoes"     :       { "@id": "vo:undergoes", "@type": "@id" } ,
+		"this"		:	"http://orion.tw.rpi.edu/~blee/provdist/GCMD/webGCMD83_84.html#"
+	}
 }
 
