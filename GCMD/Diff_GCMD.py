@@ -224,7 +224,7 @@ for i in g1.subjects(RDF.type, SKOS.Concept):
 '''%(context, i.split('/')[-1], ver[0], g0.value(i, SKOS.prefLabel), c, ver[0], 
      context, c, i.split('/')[-1], ver[1], 
      context, i.split('/')[-1], ver[1], g1.value(i, SKOS.prefLabel), ver[1])  ).encode('utf8'))
-	c += 1
+			c += 1
 
 output.write('''      </table>
 
