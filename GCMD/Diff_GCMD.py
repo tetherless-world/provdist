@@ -22,7 +22,7 @@ old = g0-g1
 #Their change notes should have a date on the same day as the new additions.
 #This is probably a bad way of determining this.
 date = g1.value(new.value(predicate=RDF.type, object=SKOS.Concept), SKOS.changeNote).split()[0]
-context = "http://orion.tw.rpi.edu/~blee/provdist/GCMD/VO.jsonld"
+context = "https://orion.tw.rpi.edu/~blee/provdist/GCMD/VO.jsonld"
 
 ##################
 ###   Header   ###
