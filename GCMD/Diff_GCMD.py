@@ -33,9 +33,9 @@ output.write('''<html>
   </head>
   <body vocab="http://www.w3.org/nw/prov#" prefix="gcmd: http://gcmdservices.gsfc.nasa.gov/kms/concept/">
     <h2 property="http://purl.org/dc/terms/title">
-      <span about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=8.3" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span> to 
-      <span about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=8.4" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
-'''%(GCMDfile[0], GCMDfile[1]))
+      <span about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span> to 
+      <span about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
+'''%(ver[0], GCMDfile[0], ver[1], GCMDfile[1]))
 
 output.write('''      <script type="application/ld+json">
 [
@@ -74,8 +74,6 @@ c = 0
 
 for i in new.subjects(RDF.type, SKOS.Concept):
 	changeNote = "<br>\n              ".join(g1.objects(i, SKOS.changeNote))
-	if date == None:
-		date = list(g1.objects(i, SKOS.changeNote))[0].split()[0]
 	output.write((u'''        <tr id="AddChange%i" about="%s?version=%s">
             <td>
               <a href="%s?version=%s">Link</a>
@@ -230,5 +228,55 @@ output.write('''      </table>
 
 ''')
 
+##################################
+###   NON-STRUCTURAL CHANGES   ###
+##################################
+
+output.write('''
+      <h3>Non-Structural Changes</h3>
+      <table>
+        <tr>
+          <th>Link v1</th>
+          <th>Link v2</th>
+          <th>Label</th>
+          <th>Change Notes</th>
+        </tr>\n
+''')
+
+c = 0
+
+for i in g1.subjects(RDF.type, SKOS.Concept):
+	if (i, None, None) in g0:
+		b0 = g0.value(i, SKOS.broader)
+		b1 = g1.value(i, SKOS.broader)
+		if b0 == b1:
+			new_note = False
+			notes = []
+			for note in g1.objects(i, SKOS.changeNote):
+				note_date = note.split()[0]
+				print note_date
+				if note_date == date:
+					new_note = True
+					notes.append(note)
+			if new_note:
+				output.write((u'''        <tr id="ModifyChange%i" about="%s?version=%s">
+          <td><a href=%s?version=%s>Link</a></td>
+          <td><a href=%s?version=%s>Link</a></td>
+          <td property="http://www.w3.org/2004/02/skos/core#prefLabel">%s</td>
+          <td property="http://www.w3.org/2004/02/skos/core#changeNote">%s</td>
+'''%(c, str(i), ver[1],
+     str(i), ver[0],
+     str(i), ver[1],
+     g1.value(i, SKOS.prefLabel),
+     "<br>\n              ".join(notes)
+)).encode('utf8'))
+				output.write((u'''
+        </tr>
+'''%()).encode('utf8'))
+				c += 1
+
+output.write('''      </table>
+
+''')
 output.write("\t</body>\n</html>")
 output.close()
