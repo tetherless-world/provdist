@@ -38,21 +38,19 @@ def test_alignment():
 	for i in range(0, 54):
 		print 'version2: {:5} version1: {:5}'.format(i, index_convert(i))
 
-def compare_print(i, val1, val2, changelog = None):
-	formatted_val1 = val1
-	formatted_val2 = val2
-	if isinstance(val1, unicode):
-		formatted_val1 = val1.encode('utf8', 'replace')
-	if isinstance(val2, unicode):
-		formatted_val2 = val2.encode('utf8', 'replace')
+def compare_print(key, val1, val2, v1_file, v1_index = 0, v2_index = 0, changelog = None):
 	if changelog:
-		changelog.write('''      <tr property="vo:hasChange" typeof="vo:Change">
-        <td property="http://www.w3.org/2000/01/rdf-schema#label">{:5}</td>
-        <td property="vo:PreData">{:10}</td>
-        <td property="vo:PostData">{:10}</td>
-      </tr>\n'''.format(i, formatted_val1, formatted_val2))
+		out = u'''        <tr  about="Change{}{}" typeof="vo:ModifyChange">
+          <td align="right" rev="vo:Undergoes" resource="v1:Attribute{}{}v1" typeof="vo:Attribute">{:2}({})</td>
+          <td property="vo:resultsIn" resource="v2:Attribute{}{}v2" typeof="vo:Attribute">{:2}</td>
+          <td>{:>10}</td>
+          <td>{:>10}</td>
+          <span about="Version1" property="vo:hasAttribute" resource="v1:Attribute{}{}v1"></span>
+          <span about="Version2" property="vo:hasAttribute" resource="v2:Attribute{}{}v2"></span>
+        </tr>\n'''.format(key, v2_index, key, v1_index, v1_index, v1_file, key, v2_index, v2_index, val1, val2, key, v1_index, key, v2_index)
+		changelog.write(out.encode('utf8'))
 	else:
-		print '{:5}  version1: {:10} version2: {:10}'.format(i, formatted_val1, formatted_val2)
+		print '{:5}  version1: {:10} version2: {:10}'.format(key, val1, val2)
 
 labels = {17:"SAMPLING - DEPTH - >,<",
 		  25:"[He] - ppm - >,<", 27:"[He] - ppm - err", 28:"[He] - mkcc/ - >,<", 30:"[He] - mkcc/ - err", 31:"[He] - mol/ - >,<", 32:"[He] - mol/ - L H2O", 33:"[He] - mol/ - err",
@@ -177,7 +175,7 @@ print "Removed Column"
 for i in old_column:
         v1_value = labels.get(i, "")
 	out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
-          <td resource="Attribute%i" rev="vo:Undergoes">%i</td>
+          <td resource="Attribute%i" rev="vo:Undergoes" typeof="vo:Attribute">%i</td>
           <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
@@ -203,7 +201,7 @@ for i in sorted(old_row):
 		v1_col = [j.value for j in v1_col]
 	v1_index = v1_col.index(i)
         out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
-          <td resource="Attribute%i" rev="vo:Undergoes">%i(%s)</td>
+          <td resource="Attribute%i" rev="vo:Undergoes" typeof="vo:Attribute">%i(%s)</td>
           <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
@@ -226,39 +224,36 @@ workbook_name = ''
 for i in range(3,v2_sheet.nrows):
 	v2_row = v2_sheet.row(i)
 	#workbook_name = v1_file
-	if indicator_map.get(v2_row[0].value, None) == None:
-		#workbook_name = indicator_map.get(v2_row[0].value, None)
-		if v2_row[0].value not in new_row:
-			print 'New Entry: '+v2_row[0].value
-			changelog.write('  <p resource="v2:{0:5}" typeof="Entity">\n    New Indicator: <span property="http://www.w3.org/2000/01/rdf-schema#label">{0:5}</span>\n    New Values\n  </p>'.format(v2_row[0].value))
+	if v2_row[0].value in new_row or v2_row[0].value in old_row:
 		continue
-	elif workbook_name == indicator_map.get(v2_row[0].value, None):
+	if workbook_name == indicator_map.get(v2_row[0].value, None):
 		pass
 	else:
 		workbook_name = indicator_map.get(v2_row[0].value, None)
 		v1_workbook = xlrd.open_workbook(workbook_name)
 		v1_sheet = v1_workbook.sheet_by_index(0)
+		v1_col = v1_sheet.col(0)
+		v1_col = [j.value for j in v1_col]
 	#print v2_row[0].value
-	changelog.write('''  <div resource="v2:%s" typeof="Entity">
-    <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
-    <table property='vo:hasChangelog' resource='#%s' typeof='Log'>
-      <tr>
-        <td>Column</td>
-        <td>Version 1</td>
-        <td>Version 2</td>
-      </tr>\n'''%(v2_row[0].value, v2_row[0].value, v2_row[0].value))
+	out = u'''  <div about="Version1" rel="vo:hasAttribute">
+    <div resource="v2:%s" typeof="vo:Attribute">
+      <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
+      <table rel="vo:Undergoes">
+        <tr>
+          <th>Column v1</th>
+          <th>Column v2</th>
+          <th>Version 1</th>
+          <th>Version 2</th>
+        </tr>\n'''%(v2_row[0].value, v2_row[0].value)
+	changelog.write(out.encode('utf8'))
 	#print '# Searching...'
-	for j in range(4, v1_sheet.nrows):
-		#print '  version 1: {:5} version 2: {:5}'.format(v1_sheet.cell(j,0).value, v2_row[0].value)
-		if v2_row[0].value == v1_sheet.cell(j,0).value:
-			#print '    FOUND'
-			v1_row = v1_sheet.row(j)
-			break
+	v1_index = v1_col.index(v2_row[0].value)
+	v1_row = v1_sheet.row(v1_index)
 	#print '# Comparing...'
 	for j in range(0,54):
 		if v2_row[j].value != v1_row[index_convert(j)].value:
 			#compare_print(j, v1_row[index_convert(j)].value, v2_row[j].value)
-			compare_print(j, v1_row[index_convert(j)].value, v2_row[j].value, changelog)
+			compare_print(v2_row[0].value, v1_row[index_convert(j)].value, v2_row[j].value, workbook_name.split('/')[-1], index_convert(j), j, changelog)
 	changelog.write('  </table></div><br>\n')
 
 changelog.write('</body>\n</html>')
