@@ -1,0 +1,52 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfa="http://www.w3.org/ns/rdfa#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#" > 
+  <rdf:Description rdf:about="http://rdfa.info/play/Attribute21">
+    <rdfs:label>EGY001</rdfs:label>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#Attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ngdb.com/v1/AttributeCAM00111v1">
+    <j.0:Undergoes rdf:resource="http://rdfa.info/play/ChangeCAM00111"/>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#Attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/Attribute4">
+    <rdfs:label>ANC001</rdfs:label>
+    <j.0:Undergoes rdf:resource="http://rdfa.info/play/InvlidateChange4"/>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#Attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/Version2">
+    <j.0:hasAttribute rdf:resource="http://ngdb.com/v2/AttributeCAM00111v2"/>
+    <j.0:hasAttribute rdf:resource="http://rdfa.info/play/Attribute21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/AddChange21">
+    <j.0:resultsIn rdf:resource="http://rdfa.info/play/Attribute21"/>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#AddChange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/Version1">
+    <j.0:hasAttribute rdf:resource="http://ngdb.com/v1/AttributeCAM00111v1"/>
+    <j.0:hasAttribute rdf:resource="http://ngdb.com/v2/CAM001"/>
+    <j.0:hasAttribute rdf:resource="http://rdfa.info/play/Attribute4"/>
+    <j.0:absentFrom rdf:resource="http://rdfa.info/play/AddChange21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/">
+    <rdfa:usesVocabulary rdf:resource="http://www.w3.org/nw/prov#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ngdb.com/v2/CAM001">
+    <j.0:Undergoes rdf:resource="http://rdfa.info/play/ChangeCAM00111"/>
+    <rdfs:label>CAM001</rdfs:label>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#Attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ngdb.com/v2/AttributeCAM00111v2">
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#Attribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/ChangeCAM00111">
+    <j.0:resultsIn rdf:resource="http://ngdb.com/v2/AttributeCAM00111v2"/>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#ModifyChange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://rdfa.info/play/InvlidateChange4">
+    <j.0:invalidatedBy rdf:resource="http://rdfa.info/play/Version2"/>
+    <rdf:type rdf:resource="https://orion.tw.rpi.edu/~blee/VersionOntology.owl#InvalidateChange"/>
+  </rdf:Description>
+</rdf:RDF>
