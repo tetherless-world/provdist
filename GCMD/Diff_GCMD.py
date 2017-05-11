@@ -235,7 +235,7 @@ output.write('''      </table>
 
 output.write('''
       <h3>Non-Structural Changes</h3>
-      <table>
+      <table class="table table-striped">
         <tr>
           <th>Link v1</th>
           <th>Link v2</th>
