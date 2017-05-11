@@ -9,7 +9,7 @@ def indexConvert(index1):
 	#Maps Version 2 columns to Version 1 indexes
 	indices = {
 		0:1,    1:2,  2:3,    3:4,   6:0,
-		7:6,    8:5,  9:7,   10:8,  12:9,
+		7:6,    8:30,  9:7,   10:8,  12:9,
 		13:10, 14:11, 15:12, 16:13, 17:14,
 		18:15, 19:16, 20:17, 21:18, 22:19,
 		23:20, 24:21, 25:22, 26:23, 27:24,
@@ -92,7 +92,7 @@ changelog.write('''
 '''%(filename1))
 
 print "Removed"
-for i in [30, 32]:
+for i in [5, 32]:
 	v1_value = formatText(sheet_v1.cell(0,i).value)
 	changelog.write('''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:Change">
           <td resource="Attribute%i" rev="vo:Undergoes">%i</td>
