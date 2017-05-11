@@ -30,6 +30,7 @@ context = "https://orion.tw.rpi.edu/~blee/provdist/GCMD/VO.jsonld"
 
 output.write('''<html>
   <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body vocab="http://www.w3.org/nw/prov#" prefix="gcmd: http://gcmdservices.gsfc.nasa.gov/kms/concept/">
     <h2 property="http://purl.org/dc/terms/title">
@@ -62,7 +63,7 @@ output.write('''      <script type="application/ld+json">
 
 output.write('''
       <h3>Concepts added to %s</h3>
-      <table about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s">
+      <table about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s" class="table table-striped">
         <tr>
           <th>Link</th>
           <th>Concept</th>
@@ -116,7 +117,7 @@ print date
 
 output.write('''
       <h3>Concepts removed from %s</h3>
-      <table about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s">
+      <table about="gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s" class="table table-striped">
         <tr>
           <th>Link</th>
           <th>Concept</th>
@@ -163,7 +164,7 @@ output.write('''      </table>
 
 output.write('''
       <h3>Moved Concepts</h3>
-      <table>
+      <table class="table table-striped">
         <tr>
           <th>Link v1</th>
           <th>Link v2</th>
