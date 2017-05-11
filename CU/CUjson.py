@@ -10,7 +10,7 @@ def indexConvert(index1):
 	#Maps Version 2 columns to Version 1 indexes
 	indices = {
 		0:1,    1:2,  2:3,    3:4,   6:0,
-		7:6,    8:5,  9:7,   10:8,  12:9,
+		7:6,    8:30,  9:7,   10:8,  12:9,
 		13:10, 14:11, 15:12, 16:13, 17:14,
 		18:15, 19:16, 20:17, 21:18, 22:19,
 		23:20, 24:21, 25:22, 26:23, 27:24,
@@ -109,7 +109,6 @@ for i in range(0,sheet_v2.ncols):
 "@id": "".join([host, "AddChange", str(i)]) ,
 "resultsIn" :   "".join([ "http://CUdb.com/v2/Attribute", str(i)]),
 "@reverse"  :   { "absentFrom": "Version1" }
-
 }
 		json2 = {
 "@context":context,
@@ -133,19 +132,41 @@ changelog.write('''      </table>
 ########################################
 
 changelog.write('''
-      <h3>Columns removed from %s</h3>
+      <h3>Columns added to %s</h3>
       <table about="Version2">
+        <tr>
+          <th>Column #</th>
+          <th>Header</th>
+        </tr>
 '''%(filename1))
 
 print "Removed"
-for i in [30, 32]:
+for i in [5, 32]:
 	v1_value = formatText(sheet_v1.cell(0,i).value)
-	changelog.write('''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:Change">
-          <td resource="Attribute%i" rev="vo:Undergoes">%i</td>
-          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
-          <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
+	changelog.write('''        <tr id="InvalidateChange%i" about="v1:Attribute%i">
+          <td>%i</td>
+          <td>%s</td>
+          <script type="application/ld+json">
+'''%(i, i, i, v1_value))
+	json1 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://CUdb.com/v1/Attribute", str(i)]) ,
+"label":v1_value ,
+"undergoes":"".join([host, "InvalidateChange", str(i)]) ,
+"@reverse" :    { "hasAttribute" : "Version1" }
+}
+	json2 = {
+"@context":context,
+"@type":"vo:InvalidateChange" ,
+"@id": "".join([host, "InvalidateChange", str(i)]) ,
+"invalidatedBy" :   "Version2",
+}
+	json.dump([json1, json2], changelog, indent=4, sort_keys=True)
+	changelog.write('''
+          </script>
         </tr>
-'''%(i, i, i, i, v1_value, i))
+''')
 changelog.write('''      </table>
 
 ''')
@@ -172,16 +193,16 @@ for j in range(1,sheet_v2.nrows):
 		continue
 	else:
 		v1_row = sheet_v1.row(v1_indicators[v2_row[1].value])
-	changelog.write('''  <div about="Version1" rel="vo:hasAttribute">
-    <div resource="v2:%s" typeof="vo:Attribute">
-      <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
-      <table rel="vo:Undergoes">
-        <tr>
-          <th>Column v1</th>
-          <th>Column v2</th>
-          <th>Version 1</th>
-          <th>Version 2</th>
-        </tr>\n'''%(v2_key, v2_key))
+	changelog.write('''
+      <div about="v1:%s"">
+        <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
+        <table>
+          <tr>
+            <th>Column v1</th>
+            <th>Column v2</th>
+            <th>Version 1</th>
+            <th>Version 2</th>
+          </tr>\n'''%(v2_key, v2_key))
 	for i in range(len(v2_row)):
 		formatted_v2 = v2_row[i].value
 		if isinstance(formatted_v2, unicode):
@@ -193,14 +214,40 @@ for j in range(1,sheet_v2.nrows):
 			if isinstance(formatted_v1, unicode):
 				formatted_v1 = formatted_v1.encode('utf8', 'replace')
 			if formatted_v1 != formatted_v2:
-				changelog.write('''        <tr  about="Change{}{}" typeof="vo:Change">
-          <td align="right" rev="vo:Undergoes" resource="v1:Attribute{}{}v1" typeof="vo:Attribute">{:2}</td>
-	  <td property="vo:resultsIn" resource="v2:Attribute{}{}v2" typeof="vo:Attribute">({:2})</td>
+				changelog.write('''        <tr  id="ModifyChange{}{}">
+          <td align="right">{:2}</td>
+	  <td >({:2})</td>
 	  <td>{:>10}</td>
 	  <td>{:>10}</td>
-          <span about="Version1" property="vo:hasAttribute" resource="v1:Attribute{}{}v1"></span>
-          <span about="Version2" property="vo:hasAttribute" resource="v2:Attribute{}{}v2"></span>
-        </tr>\n'''.format(v2_key, i, v2_key, i, index, v2_key, i, i, formatted_v1, formatted_v2, v2_key, i, v2_key, i))
+          <script type="application/ld+json">
+'''.format(v2_key, i, index, i, formatted_v1, formatted_v2))
+				json1 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://CUdb.com/v1/Attribute", v2_key, str(index)]) ,
+"label":sheet_v1.cell(0,index).value ,
+"undergoes":"".join([host, "ModifyChange", v2_key, str(i)]) ,
+"@reverse" :    { "hasAttribute" : "Version1" }
+}
+				json2 = {
+"@context":context,
+"@type":"vo:ModifyChange",
+"@id":"".join([host, "ModifyChange", v2_key, str(i)]) ,
+"resultsIn":"".join(["http://CUdb.com/v2/Attribute", v2_key, str(i)])
+}
+				json3 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://CUdb.com/v2/Attribute", v2_key, str(i)]) ,
+"label":sheet_v2.cell(0,i).value ,
+"@reverse" :    { "hasAttribute" : "Version2" }
+}
+				json.dump([json1, json2, json3], changelog, indent=4, sort_keys=True)
+				changelog.write('''
+          </script>
+        </tr>\n''')
+
+
 #		else:
 #			changelog.write('''      <tr property="vo:undergoes" typeof="vo:Change">
 #        <td></td>
@@ -208,7 +255,7 @@ for j in range(1,sheet_v2.nrows):
 #        <td></td>
 #        <td>{:>10}</td>
 #      </tr>\n'''.format(i, formatted_v2))
-	changelog.write("    </table></div></div><br>\n")
+	changelog.write("    </table></div><br>\n")
 
 changelog.write("\t</body>\n</html>")
 changelog.close()
