@@ -37,6 +37,7 @@ v2_file = join(separator, 'data', 'CUdata', filename2)
 changelog = open('DTDI/CUjsonlog.html', 'w')
 changelog.write('''<html>
   <head>
+    <meta charset="utf-8">
   </head>
   <body vocab="http://www.w3.org/nw/prov#" prefix="vo: http://orion.tw.rpi.edu/~blee/VersioningOntology.owl# v1: http://CUdb.com/v1/ v2: http://CUdb.com/v2/">
     <h2 property="http://purl.org/dc/terms/title">
