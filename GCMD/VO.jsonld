@@ -12,7 +12,7 @@
 		"invalidatedBy"	:	{ "@id": "vo:invalidatedBy", "@type": "@id" } ,
 	        "hasAttribute"  :       { "@id": "vo:hasAttribute", "@type": "@id" } ,
 	        "undergoes"     :       { "@id": "vo:undergoes", "@type": "@id" } ,
-		"this"		:	"http://orion.tw.rpi.edu/~blee/provdist/GCMD/webGCMD83_84.html#"
+		"this"		:	"https://orion.tw.rpi.edu/~blee/provdist/GCMD/webGCMD83_84.html#"
 	}
 }
 
