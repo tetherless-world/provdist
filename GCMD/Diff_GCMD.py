@@ -157,7 +157,7 @@ def GCMDChangeLogGenerator(GCMDfile):
 	]
 	          </script>
 	        </tr>
-	'''%(context, i.split('/')[-1], ver[0], g1.value(i, SKOS.prefLabel), c, ver[0], context, c, ver[1])).encode('utf8'))
+	'''%(context, i.split('/')[-1], ver[0], g0.value(i, SKOS.prefLabel), c, ver[0], context, c, ver[1])).encode('utf8'))
 		c += 1
 	output.write('''      </table>
 	
