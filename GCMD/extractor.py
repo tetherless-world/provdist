@@ -1,9 +1,9 @@
 from bs4 import BeautifulSoup
 import glob, rdflib, json, re
 
-def extracting(f):
-	f = 'ChangelogGCMD70_80.html'
-	d = 'Graph'+re.search('ChangelogGCMD(.*).html', f).group(1)+'.ttl'
+def extracting(f, d):
+	#f = 'ChangelogGCMD70_80.html'
+	#d = 'Graph'+re.search('ChangelogGCMD(.*).html', f).group(1)+'.ttl'
 
 	fp = open(f)
 	soup = BeautifulSoup(fp, 'html5lib')
@@ -17,7 +17,8 @@ def extracting(f):
 
 	g.serialize(destination=d, format='turtle')
 
-l = glob.glob('Changelog*.html')
-for i in l:
-	print "Extracting: "+i
-	extracting(i)
+if __name__ == "__main__":
+	l = glob.glob('Changelog*.html')
+	for i in l:
+		print "Extracting: "+i
+		extracting(i)
