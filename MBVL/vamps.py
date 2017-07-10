@@ -84,7 +84,7 @@ def gen_log(f1, f2):
 		json.dump([Att1_json, Att2_json], changelog, indent=4, sort_keys=True)
 		changelog.write('''
       </script>
-      <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
+      <h3 style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</h3>
       <table>
         <tr>
           <th>type</th>
