@@ -1,0 +1,761 @@
+@prefix ns1: <http://orion.tw.rpi.edu/~blee/VersionOntology.owl#> .
+@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/blee/provdist/GCMD/Version1> a ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast->,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Acinetobacter_baumannii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Actinomyces_odontolyticus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Clostridium_beijerinckii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Deinococcus_radiodurans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Neisseria_meningitidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Porphyromonas_gingivalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Propionibacterium_acnes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Rhodobacter_sphaeroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_aureus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_agalactiae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_mutans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_pneumoniae> ;
+    ns2:prefLabel "rdp_gast.xls" .
+
+<file:///home/blee/provdist/GCMD/Version2> a ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo->,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Acinetobacter_baumannii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Actinomyces_odontolyticus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Deinococcus_radiodurans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Neisseria_meningitidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Porphyromonas_gingivalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Propionibacterium_acnes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_aureus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_agalactiae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_mutans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_pneumoniae> ;
+    ns2:prefLabel "rdp_spingo.xls" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeAMBIGUOUS> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo--AMBIGUOUS> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeActinomyces_odontolyticus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Actinomyces_odontolyticus-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacillus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacillus_cereus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus_cereus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacillus_thuringiensis> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus_thuringiensis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacteroides_vulgatus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeClostridium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii-Clostridium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeClostridium_beijerinckii> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii-Clostridium_beijerinckii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeDeinococcus_radiodurans> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Deinococcus_radiodurans-Deinococcus_radiodurans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeEscherichia/Shigella_coli> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli-Escherichia/Shigella_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeLactobacillus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeLactobacillus_johnsonii> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus_johnsonii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangePropionibacterium_acnes> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Propionibacterium_acnes-Propionibacterium_acnes> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus_aureus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_aureus-Staphylococcus_aureus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus_haemolyticus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_haemolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus_warneri> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_warneri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStreptococcus_pneumoniae> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_pneumoniae-Streptococcus_pneumoniae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeAcinetobacter> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeAcinetobacter_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Acinetobacter_baumannii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeActinomycetaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacillaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacteroides> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacteroides_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacteroides_uncultured_organism> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeClostridiaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeDeinococcus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Deinococcus_radiodurans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEnterococcus_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEnterococcus_uncultured_organism> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia/Shigella> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia/Shigella_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia/Shigella_uncultured_organism> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia_coli> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeHelicobacter> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeLactobacillus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Helicobacter_pylori> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeLactobacillus_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeLactobacillus_uncultured_organism> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeNeisseria> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeNeisseria_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Neisseria_meningitidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangePropionibacteriaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Propionibacterium_acnes> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangePseudomonas> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangePseudomonas_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeStaphylococcus_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_aureus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeStreptococcus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeStreptococcus_uncultured_bacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_pneumoniae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeAcinetobacter_baumannii> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Acinetobacter_baumannii-Acinetobacter_baumannii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeEnterococcus> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis-Enterococcus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeEnterococcus_faecalis> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis-Enterococcus_faecalis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeHelicobacter_pylori> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Helicobacter_pylori-Helicobacter_pylori> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeLactobacillus_gasseri> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus_gasseri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeListeria> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes-Listeria> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeListeria_monocytogenes> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes-Listeria_monocytogenes> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeNeisseria_meningitidis> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Neisseria_meningitidis-Neisseria_meningitidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangePseudomonas_aeruginosa> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa-Pseudomonas_aeruginosa> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeRhodobacter> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides-Rhodobacter> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeRhodobacter_sphaeroides> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeStaphylococcus_epidermidis> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_epidermidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeStreptococcus_agalactiae> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_agalactiae-Streptococcus_agalactiae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeStreptococcus_mutans> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_mutans-Streptococcus_mutans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeAMBIGUOUS> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast--Acinetobacter> ;
+    ns2:prefLabel "" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast--Acinetobacter> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeAcinetobacter> ;
+    ns2:prefLabel "Acinetobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Acinetobacter_baumannii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_baumannii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_uncultured_bacterium> ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_baumannii> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeAcinetobacter_baumannii> ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeAcinetobacter_uncultured_bacterium> ;
+    ns2:prefLabel "Acinetobacter uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Actinomyces_odontolyticus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeActinomyces_odontolyticus> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Actinomyces_odontolyticus-Actinomycetaceae> ;
+    ns2:prefLabel "Actinomyces odontolyticus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Actinomyces_odontolyticus-Actinomycetaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeActinomycetaceae> ;
+    ns2:prefLabel "Actinomycetaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacillus_cereus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacillus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacillus_thuringiensis> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacillus_cereus-Bacillaceae> ;
+    ns2:prefLabel "Bacillus cereus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacillus_cereus-Bacillaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacillaceae> ;
+    ns2:prefLabel "Bacillaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeBacteroides_vulgatus> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus-Bacteroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_organism> ;
+    ns2:prefLabel "Bacteroides vulgatus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus-Bacteroides> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacteroides> ;
+    ns2:prefLabel "Bacteroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacteroides_uncultured_bacterium> ;
+    ns2:prefLabel "Bacteroides uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_organism> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeBacteroides_uncultured_organism> ;
+    ns2:prefLabel "Bacteroides uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Clostridium_beijerinckii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeClostridium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeClostridium_beijerinckii> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Clostridium_beijerinckii-Clostridiaceae> ;
+    ns2:prefLabel "Clostridium beijerinckii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Clostridium_beijerinckii-Clostridiaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeClostridiaceae> ;
+    ns2:prefLabel "Clostridiaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Deinococcus_radiodurans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeDeinococcus_radiodurans> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Deinococcus_radiodurans-Deinococcus> ;
+    ns2:prefLabel "Deinococcus radiodurans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Deinococcus_radiodurans-Deinococcus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeDeinococcus> ;
+    ns2:prefLabel "Deinococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_organism> ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeEnterococcus> ;
+    ns2:prefLabel "Enterococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus_faecalis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeEnterococcus_faecalis> ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEnterococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Enterococcus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_organism> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEnterococcus_uncultured_organism> ;
+    ns2:prefLabel "Enterococcus uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeEscherichia/Shigella_coli> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia/Shigella>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_organism>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Helicobacter> ;
+    ns2:prefLabel "Escherichia coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia/Shigella> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia/Shigella> ;
+    ns2:prefLabel "Escherichia/Shigella" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia/Shigella_uncultured_bacterium> ;
+    ns2:prefLabel "Escherichia/Shigella uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_organism> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia/Shigella_uncultured_organism> ;
+    ns2:prefLabel "Escherichia/Shigella uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Escherichia_coli> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeEscherichia_coli> ;
+    ns2:prefLabel "Escherichia coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Escherichia_coli-Helicobacter> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeHelicobacter> ;
+    ns2:prefLabel "Helicobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Helicobacter_pylori> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Helicobacter_pylori-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Helicobacter_pylori-Lactobacillus> ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Helicobacter_pylori-Helicobacter_pylori> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeHelicobacter_pylori> ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Helicobacter_pylori-Lactobacillus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeLactobacillus> ;
+    ns2:prefLabel "Lactobacillus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeLactobacillus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeLactobacillus_johnsonii> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_organism> ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_gasseri> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeLactobacillus_gasseri> ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeLactobacillus_uncultured_bacterium> ;
+    ns2:prefLabel "Lactobacillus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_organism> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeLactobacillus_uncultured_organism> ;
+    ns2:prefLabel "Lactobacillus uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes-Listeria>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes-Listeria_monocytogenes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes-Neisseria> ;
+    ns2:prefLabel "Listeria monocytogenes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes-Listeria> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeListeria> ;
+    ns2:prefLabel "Listeria" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes-Listeria_monocytogenes> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeListeria_monocytogenes> ;
+    ns2:prefLabel "Listeria monocytogenes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Listeria_monocytogenes-Neisseria> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeNeisseria> ;
+    ns2:prefLabel "Neisseria" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Neisseria_meningitidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Neisseria_meningitidis-Neisseria_meningitidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Neisseria_meningitidis-Neisseria_uncultured_bacterium> ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Neisseria_meningitidis-Neisseria_meningitidis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeNeisseria_meningitidis> ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Neisseria_meningitidis-Neisseria_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeNeisseria_uncultured_bacterium> ;
+    ns2:prefLabel "Neisseria uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Porphyromonas_gingivalis> a ns1:Attribute,
+        ns1:Version ;
+    ns2:prefLabel "Porphyromonas gingivalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Propionibacterium_acnes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangePropionibacterium_acnes> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Propionibacterium_acnes-Propionibacteriaceae> ;
+    ns2:prefLabel "Propionibacterium acnes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Propionibacterium_acnes-Propionibacteriaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangePropionibacteriaceae> ;
+    ns2:prefLabel "Propionibacteriaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_aeruginosa>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_uncultured_bacterium> ;
+    ns2:prefLabel "Pseudomonas aeruginosa" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangePseudomonas> ;
+    ns2:prefLabel "Pseudomonas" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_aeruginosa> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangePseudomonas_aeruginosa> ;
+    ns2:prefLabel "Pseudomonas aeruginosa" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangePseudomonas_uncultured_bacterium> ;
+    ns2:prefLabel "Pseudomonas uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Rhodobacter_sphaeroides> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeRhodobacter> ;
+    ns2:prefLabel "Rhodobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeRhodobacter_sphaeroides> ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_aureus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus_aureus> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_aureus-Staphylococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Staphylococcus aureus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_aureus-Staphylococcus_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeStaphylococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Staphylococcus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_epidermidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus_haemolyticus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStaphylococcus_warneri> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_epidermidis-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_epidermidis-Streptococcus> ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_epidermidis-Staphylococcus_epidermidis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeStaphylococcus_epidermidis> ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Staphylococcus_epidermidis-Streptococcus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeStreptococcus> ;
+    ns2:prefLabel "Streptococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_agalactiae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_agalactiae-Streptococcus_agalactiae> ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_agalactiae-Streptococcus_agalactiae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeStreptococcus_agalactiae> ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_mutans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_mutans-Streptococcus_mutans> ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_mutans-Streptococcus_mutans> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#ModifyChangeStreptococcus_mutans> ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_pneumoniae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#AddChangeStreptococcus_pneumoniae> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_pneumoniae-Streptococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Streptococcus pneumoniae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_gast-Streptococcus_pneumoniae-Streptococcus_uncultured_bacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#InvalidateChangeStreptococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Streptococcus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Porphyromonas_gingivalis> a ns1:Attribute,
+        ns1:Version ;
+    ns2:prefLabel "Porphyromonas gingivalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides-Rhodobacter>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_agalactiae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_agalactiae-Streptococcus_agalactiae> ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_mutans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_mutans-Streptococcus_mutans> ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo--AMBIGUOUS> ;
+    ns2:prefLabel "" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo--AMBIGUOUS> a ns1:Attribute ;
+    ns2:prefLabel "AMBIGUOUS" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Acinetobacter_baumannii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Acinetobacter_baumannii-Acinetobacter_baumannii> ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Acinetobacter_baumannii-Acinetobacter_baumannii> a ns1:Attribute ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Actinomyces_odontolyticus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Actinomyces_odontolyticus-Actinomyces_odontolyticus> ;
+    ns2:prefLabel "Actinomyces odontolyticus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Actinomyces_odontolyticus-Actinomyces_odontolyticus> a ns1:Attribute ;
+    ns2:prefLabel "Actinomyces odontolyticus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus_thuringiensis> ;
+    ns2:prefLabel "Bacillus cereus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus> a ns1:Attribute ;
+    ns2:prefLabel "Bacillus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus_cereus> a ns1:Attribute ;
+    ns2:prefLabel "Bacillus cereus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacillus_cereus-Bacillus_thuringiensis> a ns1:Attribute ;
+    ns2:prefLabel "Bacillus thuringiensis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus-Bacteroides_vulgatus> a ns1:Attribute ;
+    ns2:prefLabel "Bacteroides vulgatus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii-Clostridium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii-Clostridium_beijerinckii> ;
+    ns2:prefLabel "Clostridium beijerinckii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii-Clostridium> a ns1:Attribute ;
+    ns2:prefLabel "Clostridium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Clostridium_beijerinckii-Clostridium_beijerinckii> a ns1:Attribute ;
+    ns2:prefLabel "Clostridium beijerinckii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Deinococcus_radiodurans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Deinococcus_radiodurans-Deinococcus_radiodurans> ;
+    ns2:prefLabel "Deinococcus radiodurans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Deinococcus_radiodurans-Deinococcus_radiodurans> a ns1:Attribute ;
+    ns2:prefLabel "Deinococcus radiodurans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis-Enterococcus> a ns1:Attribute ;
+    ns2:prefLabel "Enterococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis-Enterococcus_faecalis> a ns1:Attribute ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli-Escherichia/Shigella_coli> a ns1:Attribute ;
+    ns2:prefLabel "Escherichia/Shigella coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Helicobacter_pylori> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Helicobacter_pylori-Helicobacter_pylori> ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Helicobacter_pylori-Helicobacter_pylori> a ns1:Attribute ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus_gasseri> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus_johnsonii> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus johnsonii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes-Listeria>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes-Listeria_monocytogenes> ;
+    ns2:prefLabel "Listeria monocytogenes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes-Listeria> a ns1:Attribute ;
+    ns2:prefLabel "Listeria" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Listeria_monocytogenes-Listeria_monocytogenes> a ns1:Attribute ;
+    ns2:prefLabel "Listeria monocytogenes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Neisseria_meningitidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Neisseria_meningitidis-Neisseria_meningitidis> ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Neisseria_meningitidis-Neisseria_meningitidis> a ns1:Attribute ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Propionibacterium_acnes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Propionibacterium_acnes-Propionibacterium_acnes> ;
+    ns2:prefLabel "Propionibacterium acnes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Propionibacterium_acnes-Propionibacterium_acnes> a ns1:Attribute ;
+    ns2:prefLabel "Propionibacterium acnes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa-Pseudomonas_aeruginosa> a ns1:Attribute ;
+    ns2:prefLabel "Pseudomonas aeruginosa" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides-Rhodobacter> a ns1:Attribute ;
+    ns2:prefLabel "Rhodobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> a ns1:Attribute ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_aureus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_aureus-Staphylococcus_aureus> ;
+    ns2:prefLabel "Staphylococcus aureus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_aureus-Staphylococcus_aureus> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus aureus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_haemolyticus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_warneri> ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_epidermidis> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_haemolyticus> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus haemolyticus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Staphylococcus_epidermidis-Staphylococcus_warneri> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus warneri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_agalactiae-Streptococcus_agalactiae> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_mutans-Streptococcus_mutans> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_pneumoniae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_pneumoniae-Streptococcus_pneumoniae> ;
+    ns2:prefLabel "Streptococcus pneumoniae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Streptococcus_pneumoniae-Streptococcus_pneumoniae> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus pneumoniae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis-Enterococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Enterococcus_faecalis-Enterococcus_faecalis> ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Lactobacillus_gasseri-Lactobacillus_johnsonii> ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Pseudomonas_aeruginosa-Pseudomonas_aeruginosa> ;
+    ns2:prefLabel "Pseudomonas aeruginosa" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Bacteroides_vulgatus-Bacteroides_vulgatus> ;
+    ns2:prefLabel "Bacteroides vulgatus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.rdp_gast.rdp_spingo.html#rdp_spingo-Escherichia_coli-Escherichia/Shigella_coli> ;
+    ns2:prefLabel "Escherichia coli" .
+

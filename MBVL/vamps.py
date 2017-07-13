@@ -18,9 +18,6 @@ def load_data(fname):
 			rel[current_indicator] = {match[i].value:count[i].value}
 	return rel
 
-f1 = "silva_gast.xls"
-f2 = "silva_spingo.xls"
-
 def gen_log(f1, f2):
 	rel1 = load_data(f1)
 	rel2 = load_data(f2)
@@ -205,4 +202,11 @@ def gen_log(f1, f2):
 ''')
 	changelog.close()
 
-gen_log(f1, f2)
+if __name__ == "__main__":
+	f1 = "silva_gast.xls"
+	f2 = "silva_spingo.xls"
+
+	gen_log(f1, f2)
+	gen_log("silva_gast.xls", "rdp_gast.xls")
+	gen_log("silva_spingo.xls", "rdp_spingo.xls")
+	gen_log("rdp_gast.xls", "rdp_spingo.xls")

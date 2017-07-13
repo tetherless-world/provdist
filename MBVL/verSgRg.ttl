@@ -1,0 +1,829 @@
+@prefix ns1: <http://orion.tw.rpi.edu/~blee/VersionOntology.owl#> .
+@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<file:///home/blee/provdist/GCMD/Version1> a ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast->,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Acinetobacter_baumannii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Listeria_monocytogenes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Neisseria_meningitidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Porphyromonas_gingivalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Propionibacterium_acnes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Pseudomonas_aeruginosa>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Rhodobacter_sphaeroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_aureus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_agalactiae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_mutans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_pneumoniae> ;
+    ns2:prefLabel "silva_gast.xls" .
+
+<file:///home/blee/provdist/GCMD/Version2> a ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast->,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Porphyromonas_gingivalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_aureus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_agalactiae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_mutans>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_pneumoniae> ;
+    ns2:prefLabel "rdp_gast.xls" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeAcinetobacter_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeActinomycetaceae> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus-Actinomycetaceae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacillaceae> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus-Bacillaceae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacteroides> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacteroides_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacteroides_uncultured_organism> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_organism> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeClostridiaceae> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii-Clostridiaceae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeDeinococcus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans-Deinococcus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEnterococcus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEnterococcus_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEnterococcus_uncultured_organism> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_organism> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEscherichia/Shigella> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEscherichia/Shigella_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEscherichia/Shigella_uncultured_organism> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_organism> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeLactobacillus_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeLactobacillus_uncultured_organism> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_organism> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeListeria> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes-Listeria> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeNeisseria> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes-Neisseria> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeNeisseria_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis-Neisseria_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangePropionibacteriaceae> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes-Propionibacteriaceae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangePseudomonas> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangePseudomonas_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeRhodobacter> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStaphylococcus_epidermidis> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis-Staphylococcus_epidermidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStaphylococcus_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_aureus-Staphylococcus_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStreptococcus> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis-Streptococcus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStreptococcus_agalactiae> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_agalactiae-Streptococcus_agalactiae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStreptococcus_uncultured_bacterium> a ns1:AddChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_pneumoniae-Streptococcus_uncultured_bacterium> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeActinomyces> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeAnaerostipes> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacilli_Lactobacillales> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_anthracis> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_cereus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_thuringiensis> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_weihenstephanensis> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacteroides> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacteroides_vulgatus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBifidobacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBlautia> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales_Lachnospiraceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales_Peptostreptococcaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales_Ruminococcaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeDeinococcus_PA234> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeEnterobacteriaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeEnterococcus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeEnterococcus_dispar> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeErysipelotrichaceae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeListeria> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeListeria_ivanovii> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangePropionibacterium> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangePseudomonas> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeRhodobacter_AKP1> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStaphylococcus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStaphylococcus_aureus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_aureus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStreptococcus> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_agalactiae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStreptococcus_pneumoniae> a ns1:InvalidateChange ;
+    ns1:invalidatedBy <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_pneumoniae> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeAcinetobacter> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast--Acinetobacter> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeAcinetobacter_baumannii> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_baumannii> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeEnterococcus_faecalis> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_faecalis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeEscherichia_coli> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia_coli> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeHelicobacter> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Helicobacter> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeHelicobacter_pylori> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori-Helicobacter_pylori> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeLactobacillus> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori-Lactobacillus> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeLactobacillus_gasseri> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_gasseri> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeNeisseria_meningitidis> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis-Neisseria_meningitidis> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeRhodobacter_sphaeroides> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeStreptococcus_mutans> a ns1:ModifyChange ;
+    ns1:resultsIn <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_mutans-Streptococcus_mutans> .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast--Acinetobacter> ;
+    ns2:prefLabel "" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_baumannii>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_uncultured_bacterium> ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_organism>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Helicobacter> ;
+    ns2:prefLabel "Escherichia coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori-Lactobacillus> ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes-Listeria>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes-Neisseria> ;
+    ns2:prefLabel "Listeria monocytogenes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis-Neisseria_meningitidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis-Neisseria_uncultured_bacterium> ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Porphyromonas_gingivalis> a ns1:Attribute,
+        ns1:Version ;
+    ns2:prefLabel "Porphyromonas gingivalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_mutans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_mutans-Streptococcus_mutans> ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast--Acinetobacter> ;
+    ns2:prefLabel "" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast--Acinetobacter> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeAcinetobacter> ;
+    ns2:prefLabel "Acinetobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Acinetobacter_baumannii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeAcinetobacter_uncultured_bacterium> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Acinetobacter_baumannii-Acinetobacter_baumannii> ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Acinetobacter_baumannii-Acinetobacter_baumannii> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeAcinetobacter_baumannii> ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeActinomycetaceae> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Actinomyces>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Anaerostipes>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Bacilli_Lactobacillales>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Bacillus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Bacillus_anthracis> ;
+    ns2:prefLabel "Actinomyces odontolyticus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Actinomyces> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeActinomyces> ;
+    ns2:prefLabel "Actinomyces" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Anaerostipes> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeAnaerostipes> ;
+    ns2:prefLabel "Anaerostipes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Bacilli_Lactobacillales> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacilli_Lactobacillales> ;
+    ns2:prefLabel "Bacilli Lactobacillales" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Bacillus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus> ;
+    ns2:prefLabel "Bacillus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Actinomyces_odontolyticus-Bacillus_anthracis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_anthracis> ;
+    ns2:prefLabel "Bacillus anthracis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacillaceae> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacillus_cereus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacillus_thuringiensis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacillus_weihenstephanensis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacteroides> ;
+    ns2:prefLabel "Bacillus cereus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacillus_cereus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_cereus> ;
+    ns2:prefLabel "Bacillus cereus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacillus_thuringiensis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_thuringiensis> ;
+    ns2:prefLabel "Bacillus thuringiensis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacillus_weihenstephanensis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacillus_weihenstephanensis> ;
+    ns2:prefLabel "Bacillus weihenstephanensis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacillus_cereus-Bacteroides> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacteroides> ;
+    ns2:prefLabel "Bacteroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacteroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacteroides_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeBacteroides_uncultured_organism> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus-Bacteroides_vulgatus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus-Bifidobacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus-Blautia> ;
+    ns2:prefLabel "Bacteroides vulgatus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus-Bacteroides_vulgatus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBacteroides_vulgatus> ;
+    ns2:prefLabel "Bacteroides vulgatus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus-Bifidobacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBifidobacterium> ;
+    ns2:prefLabel "Bifidobacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Bacteroides_vulgatus-Blautia> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeBlautia> ;
+    ns2:prefLabel "Blautia" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeClostridiaceae> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales_Lachnospiraceae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales_Peptostreptococcaceae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales_Ruminococcaceae> ;
+    ns2:prefLabel "Clostridium beijerinckii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales> ;
+    ns2:prefLabel "Clostridiales" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales_Lachnospiraceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales_Lachnospiraceae> ;
+    ns2:prefLabel "Clostridiales Lachnospiraceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales_Peptostreptococcaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales_Peptostreptococcaceae> ;
+    ns2:prefLabel "Clostridiales Peptostreptococcaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Clostridium_beijerinckii-Clostridiales_Ruminococcaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeClostridiales_Ruminococcaceae> ;
+    ns2:prefLabel "Clostridiales Ruminococcaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeDeinococcus> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Deinococcus_PA234>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Enterobacteriaceae>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Enterococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Enterococcus_dispar> ;
+    ns2:prefLabel "Deinococcus radiodurans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Deinococcus_PA234> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeDeinococcus_PA234> ;
+    ns2:prefLabel "Deinococcus PA234" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Enterobacteriaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeEnterobacteriaceae> ;
+    ns2:prefLabel "Enterobacteriaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Enterococcus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeEnterococcus> ;
+    ns2:prefLabel "Enterococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Deinococcus_radiodurans-Enterococcus_dispar> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeEnterococcus_dispar> ;
+    ns2:prefLabel "Enterococcus dispar" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Enterococcus_faecalis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEnterococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEnterococcus_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEnterococcus_uncultured_organism> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Enterococcus_faecalis-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Enterococcus_faecalis-Erysipelotrichaceae> ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Enterococcus_faecalis-Enterococcus_faecalis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeEnterococcus_faecalis> ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Enterococcus_faecalis-Erysipelotrichaceae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeErysipelotrichaceae> ;
+    ns2:prefLabel "Erysipelotrichaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Escherichia_coli> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEscherichia/Shigella>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEscherichia/Shigella_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeEscherichia/Shigella_uncultured_organism> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Escherichia_coli-Escherichia_coli>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Escherichia_coli-Helicobacter> ;
+    ns2:prefLabel "Escherichia coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Escherichia_coli-Escherichia_coli> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeEscherichia_coli> ;
+    ns2:prefLabel "Escherichia coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Escherichia_coli-Helicobacter> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeHelicobacter> ;
+    ns2:prefLabel "Helicobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Helicobacter_pylori> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Helicobacter_pylori-Helicobacter_pylori>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Helicobacter_pylori-Lactobacillus> ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Helicobacter_pylori-Helicobacter_pylori> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeHelicobacter_pylori> ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Helicobacter_pylori-Lactobacillus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeLactobacillus> ;
+    ns2:prefLabel "Lactobacillus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeLactobacillus_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeLactobacillus_uncultured_organism> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri-Listeria>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri-Listeria_ivanovii> ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri-Lactobacillus_gasseri> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeLactobacillus_gasseri> ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri-Listeria> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeListeria> ;
+    ns2:prefLabel "Listeria" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Lactobacillus_gasseri-Listeria_ivanovii> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeListeria_ivanovii> ;
+    ns2:prefLabel "Listeria ivanovii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Listeria_monocytogenes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeListeria>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeNeisseria> ;
+    ns2:prefLabel "Listeria monocytogenes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Neisseria_meningitidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeNeisseria_uncultured_bacterium> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Neisseria_meningitidis-Neisseria_meningitidis> ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Neisseria_meningitidis-Neisseria_meningitidis> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeNeisseria_meningitidis> ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Porphyromonas_gingivalis> a ns1:Attribute,
+        ns1:Version ;
+    ns2:prefLabel "Porphyromonas gingivalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Propionibacterium_acnes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangePropionibacteriaceae> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Propionibacterium_acnes-Propionibacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Propionibacterium_acnes-Pseudomonas> ;
+    ns2:prefLabel "Propionibacterium acnes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Propionibacterium_acnes-Propionibacterium> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangePropionibacterium> ;
+    ns2:prefLabel "Propionibacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Propionibacterium_acnes-Pseudomonas> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangePseudomonas> ;
+    ns2:prefLabel "Pseudomonas" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Pseudomonas_aeruginosa> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangePseudomonas>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangePseudomonas_uncultured_bacterium> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Pseudomonas_aeruginosa-Rhodobacter_AKP1> ;
+    ns2:prefLabel "Pseudomonas aeruginosa" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Pseudomonas_aeruginosa-Rhodobacter_AKP1> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeRhodobacter_AKP1> ;
+    ns2:prefLabel "Rhodobacter AKP1" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Rhodobacter_sphaeroides> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeRhodobacter> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeRhodobacter_sphaeroides> ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_aureus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStaphylococcus_uncultured_bacterium> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_aureus-Staphylococcus_aureus> ;
+    ns2:prefLabel "Staphylococcus aureus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_aureus-Staphylococcus_aureus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStaphylococcus_aureus> ;
+    ns2:prefLabel "Staphylococcus aureus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_epidermidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStaphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStreptococcus> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_epidermidis-Staphylococcus> ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Staphylococcus_epidermidis-Staphylococcus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStaphylococcus> ;
+    ns2:prefLabel "Staphylococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_agalactiae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStreptococcus_agalactiae> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_agalactiae-Streptococcus> ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_agalactiae-Streptococcus> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStreptococcus> ;
+    ns2:prefLabel "Streptococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_mutans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_mutans-Streptococcus_mutans> ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_mutans-Streptococcus_mutans> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#ModifyChangeStreptococcus_mutans> ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_pneumoniae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:absentFrom <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#AddChangeStreptococcus_uncultured_bacterium> ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_pneumoniae-Streptococcus_pneumoniae> ;
+    ns2:prefLabel "Streptococcus pneumoniae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#silva_gast-Streptococcus_pneumoniae-Streptococcus_pneumoniae> a ns1:Attribute ;
+    ns1:undergoes <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#InvalidateChangeStreptococcus_pneumoniae> ;
+    ns2:prefLabel "Streptococcus pneumoniae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast--Acinetobacter> a ns1:Attribute ;
+    ns2:prefLabel "Acinetobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_baumannii> a ns1:Attribute ;
+    ns2:prefLabel "Acinetobacter baumannii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Acinetobacter_baumannii-Acinetobacter_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Acinetobacter uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus-Actinomycetaceae> a ns1:Attribute ;
+    ns2:prefLabel "Actinomycetaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus-Bacillaceae> a ns1:Attribute ;
+    ns2:prefLabel "Bacillaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides> a ns1:Attribute ;
+    ns2:prefLabel "Bacteroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Bacteroides uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_organism> a ns1:Attribute ;
+    ns2:prefLabel "Bacteroides uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii-Clostridiaceae> a ns1:Attribute ;
+    ns2:prefLabel "Clostridiaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans-Deinococcus> a ns1:Attribute ;
+    ns2:prefLabel "Deinococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_faecalis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_organism> ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus> a ns1:Attribute ;
+    ns2:prefLabel "Enterococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_faecalis> a ns1:Attribute ;
+    ns2:prefLabel "Enterococcus faecalis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Enterococcus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Enterococcus_faecalis-Enterococcus_uncultured_organism> a ns1:Attribute ;
+    ns2:prefLabel "Enterococcus uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella> a ns1:Attribute ;
+    ns2:prefLabel "Escherichia/Shigella" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Escherichia/Shigella uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia/Shigella_uncultured_organism> a ns1:Attribute ;
+    ns2:prefLabel "Escherichia/Shigella uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Escherichia_coli> a ns1:Attribute ;
+    ns2:prefLabel "Escherichia coli" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Escherichia_coli-Helicobacter> a ns1:Attribute ;
+    ns2:prefLabel "Helicobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori-Helicobacter_pylori> a ns1:Attribute ;
+    ns2:prefLabel "Helicobacter pylori" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Helicobacter_pylori-Lactobacillus> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_gasseri> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_organism> a ns1:Attribute ;
+    ns2:prefLabel "Lactobacillus uncultured_organism" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes-Listeria> a ns1:Attribute ;
+    ns2:prefLabel "Listeria" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Listeria_monocytogenes-Neisseria> a ns1:Attribute ;
+    ns2:prefLabel "Neisseria" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis-Neisseria_meningitidis> a ns1:Attribute ;
+    ns2:prefLabel "Neisseria meningitidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Neisseria_meningitidis-Neisseria_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Neisseria uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes-Propionibacteriaceae> a ns1:Attribute ;
+    ns2:prefLabel "Propionibacteriaceae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_uncultured_bacterium> ;
+    ns2:prefLabel "Pseudomonas aeruginosa" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas> a ns1:Attribute ;
+    ns2:prefLabel "Pseudomonas" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Pseudomonas_aeruginosa-Pseudomonas_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Pseudomonas uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter> a ns1:Attribute ;
+    ns2:prefLabel "Rhodobacter" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Rhodobacter_sphaeroides-Rhodobacter_sphaeroides> a ns1:Attribute ;
+    ns2:prefLabel "Rhodobacter sphaeroides" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_aureus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_aureus-Staphylococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Staphylococcus aureus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_aureus-Staphylococcus_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis-Staphylococcus_epidermidis>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis-Streptococcus> ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis-Staphylococcus_epidermidis> a ns1:Attribute ;
+    ns2:prefLabel "Staphylococcus epidermidis" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Staphylococcus_epidermidis-Streptococcus> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_agalactiae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_agalactiae-Streptococcus_agalactiae> ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_agalactiae-Streptococcus_agalactiae> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus agalactiae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_mutans-Streptococcus_mutans> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus mutans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_pneumoniae> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_pneumoniae-Streptococcus_uncultured_bacterium> ;
+    ns2:prefLabel "Streptococcus pneumoniae" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Streptococcus_pneumoniae-Streptococcus_uncultured_bacterium> a ns1:Attribute ;
+    ns2:prefLabel "Streptococcus uncultured_bacterium" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_gasseri>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Lactobacillus_gasseri-Lactobacillus_uncultured_organism> ;
+    ns2:prefLabel "Lactobacillus gasseri" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Propionibacterium_acnes-Propionibacteriaceae> ;
+    ns2:prefLabel "Propionibacterium acnes" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_bacterium>,
+        <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacteroides_vulgatus-Bacteroides_uncultured_organism> ;
+    ns2:prefLabel "Bacteroides vulgatus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Bacillus_cereus-Bacillaceae> ;
+    ns2:prefLabel "Bacillus cereus" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Clostridium_beijerinckii-Clostridiaceae> ;
+    ns2:prefLabel "Clostridium beijerinckii" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Deinococcus_radiodurans-Deinococcus> ;
+    ns2:prefLabel "Deinococcus radiodurans" .
+
+<http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus> a ns1:Attribute,
+        ns1:Version ;
+    ns1:hasAttribute <http://orion.tw.rpi.edu/~blee/provdist/MBVL/Change.silva_gast.rdp_gast.html#rdp_gast-Actinomyces_odontolyticus-Actinomycetaceae> ;
+    ns2:prefLabel "Actinomyces odontolyticus" .
+
