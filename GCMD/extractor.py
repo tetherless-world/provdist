@@ -20,5 +20,7 @@ def extracting(f, d):
 if __name__ == "__main__":
 	l = glob.glob('Changelog*.html')
 	for i in l:
+		d = 'Graph'+re.search('ChangelogGCMD(.*).html', i).group(1)+'.ttl'
 		print "Extracting: "+i
-		extracting(i)
+		print "\tto", d
+		extracting(i, d)

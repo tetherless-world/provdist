@@ -290,5 +290,5 @@ def GCMDChangeLogGenerator(GCMDfile):
 if __name__ == "__main__":
 	GCMDfiles = sorted(glob.glob("*.rdf"))
 	for i in range(len(GCMDfiles)-1):
-		print "Starting",GCMDfiles[i-1],"and",GCMDfiles[i]
+		print "Starting",GCMDfiles[i-1],"and",GCMDfiles[i] #It's done this way because GCMDJun1220012 sorts to the last item
 		GCMDChangeLogGenerator([GCMDfiles[i-1],GCMDfiles[i]])
