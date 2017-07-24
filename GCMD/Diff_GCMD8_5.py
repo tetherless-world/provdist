@@ -9,7 +9,7 @@ def GCMDChangeLogGenerator(GCMDfile):
 	#GCMDfile = ['GCMD8_3.rdf', 'GCMD8_4.rdf','GCMD8_4_1.rdf']
 	numbers = [re.search('GCMD(.*).rdf', i).group(1).replace("_","") for i in GCMDfile]
 	print numbers
-	filename = 'ChangelogGCMD'+"_".join(numbers)+'.html'
+	filename = 'ChangelogGCMD2'+"_".join(numbers)+'.html'
 	output = open(filename, 'w') #'/home/blee/provdist/GCMD/webGCMD83_84.html', 'w')
 	#output = codecs.open('/home/blee/GCMD/GCMD8_3to8_4.html', mode='w', encoding='utf-8')
 	
@@ -21,11 +21,11 @@ def GCMDChangeLogGenerator(GCMDfile):
 	ver = [re.search('GCMD(.*).rdf', i).group(1).replace("_",".") for i in GCMDfile]#['8.3', '8.4']
 	print ver
 	new = rdflib.Graph()
-	for s, p, o in g1.triples(None, RDF.type, SKOS.Concept):
+	for s, p, o in g1.triples((None, RDF.type, SKOS.Concept)):
 		if not (GCMD[s.split('/')[-1]], p, o) in g0:
 			new.add((s, p, o))
 	old = rdflib.Graph()
-	for s, p, o in g0.triples(None, RDF.type, SKOS.Concept):
+	for s, p, o in g0.triples((None, RDF.type, SKOS.Concept)):
 		if not (GCMD8_5[s.split('/')[-1]], p, o) in g1:
 			old.add((s, p, o))
 	
@@ -193,7 +193,8 @@ def GCMDChangeLogGenerator(GCMDfile):
 		if (i_, None, None) in g0:
 			b0 = g0.value(i_, SKOS.broader)
 			b1 = g1.value(i, SKOS.broader)
-			b1_ = GCMD[b1.split('/')[-1]]
+			if b1 != None:
+				b1_ = GCMD[b1.split('/')[-1]]
 			if b0 != b1_:
 				output.write((u'''        <tr id="MoveChange%i" about="%s?version=%s">
 	          <td><a href=%s?version=%s>Link</a></td>
@@ -265,7 +266,8 @@ def GCMDChangeLogGenerator(GCMDfile):
 		if (i_, None, None) in g0:
 			b0 = g0.value(i_, SKOS.broader)
 			b1 = g1.value(i, SKOS.broader)
-			b1_ = GCMD[b1.split('/')[-1]]
+			if b1 != None:
+				b1_ = GCMD[b1.split('/')[-1]]
 			if b0 == b1_:
 				new_note = False
 				notes = []
@@ -300,6 +302,7 @@ def GCMDChangeLogGenerator(GCMDfile):
 
 if __name__ == "__main__":
 	GCMDfiles = sorted(glob.glob("*.rdf"))
+	GCMDfiles = ["GCMD8_5.rdf", "GCMD8_4_1.rdf"]
 	for i in range(len(GCMDfiles)-1):
 		print "Starting",GCMDfiles[i-1],"and",GCMDfiles[i] #It's done this way because GCMDJun1220012 sorts to the last item
 		GCMDChangeLogGenerator([GCMDfiles[i-1],GCMDfiles[i]])
