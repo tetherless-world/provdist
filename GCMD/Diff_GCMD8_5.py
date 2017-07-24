@@ -221,7 +221,7 @@ def GCMDChangeLogGenerator(GCMDfile):
 		},
 		{
 			"@context" : "%s" ,
-			"type"	:	"vo:ModifyChange" ,
+			"type"	:	"vo:MoveChange" ,
 			"id"	:	"this:MoveChange%i" ,
 			"resultsIn"	:	"gcmd:%s?version=%s"
 		},
@@ -244,6 +244,19 @@ def GCMDChangeLogGenerator(GCMDfile):
 	
 	''')
 	
+	output.write('''
+	      <h3>Modified Concepts</h3>
+	      <table class="table table-striped">
+	        <tr>
+	          <th>Link v1</th>
+	          <th>Link v2</th>
+	          <th>Label</th>
+	        </tr>\n
+	''')
+	
+	c = 0
+				
+	
 	##################################
 	###   NON-STRUCTURAL CHANGES   ###
 	##################################
@@ -260,6 +273,58 @@ def GCMDChangeLogGenerator(GCMDfile):
 	''')
 	
 	c = 0
+	
+	for i in g1.subjects(RDF.type, SKOS.Concept):
+		i_ = GCMD[i.split('/')[-1]]
+		if (i_, None, None) in g0:
+			b0 = g0.value(i_, SKOS.broader)
+			b1 = g1.value(i, SKOS.broader)
+			if b1 != None:
+				b1_ = GCMD[b1.split('/')[-1]]
+			if b0 == b1_ and i != i_:
+				output.write((u'''        <tr id="NameChange%i" about="%s?version=%s">
+	          <td><a href=%s?version=%s>Link</a></td>
+	          <td><a href=%s?version=%s>Link</a></td>
+	          <td property="http://www.w3.org/2004/02/skos/core#prefLabel">%s</td>
+	'''%(c, str(i), ver[1],
+	     str(i_), ver[0],
+	     str(i), ver[1],
+	     g1.value(i, SKOS.prefLabel),
+		)
+				output.write((u'''          <script  type="application/ld+json">
+	[
+		{
+			"@context" : "%s" ,
+			"type"	:	"vo:Attribute" ,
+			"id"	:	"%s?version=%s" ,
+			"label"	:	"%s" ,
+			"undergoes" :	"this:NameChange%i" ,
+			"@reverse" :	{ "hasAttribute" : "gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s" }
+		},
+		{
+			"@context" : "%s" ,
+			"type"	:	"vo:ModifyChange" ,
+			"id"	:	"this:NameChange%i" ,
+			"resultsIn"	:	"%s?version=%s"
+		},
+		{
+			"@context" : "%s" ,
+			"type"	:	"vo:Attribute" ,
+			"id"	:	"%s?version=%s" ,
+			"label"	:	"%s" ,
+			"@reverse" :	{ "hasAttribute" : "gcmd:concept_scheme/sciencekeywords/?format=xml&version=%s" }
+		}
+	]
+	          </script>
+	        </tr>
+	'''%(context, i_, ver[0], g0.value(i_, SKOS.prefLabel), c, ver[0], 
+	     context, c, i, ver[1], 
+	     context, i, ver[1], g1.value(i, SKOS.prefLabel), ver[1])  ).encode('utf8'))
+				c += 1
+	
+	output.write('''      </table>
+	
+	''')
 	
 	for i in g1.subjects(RDF.type, SKOS.Concept):
 		i_ = GCMD[i.split('/')[-1]]
