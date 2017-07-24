@@ -289,8 +289,8 @@ def GCMDChangeLogGenerator(GCMDfile):
 	'''%(c, str(i), ver[1],
 	     str(i_), ver[0],
 	     str(i), ver[1],
-	     g1.value(i, SKOS.prefLabel),
-		)
+	     g1.value(i, SKOS.prefLabel)
+		)))
 				output.write((u'''          <script  type="application/ld+json">
 	[
 		{
