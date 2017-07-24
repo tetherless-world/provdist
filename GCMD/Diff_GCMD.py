@@ -211,7 +211,7 @@ def GCMDChangeLogGenerator(GCMDfile):
 		},
 		{
 			"@context" : "%s" ,
-			"type"	:	"vo:ModifyChange" ,
+			"type"	:	"vo:MoveChange" ,
 			"id"	:	"this:MoveChange%i" ,
 			"resultsIn"	:	"gcmd:%s?version=%s"
 		},
