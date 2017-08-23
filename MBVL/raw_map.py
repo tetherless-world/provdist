@@ -87,11 +87,27 @@ def file_parse(f_name):
 			results[entry_id].tax = x[1].split(';')
 
 			total += results[entry_id].freq
+			temp_tax = results[entry_id].tax
 
-			if len(results[entry_id].tax) >= 7:
-				name = ' '.join(results[entry_id].tax[5:7])
-				if name in mock:
-					found[name] += results[entry_id].freq
+			if len(temp_tax) < 5:
+				for i in found.keys():
+					found[i] += 0.125
+			elif not temp_tax[4] in family:
+				fp.append((entry_id, 'family'))
+			elif len(temp_tax) < 6:
+				for i in range(len(family)):
+					if temp_tax[4] == family[i]:
+						found[mock[i]] += 0.25
+			elif not temp_tax[5] in genus:
+				fp.append((entry_id, 'genus'))
+			elif len(temp_tax) < 7:
+				for i in range(len(genus)):
+					if temp_tax[5] == genus[i]:
+						found[mock[i]] += 0.5
+			elif not ' '.join(results[entry_id].tax[5:7]) in mock:
+				fp.append((entry_id, 'species'))
+			else:
+				found[' '.join(results[entry_id].tax[5:7])] += 1#results[entry_id].freq
 
 	fp_file = open("fp_"+f_name+".txt", 'w')
 	for fid, frank in fp:
@@ -199,9 +215,9 @@ genus = [x.split()[0] for x in mock]
 
 family = ['Moraxellaceae',
 	  'Actinomycetaceae',
-	  'Bacillaceae',
+	  'Bacillaceae 1',
 	  'Bacteroidaceae',
-	  'Clostridiaceae_1',
+	  'Clostridiaceae 1',
 	  'Deinococcaceae',
 	  'Enterococcaceae',
 	  'Enterobacteriaceae',
@@ -223,7 +239,7 @@ rank = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'St
 
 if __name__ == "__main__":
 	fList = ['silva_spingo', 'silva_gast', 'rdp_spingo', 'rdp_gast']
-	f1_name = fList[0]
+	f1_name = fList[3]
 	#f2_name = fList[3]
 	f1 = file_parse(f1_name)
 	#f2 = file_parse(f2_name)
