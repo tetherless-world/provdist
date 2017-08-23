@@ -24,6 +24,8 @@ def file_parse(f_name):
 	found = {}
 	for i in mock:
 		found[i] = 0
+	fp = []
+	fn = []
 	results = {}
 	total = 0
 	if f_name.split('_')[1] == 'spingo':
@@ -44,13 +46,32 @@ def file_parse(f_name):
 				if results[entry_id].tax[-2] != 'AMBIGUOUS':
 					print results[entry_id].tax[-2]
 
-			species = results[entry_id].tax[-2]
-			genus = results[entry_id].tax[-4]
-			if species != 'AMBIGUOUS':
-				if species.replace('_', ' ') in mock:
-					#print species
-					found[species.replace('_', ' ')] += results[entry_id].freq
-			
+			clean_tax = [x for x in results[entry_id].tax if not is_number(x)]
+			if len(clean_tax) < 7:
+				clean_tax[0:0] = ['Pass', 'Pass', 'Pass', 'Pass']
+			del clean_tax[5]
+			results[entry_id].tax = clean_tax
+
+			if clean_tax[4] == 'AMBIGUOUS':
+				for i in found.keys():
+					found[i] += 0.125
+			elif not clean_tax[4] in family:
+				fp.append((entry_id, 'family'))
+			elif clean_tax[5] == 'AMBIGUOUS':
+				for i in range(len(family)):
+					if clean_tax[4] == family[i]:
+						found[mock[i]] += 0.25
+			elif not clean_tax[5] in genus:
+				fp.append((entry_id, 'genus'))
+			elif clean_tax[6] == 'AMBIGUOUS':
+				for i in range(len(genus)):
+					if clean_tax[5] == genus[i]:
+						found[mock[i]] += 0.5
+			elif not ' '.join(clean_tax[6].split('_')) in mock:
+				fp.append((entry_id, 'species'))
+			else:
+				found[' '.join(clean_tax[6].split('_'))] += 1
+
 	elif f_name.split('_')[1] == 'gast':
 		skip = False
 		for line in f:
@@ -72,11 +93,17 @@ def file_parse(f_name):
 				if name in mock:
 					found[name] += results[entry_id].freq
 
-	#print "Total: ", total
-	#coverage = sum([found[i] for i in found.keys()])
-	#print "Coverage: ", coverage, "(",float(coverage)/total*100, "%)"
-	#for k in sorted(mock):
-	#	print k, " :\t", found[k]
+	fp_file = open("fp_"+f_name+".txt", 'w')
+	for fid, frank in fp:
+		fp_file.write("\t".join([fid, str(results[fid].freq), frank, str(results[fid].tax)])+"\n")
+	fp_file.close()
+	total = len(results.keys())
+	print "False Positives: ", len(fp)
+	print "Total: ", len(results.keys())
+	coverage = sum([found[i] for i in found.keys()])
+	print "Coverage: ", coverage, "(",float(coverage)/total*100, "%)"
+	for k in sorted(mock):
+		print k, " :\t", found[k]
 	
 	return results
 
@@ -168,18 +195,42 @@ mock = ['Acinetobacter baumannii',
 	'Streptococcus mutans',
 	'Streptococcus pneumoniae']
 
+genus = [x.split()[0] for x in mock]
+
+family = ['Moraxellaceae',
+	  'Actinomycetaceae',
+	  'Bacillaceae',
+	  'Bacteroidaceae',
+	  'Clostridiaceae_1',
+	  'Deinococcaceae',
+	  'Enterococcaceae',
+	  'Enterobacteriaceae',
+	  'Helicobacteraceae',
+	  'Lactobacillaceae',
+	  'Listeriaceae',
+	  'Neisseriaceae',
+	  'Porphyromonadaceae',
+	  'Propionibacteriaceae',
+	  'Pseudomonadaceae',
+	  'Rhodobacteraceae',
+	  'Staphylococcaceae',
+	  'Staphylococcaceae',
+	  'Streptococcaceae',
+	  'Streptococcaceae',
+	  'Streptococcaceae']
+
 rank = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'Strain']
 
 if __name__ == "__main__":
 	fList = ['silva_spingo', 'silva_gast', 'rdp_spingo', 'rdp_gast']
-	f1_name = fList[1]
-	f2_name = fList[3]
+	f1_name = fList[0]
+	#f2_name = fList[3]
 	f1 = file_parse(f1_name)
-	f2 = file_parse(f2_name)
+	#f2 = file_parse(f2_name)
 
-	out = file('silva_rdp_gast.txt', 'w')
-	for i in sorted(f1.keys()):
-		x = get_output(f1[i].tax, f1_name, f2[i].tax, f2_name)
-		if not x == None:
-			out.write("\t".join([i,x])+"\n")
-	out.close()
+	#out = file('silva_rdp_gast.txt', 'w')
+	#for i in sorted(f1.keys()):
+	#	x = get_output(f1[i].tax, f1_name, f2[i].tax, f2_name)
+	#	if not x == None:
+	#		out.write("\t".join([i,x])+"\n")
+	#out.close()
