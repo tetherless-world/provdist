@@ -109,7 +109,7 @@ def compare(v1, v2, fn_out, mode):
 			if mode == 't':
 				f_out.write("\n")
 			elif mode == 'h':
-				f_out.write("\n\t</table>\n")
+				f_out.write("\n\t</table><br>\n")
 
 	write_footer(f_out, mode)
 
