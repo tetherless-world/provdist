@@ -4,6 +4,13 @@ def write_header(f_out, mode):
 	if mode == 'h':
 		f_out.write("""<html>
 <head></head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+Try it Yourself »
+</style>
 <body>
 
 """)
