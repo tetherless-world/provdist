@@ -13,6 +13,21 @@ table, th, td {
 <body>
 
 """)
+	elif mode == 'r':
+		f_out.write("""@prefix vo: <http://orion.tw.rpi.edu/~blee/VersionOntology.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/NG/Version2> a vo:Version ;
+	skos:prefLabel "%s" .
+
+<http://example.com/NG/Version3> a vo:Version ;
+	skos:prefLabel "%s" .
+
+"""%(f0, f1))
 
 def write_removed(f_out, mode, indicators):
 	if mode == 't':
@@ -21,13 +36,24 @@ def write_removed(f_out, mode, indicators):
 		f_out.write("""<h3>Removed Rows</h3>
 	<table>
 """)
+	elif mode == 'r':
+		c = 0
+
 	for i in indicators:
 		if mode == 't':
 			f_out.write("".join([i, "\n"]).encode('utf8'))
 		elif mode == 'h':
 			f_out.write("".join(["\t\t<tr><td>", i, "</td></tr>\n"]).encode('utf8'))
+		elif mode == 'r':
+			f_out.write("""<http://example.com/NG/Version2> vo:hasAttribute <http://example.com/NG/Version2/%s> .
+<http://example.com/NG/Version2/%s> vo:undergoes <http://example.com/Changelog#InvalidateChange%i> .
+<http://example.com/Changelog#InvalidateChange%i> a vo:InvalidateChange ;
+	vo:invalidatedBy <http://example.com/NG/Version3> .
 
-	if mode == 't':
+"""%(i, i, c, c))
+			c += 1
+
+	if mode == 't' or mode == 'r':
 		f_out.write("\n")
 	elif mode == 'h':
 		f_out.write("	</table>\n\n")
@@ -45,6 +71,13 @@ def write_added(f_out, mode, indicators):
 			f_out.write("".join([i, " "]).encode('utf8'))
 		elif mode == 'h':
 			f_out.write("".join(["<td>", i, "</td>"]).encode('utf8'))
+		elif mode == 'r':
+			f_out.write("""<http://example.com/NG/Version2> vo:absentFrom <http://example.com/Changelog#AddChange%i> .
+<http://example.com/Changelog#AddChange%i> a vo:AddChange ;
+	vo:resultsIn <http://example.com/NG/Version3/%s> .
+<http://example.com/NG/Version3> vo:hasAttribute <http://example.com/NG/Version3/%s> .
+
+"""%(c, c, i, i))
 			
 		c += 1
 		if c%10 == 0:
@@ -52,7 +85,7 @@ def write_added(f_out, mode, indicators):
 				f_out.write("\n")
 			elif mode == 'h':
 				f_out.write("</tr>\n\t\t<tr>")
-	if mode == 't':
+	if mode == 't' or mode == 'r':
 		f_out.write("\n")
 	elif mode == 'h':
 		if c%10 != 0:
@@ -94,13 +127,31 @@ def compare(v1, v2, fn_out, mode):
 	elif mode == 'h':
 		f_out.write("""<h3>Modified Rows</h3>
 """)
+	elif mode == 'r':
+		c = 0
+
 	for i in set(index1[3:])&set(index2[3:]):
 		r1 = s1.row(index1.index(i))
 		r2 = s2.row(index2.index(i))
 		changes = []
 		for j in range(1,s1.ncols):
 			if r1[j].value != r2[j].value:
-				e = get_modify(j, r1[j], r2[j], mode)
+				if mode == 'r':
+					e = """<http://example.com/NG/Version2> vo:hasAttribute <http://example.com/NG/Version2/%s> ;
+	vo:hasAttribute <http://example.com/NG/Version2/Column%i> .
+<http://example.com/NG/Version2/%s> a vo:Attribute ;
+	vo:undergoes <http://example.com/Changelog#ModifyChange%i> .
+<http://example.com/NG/Version2/Column%i> a vo:Attribute ;
+	vo:undergoes <http://example.com/Changelog#ModifyChange%i> .
+<http://example.com/Changelog#ModifyChange%i> a vo:ModifyChange ;
+	vo:resultsIn <http://example.com/NG/Version3/%s> ;
+	vo:resultsIn <http://example.com/NG/Version3/Column%i> .
+<http://example.com/NG/Version3> vo:hasAttribute <http://example.com/NG/Version3/%s> ;
+	vo:hasAttribute <http://example.com/NG/Version3/Column%i> .
+"""%(i, j, i, c, j, c, c, i, j, i, j)
+					c += 1
+				else:
+					e = get_modify(j, r1[j], r2[j], mode)
 				changes.append(e)
 		if len(changes) != 0:
 			if mode == "t":
