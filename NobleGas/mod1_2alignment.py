@@ -83,52 +83,16 @@ labels = {17:"SAMPLING - DEPTH - >,<",
 #test_alignment()
 
 
+#print v2_row[0].value
+#print indicator_map[v2_row[0].value]
 
-converted = [index_convert(i) for i in range(0,54)]
-old_column = [i for i in range(0,194) if i not in converted]
-old_row = list(set(indicator_map.keys()) - set([i.value for i in v2_sheet.col(0)]))
+#v1_workbook = xlrd.open_workbook(v1_file)
+#v1_sheet = v1_workbook.sheet_by_index(0)
+#v1_row = v1_sheet.row(4)
 
-########################################
-####                                ####
-####            ADDED               ####
-####                                ####
-########################################
-
-
-
-
-########################################
-####                                ####
-####            REMOVE              ####
-####                                ####
-########################################
-
-
-
-
-########################################
-####                                ####
-####           MODIFY               ####
-####                                ####
-########################################
-
-
-workbook_name = ''
-for i in range(3,v2_sheet.nrows):
-	v2_row = v2_sheet.row(i)
-	#workbook_name = v1_file
-	if v2_row[0].value in new_row or v2_row[0].value in old_row:
-		continue
-	if workbook_name == indicator_map.get(v2_row[0].value, None):
-		pass
-	else:
-		workbook_name = indicator_map.get(v2_row[0].value, None)
-		v1_workbook = xlrd.open_workbook(workbook_name)
-		v1_sheet = v1_workbook.sheet_by_index(0)
-		v1_col = v1_sheet.col(0)
-		v1_col = [j.value for j in v1_col]
-	#print v2_row[0].value
-	out = u'''  <div about="Version1" rel="vo:hasAttribute">
+def write_modify(r1, r2, workbook, f_out, mode):
+	if mode == 'r':
+		out = u'''  <div about="Version1" rel="vo:hasAttribute">
     <div resource="v2:%s" typeof="vo:Attribute">
       <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
       <table rel="vo:Undergoes">
@@ -137,70 +101,65 @@ for i in range(3,v2_sheet.nrows):
           <th>Column v2</th>
           <th>Version 1</th>
           <th>Version 2</th>
-        </tr>\n'''%(v2_row[0].value, v2_row[0].value)
-	changelog.write(out.encode('utf8'))
-	#print '# Searching...'
-	v1_index = v1_col.index(v2_row[0].value)
-	v1_row = v1_sheet.row(v1_index)
-	#print '# Comparing...'
-	for j in range(0,54):
-		if v2_row[j].value != v1_row[index_convert(j)].value:
+        </tr>\n'''%(r2[0].value, r2[0].value)
+	f_out.write(out.encode('utf8'))
+		#print '# Searching...'
+		#print '# Comparing...'
+	for i in range(0,54):
+		if r2[i].value != r1[index_convert(i)].value:
 			#compare_print(j, v1_row[index_convert(j)].value, v2_row[j].value)
-			compare_print(v2_row[0].value, v1_row[index_convert(j)].value, v2_row[j].value, workbook_name.split('/')[-1], index_convert(j), j, changelog)
-	changelog.write('  </table></div><br>\n')
+			compare_print(r2[0].value, r1[index_convert(i)].value, r2[i].value, workbook.split('/')[-1], index_convert(i), i, f_out)
+	if mode == 'r':
+		f_out.write('  </table></div><br>\n')
 
-changelog.write('</body>\n</html>')
-changelog.close()
-#print v2_row[0].value
-#print indicator_map[v2_row[0].value]
-
-#v1_workbook = xlrd.open_workbook(v1_file)
-#v1_sheet = v1_workbook.sheet_by_index(0)
-#v1_row = v1_sheet.row(4)
-
-def write_removed(v2, f_out, mode):
-changelog.write('''
-      <h3>Columns removed from %s</h3>
+def write_removed(v2, col, row, f_out, mode):
+	if mode == 'r':
+		f_out.write('''
+      <h3>Columns invalidated by %s</h3>
       <table about="Version2">
-'''%('DB_final-55-7262_2015_03_08.xlsx'))
+'''%(v2))
 
-print "Removed Column"
-for i in old_column:
-        v1_value = labels.get(i, "")
-	out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
+	print "Removed Column"
+	for i in col:
+        	v1_value = labels.get(i, "")
+		if mode == 'r':
+			out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
           <td resource="Attribute%i" rev="vo:Undergoes" typeof="vo:Attribute">%i</td>
           <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
 '''%(i, i, i, i, v1_value, i)
-	changelog.write(out.encode('utf8'))
-changelog.write('''      </table>
+		f_out.write(out.encode('utf8'))
+	f_out.write('''      </table>
 
 ''')
 
-changelog.write('''
-      <h3>Rows removed from %s</h3>
+	if mode == 'r':
+		f_out.write('''
+      <h3>Rows invalidated by %s</h3>
       <table about="Version2">
-'''%('DB_final-55-7262_2015_03_08.xlsx'))
+'''%(v2))
 
-print "Removed Row"
-workbook_name = ''
-for i in sorted(old_row):
-        if workbook_name != indicator_map.get(i, None):
-		workbook_name = indicator_map.get(i, None)
-		v1_workbook = xlrd.open_workbook(workbook_name)
-		v1_sheet = v1_workbook.sheet_by_index(0)
-		v1_col = v1_sheet.col(0)
-		v1_col = [j.value for j in v1_col]
-	v1_index = v1_col.index(i)
-        out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
+	print "Removed Row"
+	workbook_name = ''
+	for i, j in sorted(row, key=lambda x: x[0]):
+	        if workbook_name != j:
+			workbook_name = j
+			v1_workbook = xlrd.open_workbook(workbook_name)
+			v1_sheet = v1_workbook.sheet_by_index(0)
+			v1_col = v1_sheet.col(0)
+			v1_col = [k.value for k in v1_col]
+		v1_index = v1_col.index(i)
+		if mode == 'r':
+			out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
           <td resource="Attribute%i" rev="vo:Undergoes" typeof="vo:Attribute">%i(%s)</td>
           <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
 '''%(v1_index, v1_index, v1_index, workbook_name.split('/')[-1], v1_index, i, v1_index)
-	changelog.write(out.encode('utf8'))
-changelog.write('''      </table>
+		f_out.write(out.encode('utf8'))
+	if mode == 'r':
+		f_out.write('''      </table>
 
 ''')
 
@@ -208,9 +167,9 @@ changelog.write('''      </table>
 def write_added(v2, col, row, f_out, mode):
 	if mode == 'r':
 		f_out.write('''
-		      <h3>Columns added to %s</h3>
+		      <h3>Columns added by %s</h3>
 		      <table about="Version1" rel="vo:absentFrom">
-		'''%(v2))
+'''%(v2))
 	
 	print "Added Column"
 	for i in col:
@@ -221,16 +180,16 @@ def write_added(v2, col, row, f_out, mode):
 	          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label"></td>
 	          <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
 	        </tr>
-	'''%(i, i, i, i, i))
+'''%(i, i, i, i, i))
 	if mode == 'r':
 		f_out.write('''      </table>
-	''')
+''')
 	
 	if mode == 'r':
 		f_out.write('''
-	      <h3>Rows added to %s</h3>
+	      <h3>Rows added by %s</h3>
 	      <table about="Version1" rel="vo:absentFrom">
-	'''%(v2))
+'''%(v2))
 	
 	print "Added Row"
 	for i, j in row:
@@ -240,11 +199,11 @@ def write_added(v2, col, row, f_out, mode):
 	          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
 	          <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
 	        </tr>
-	'''%(i, i, i, i, j, i)
+'''%(i, i, i, i, j, i)
                 f_out.write(out.encode('utf8'))
 	if mode == 'r':
 		f_out.write('''      </table>
-	''')
+''')
 		
 	
 def write_header(f_out, mode):
@@ -255,6 +214,9 @@ def write_header(f_out, mode):
   <body vocab="http://www.w3.org/nw/prov#" prefix="vo: https://orion.tw.rpi.edu/~blee/VersionOntology.owl# v1: http://ngdb.com/v1/ v2: http://ngdb.com/v2/">
 ''')
 
+def write_footer(f_out, mode):
+	if mode == 'r':
+		f_out.write('</body>\n</html>')
 
 def get_indicator_map(excel_files):
 	indicator_map = {}
@@ -274,13 +236,39 @@ def compare(v1s, v2, fn_out, mode):
 	f_out = open(fn_out, 'w')
 
 	v2_sheet = v2_workbook.sheet_by_index(0)
+	v2_keys = [i.value for i in v2_sheet.col(0)]
 
+	converted = [index_convert(i) for i in range(0,54)]
 	new_col = [i for i in range(0, v2_sheet.ncols) if index_convert(i) == -1]
 	new_row = [(i, v2_sheet.cell(i,0).value) for i in range(3, v2_sheet.nrows) if v2_sheet.cell(i,0).value not in i_keys]
+	old_col = [i for i in range(0,194) if i not in converted]
+	old_row = [(i, indicator_map.get(i, None)) for i in i_keys if i not in v2_keys]
 
 	write_header(f_out, mode)
 	write_added(v2, new_col, new_row, f_out, mode)
-	write_removed(v1, f_out, mode)
+	write_removed(v2, old_col, old_row, f_out, mode)
+
+	workbook_name = ''
+	for i in range(3,v2_sheet.nrows):
+		v2_row = v2_sheet.row(i)
+		#workbook_name = v1_file
+		if v2_row[0].value in [j for i, j in new_row] or v2_row[0].value in [i for i, j in old_row]:
+			continue
+		if workbook_name == indicator_map.get(v2_row[0].value, None):
+			pass
+		else:
+			workbook_name = indicator_map.get(v2_row[0].value, None)
+			v1_workbook = xlrd.open_workbook(workbook_name)
+			v1_sheet = v1_workbook.sheet_by_index(0)
+			v1_col = v1_sheet.col(0)
+			v1_col = [j.value for j in v1_col]
+		#print v2_row[0].value
+		v1_index = v1_col.index(v2_row[0].value)
+		v1_row = v1_sheet.row(v1_index)
+		write_modify(v1_row, v2_row, workbook_name, f_out, mode)
+	
+	write_footer(f_out, mode)
+	f_out.close()
 
 if __name__ == "__main__":
 	if '-json' in sys.argv:
@@ -288,7 +276,7 @@ if __name__ == "__main__":
 		out_name = 'changelog_json.html'
 	elif '-rdfa' in sys.argv:
 		mode = 'r'
-		out_name = 'changelog.html'
+		out_name = 'changelog_test.html'
 	elif '-txt' in sys.argv:
 		mode = 't'
 		out_name = 'changelog.txt'
