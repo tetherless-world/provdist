@@ -1,0 +1,1668 @@
+Change Log pit_iop_v2_summary.dbf to ascii files
+Key = (PIT, IOP)
+
+Shape Entries not in Ascii Files
+
+Shape Columns not in Ascii Files
+
+Ascii Entries not in Shape Files
+
+Ascii Columns not in Shape Files
+COMMENTS
+
+Modified Entries
+('fasp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('fasp01', 'iop3')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('fasp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('fasp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	n
+SL_B|	0|	n
+
+('fasp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp08', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	3|	3.5
+SL_B|	3|	3.5
+
+('fasp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp11', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	4|	4.5
+
+('fasp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	n
+
+('fasp12', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('fasp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fasp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp03', 'iop3')
+Column|	Shape|	Ascii
+SL_B|	0|	y
+
+('ffsp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp05', 'iop3')
+Column|	Shape|	Ascii
+SL_B|	0|	y
+
+('ffsp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	n
+SL_B|	0|	n
+
+('ffsp06', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('ffsp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp07', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	8|	8.5
+
+('ffsp07', 'iop3')
+Column|	Shape|	Ascii
+SL_B|	0|	y
+
+('ffsp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp11', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('ffsp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp01', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	19|	19.4
+
+('fssp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp03', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('fssp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp06', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	21|	21.5
+SL_B|	9|	9.5
+
+('fssp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp08', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	20|	20.5
+
+('fssp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp12', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	22|	22.5
+
+('fssp12', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	19|	19.5
+
+('fssp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp13', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	22|	22.5
+
+('fssp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('fssp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nisp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp11', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	20|	20.5
+
+('nmsp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp12', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	11|	11.5
+
+('nmsp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp13', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	17|	17.5
+SL_B|	13|	13.5
+
+('nmsp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp14', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	17|	17.5
+
+('nmsp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('nmsp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	n
+SL_B|	0|	n
+
+('npsp01', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('npsp01', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('npsp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp07', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('npsp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp08', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('npsp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp12', 'iop3')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('npsp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp14', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	23|	23.5
+
+('npsp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('npsp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp01', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp02', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp02', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp03', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	14|	14.5
+
+('rbsp03', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp04', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp04', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp06', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('rbsp06', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp07', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp08', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp10', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp11', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp12', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp13', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp13', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp14', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rbsp15', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp15', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rbsp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp01', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp03', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp04', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp05', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp10', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp11', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp12', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp15', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rssp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rssp16', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp01', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp04', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp05', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp06', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp08', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp10', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp11', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('rwsp15', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('rwsp16', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong01a', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	n
+SL_B|	0|	n
+
+('armstrong03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	n
+SL_B|	0|	n
+
+('armstrong04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('armstrong09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('bardsley07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('boyne01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('boyne02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('boyne02', 'iop3')
+Column|	Shape|	Ascii
+SL_B|	0|	-999.0
+
+('boyne03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('boyne04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('boyne04', 'iop2')
+Column|	Shape|	Ascii
+SL_A|	22|	22.5
+
+('boyne05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('boyne06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('cole15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('dixon14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('goodbody09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('hiemstra03', 'iop3')
+Column|	Shape|	Ascii
+CNHT|	0|	n
+
+('hiemstra04', 'iop2')
+Column|	Shape|	Ascii
+SL_B|	21|	21.5
+
+('hogan01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('hogan02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('kearney01', 'iop4')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('kim01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('kim02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('kim03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('kim04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('liston13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('luce03', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('luce05', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('luce06', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('molotch08', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('olmstead01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead02', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('olmstead03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead03', 'iop3')
+Column|	Shape|	Ascii
+SL_A|	0|	-999.0
+SL_B|	0|	-999.0
+
+('olmstead04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	n
+
+('olmstead05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('olmstead09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('painter10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('scharfen01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('scharfen02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('scharfen03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('scharfen04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('scharfen05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr01', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr02', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr03', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr04', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr05', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr06', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr07', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr08', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr09', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr10', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr11', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr12', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr13', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr14', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+
+('starr15', 'iop1')
+Column|	Shape|	Ascii
+SL_A|	0|	y
+SL_B|	0|	y
+

@@ -148,7 +148,7 @@ for j in range(1,sheet_v2.nrows):
 			if isinstance(formatted_v1, unicode):
 				formatted_v1 = formatted_v1.encode('utf8', 'replace')
 			if formatted_v1 != formatted_v2:
-				changelog.write('''        <tr  about="Change{}{}" typeof="vo:Change">
+				changelog.write('''        <tr  about="Change{}{}" typeof="vo:ModifyChange">
           <td align="right" rev="vo:Undergoes" resource="v1:Attribute{}{}v1" typeof="vo:Attribute">{:2}</td>
 	  <td property="vo:resultsIn" resource="v2:Attribute{}{}v2" typeof="vo:Attribute">({:2})</td>
 	  <td>{:>10}</td>

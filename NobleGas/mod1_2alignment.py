@@ -1,6 +1,6 @@
 from os.path import join, dirname, abspath, isfile
 from os import sep as separator
-import xlrd, sys
+import xlrd, sys, json
 import glob
 import re
 
@@ -38,9 +38,10 @@ def test_alignment():
 	for i in range(0, 54):
 		print 'version2: {:5} version1: {:5}'.format(i, index_convert(i))
 
-def compare_print(key, val1, val2, v1_file, v1_index = 0, v2_index = 0, changelog = None):
+def compare_print(mode, key, val1, val2, v1_file, v1_index = 0, v2_index = 0, changelog = None):
 	if changelog:
-		out = u'''        <tr  about="Change{}{}" typeof="vo:ModifyChange">
+		if mode == 'r':
+			out = u'''        <tr  about="Change{}{}" typeof="vo:ModifyChange">
           <td align="right" rev="vo:Undergoes" resource="v1:Attribute{}{}v1" typeof="vo:Attribute">{:2}({})</td>
           <td property="vo:resultsIn" resource="v2:Attribute{}{}v2" typeof="vo:Attribute">{:2}</td>
           <td>{:>10}</td>
@@ -48,7 +49,57 @@ def compare_print(key, val1, val2, v1_file, v1_index = 0, v2_index = 0, changelo
           <span about="Version1" property="vo:hasAttribute" resource="v1:Attribute{}{}v1"></span>
           <span about="Version2" property="vo:hasAttribute" resource="v2:Attribute{}{}v2"></span>
         </tr>\n'''.format(key, v2_index, key, v1_index, v1_index, v1_file, key, v2_index, v2_index, val1, val2, key, v1_index, key, v2_index)
+		elif mode == 'j':
+			out = u'''        <tr  id="ModifyChange{}{}">
+          <td align="right">{:2}({})</td>
+          <td>{:2}</td>
+          <td>{:>10}</td>
+          <td>{:>10}</td>
+          <script type="application/ld+json">\n'''.format(key, v2_index, v1_index, v1_file, v2_index, val1, val2)
+		elif mode == 't':
+			out = u"{:2}({})\t{:2}\t{:>10}\t{:>10}\n".format(v1_index, v1_file, v2_index, val1, val2)
+		elif mode == 'u':
+			out = u"""<http://example.com/NG/Version1> vo:hasAttribute <http://example.com/NG/Version1/%s> ;
+        vo:hasAttribute <http://example.com/NG/Version1/Column%i> .
+<http://example.com/NG/Version1/%s> a vo:Attribute ;
+        vo:undergoes <http://example.com/Changelog#ModifyChange%s%i> .
+<http://example.com/NG/Version1/Column%i> a vo:Attribute ;
+        vo:undergoes <http://example.com/Changelog#ModifyChange%s%i> .
+<http://example.com/Changelog#ModifyChange%s%i> a vo:ModifyChange ;
+        vo:resultsIn <http://example.com/NG/Version2/%s> ;
+        vo:resultsIn <http://example.com/NG/Version2/Column%i> .
+<http://example.com/NG/Version2> vo:hasAttribute <http://example.com/NG/Version2/%s> ;
+        vo:hasAttribute <http://example.com/NG/Version2/Column%i> .
+
+"""%(key, v1_index, key, key, v2_index, v1_index, key, v2_index, key, v2_index, key, v2_index, key, v2_index)
 		changelog.write(out.encode('utf8'))
+		if mode == 'j':
+			json1 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://ngdb.com/v1/Attribute", key, str(v1_index)]) ,
+"label":key ,
+"undergoes":"".join([host, "ModifyChange", key, str(v2_index)]) ,
+"@reverse" :    { "hasAttribute" : "Version1" }
+}
+			json2 = {
+"@context":context,
+"@type":"vo:ModifyChange",
+"@id":"".join([host, "ModifyChange", key, str(v2_index)]) ,
+"resultsIn":"".join(["http://ngdb.com/v2/Attribute", key, str(v2_index)])
+}
+			json3 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://ngdb.com/v2/Attribute", key, str(v2_index)]) ,
+"label":key ,
+"@reverse" :    { "hasAttribute" : "Version2" }
+}
+			json.dump([json1, json2, json3], changelog, indent=4, sort_keys=True)
+			changelog.write('''
+          </script>
+        </tr>
+''')
 	else:
 		print '{:5}  version1: {:10} version2: {:10}'.format(key, val1, val2)
 
@@ -79,7 +130,8 @@ labels = {17:"SAMPLING - DEPTH - >,<",
 		  173:"H2 - >,<", 175:"H2 - ppm - err", 176:"O2 - >,<", 178:"O2 - ppm - err", 179:"N2 - >,<", 181:"N2 - ppm - err", 182:"CO2 - >,<", 184:"CO2 - ppm - err", 185:"CH4 - >,<", 187:"CH4 - ppm - err",
 		  188:"H2S - >,<", 190:"H2S - ppm - err"}
 
-
+context = "https://orion.tw.rpi.edu/~blee/provdist/GCMD/VO.jsonld"
+host = "http://orion.tw.rpi.edu/~blee/provdist/NobleGas/changelog_json.html#"
 #test_alignment()
 
 
@@ -96,49 +148,105 @@ def write_modify(r1, r2, workbook, f_out, mode):
     <div resource="v2:%s" typeof="vo:Attribute">
       <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
       <table rel="vo:Undergoes">
-        <tr>
+'''%(r2[0].value, r2[0].value)
+	elif mode == 'j':
+		out = u'''
+    <div about="v2:%s">
+      <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
+      <table>
+'''%(r2[0].value, r2[0].value)
+	elif mode == 't':
+		out = u"%s\n"%(r2[0].value)
+	elif mode == 'u':
+		out = u""
+
+	if mode == 'r' or mode == 'j':
+		out = out+'''        <tr>
           <th>Column v1</th>
           <th>Column v2</th>
           <th>Version 1</th>
           <th>Version 2</th>
-        </tr>\n'''%(r2[0].value, r2[0].value)
+        </tr>\n'''
+	elif mode == 't':
+		out = out+"Column v1\tColumn v2\tVersion 1\tVersion 2\n"
 	f_out.write(out.encode('utf8'))
 		#print '# Searching...'
 		#print '# Comparing...'
 	for i in range(0,54):
 		if r2[i].value != r1[index_convert(i)].value:
 			#compare_print(j, v1_row[index_convert(j)].value, v2_row[j].value)
-			compare_print(r2[0].value, r1[index_convert(i)].value, r2[i].value, workbook.split('/')[-1], index_convert(i), i, f_out)
-	if mode == 'r':
+			compare_print(mode, r2[0].value, r1[index_convert(i)].value, r2[i].value, workbook.split('/')[-1], index_convert(i), i, f_out)
+	if mode == 'r' or mode == 'j':
 		f_out.write('  </table></div><br>\n')
+	elif mode == 't' or mode == 'u':
+		f_out.write("\n")
 
 def write_removed(v2, col, row, f_out, mode):
-	if mode == 'r':
+	if mode == 'r' or mode == 'j':
 		f_out.write('''
       <h3>Columns invalidated by %s</h3>
       <table about="Version2">
-'''%(v2))
+'''%(v2.split('/')[-1]))
+	elif mode == 't':
+		f_out.write("\nColumns invalidated by %s\n"%(v2.split('/')[-1]))
 
 	print "Removed Column"
 	for i in col:
         	v1_value = labels.get(i, "")
 		if mode == 'r':
 			out = u'''        <tr resource="InvlidateChange%i" rev="vo:invalidatedBy" typeof="vo:InvalidateChange">
-          <td resource="Attribute%i" rev="vo:Undergoes" typeof="vo:Attribute">%i</td>
+		<td resource="Attribute%i" rev="vo:Undergoes" typeof="vo:Attribute">%i</td>
           <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
 '''%(i, i, i, i, v1_value, i)
+		elif mode == 'j':
+			out = u'''        <tr id="InvlidateChange%i" about="InvlidateChange%i">
+          <td>%i</td>
+          <td>%s</td>
+          <script type="application/ld+json">
+'''%(i, i, i, v1_value)
+		elif mode == 't':
+			out = u"%i\t%s\n"%(i, v1_value)
+		elif mode == 'u':
+			out = u"""<http://example.com/NG/Version1> vo:hasAttribute <http://example.com/NG/Version1/Column%s> .
+<http://example.com/NG/Version1/%s> vo:undergoes <http://example.com/Changelog#InvalidateChange%i> .
+<http://example.com/Changelog#InvalidateChange%i> a vo:InvalidateChange ;
+	vo:invalidatedBy <http://example.com/NG/Version2> .
+
+"""%(i, i, i, i)
 		f_out.write(out.encode('utf8'))
-	f_out.write('''      </table>
-
+		if mode == 'j':
+			json1 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://ngdb.com/v1/Attribute", str(i)]) ,
+"label": v1_value,
+"undergoes":"".join([host, "InvalidateChange", str(i)]) ,
+"@reverse" :    { "hasAttribute" : "Version1" }
+}
+			json2 = {
+"@context":context,
+"@type":"vo:InvalidateChange" ,
+"@id": "".join([host, "InvalidateChange", str(i)]) ,
+"invalidatedBy"  :   "Version2"
+}
+			json.dump([json1, json2], f_out, indent=4, sort_keys=True)
+			f_out.write('''
+          </script>
+        </tr>
 ''')
+			
 
-	if mode == 'r':
-		f_out.write('''
+	if mode == 'r' or mode == 'j':
+		f_out.write('''      </table>
       <h3>Rows invalidated by %s</h3>
       <table about="Version2">
-'''%(v2))
+'''%(v2.split('/')[-1]))
+	elif mode == 't':
+		f_out.write("\nRows invalidated by %s\n"%(v2.split('/')[-1]))
+	elif mode == 'u':
+		f_out.write("\n")
 
 	print "Removed Row"
 	workbook_name = ''
@@ -157,54 +265,164 @@ def write_removed(v2, col, row, f_out, mode):
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
 '''%(v1_index, v1_index, v1_index, workbook_name.split('/')[-1], v1_index, i, v1_index)
+		elif mode == 'j':
+			out = u'''        <tr id="InvlidateChange%i" about="InvlidateChange%i">
+          <td>%i(%s)</td>
+          <td>%s</td>
+          <script type="application/ld+json">
+'''%(v1_index, v1_index, v1_index, workbook_name.split('/')[-1], i)
+		elif mode == 't':
+			out = u"%i(%s)\t%s\n"%(v1_index, workbook_name.split('/')[-1], i)
+		elif mode == 'u':
+			out = u"""<http://example.com/NG/Version1> vo:hasAttribute <http://example.com/NG/Version1/%s> .
+<http://example.com/NG/Version1/%s> vo:undergoes <http://example.com/Changelog#InvalidateChange%s> .
+<http://example.com/Changelog#InvalidateChange%s> a vo:InvalidateChange ;
+	vo:invalidatedBy <http://example.com/NG/Version2> .
+
+"""%(i, i, i, i)
 		f_out.write(out.encode('utf8'))
-	if mode == 'r':
+		if mode == 'j':
+			json1 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://ngdb.com/v1/Attribute", str(i)]) ,
+"label": str(i),
+"undergoes":"".join([host, "InvalidateChange", str(i)]) ,
+"@reverse" :    { "hasAttribute" : "Version1" }
+}
+			json2 = {
+"@context":context,
+"@type":"vo:InvalidateChange" ,
+"@id": "".join([host, "InvalidateChange", str(i)]) ,
+"invalidatedBy"  :   "Version2"
+}
+			json.dump([json1, json2], f_out, indent=4, sort_keys=True)
+			f_out.write('''
+          </script>
+        </tr>
+''')
+	if mode == 'r' or mode == 'j':
 		f_out.write('''      </table>
 
 ''')
+	elif mode == 't' or mode == 'u':
+		f_out.write("\n")
 
 
 def write_added(v2, col, row, f_out, mode):
-	if mode == 'r':
+	if mode == 'r' or mode == 'j':
 		f_out.write('''
-		      <h3>Columns added by %s</h3>
-		      <table about="Version1" rel="vo:absentFrom">
-'''%(v2))
+      <h3>Columns added by %s</h3>
+      <table about="Version1" rel="vo:absentFrom">
+'''%(v2.split('/')[-1]))
+	elif mode == 't':
+		f_out.write("\nColumns added by %s\n\n"%(v2.split('/')[-1]))
 	
 	print "Added Column"
 	for i in col:
 		print i#, v2_value
 		if mode == 'r':
 			f_out.write('''        <tr about="AddChange%i" typeof="vo:AddChange">
-	          <td property="vo:resultsIn" resource="Attribute%i" typeof="vo:Attribute">%i</td>
-	          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label"></td>
-	          <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
-	        </tr>
+          <td property="vo:resultsIn" resource="Attribute%i" typeof="vo:Attribute">%i</td>
+          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label"></td>
+          <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
+        </tr>
 '''%(i, i, i, i, i))
-	if mode == 'r':
-		f_out.write('''      </table>
+		elif mode == 'j':
+			f_out.write('''        <tr id="AddChange%i" about="v2:Attribute%i">
+          <td>%i</td>
+          <td></td>
+          <script type="application/ld+json">
+'''%(i, i, i))
+			json1 = {
+"@context":context,
+"@type":"vo:AddChange" ,
+"@id": "".join([host, "AddChange", str(i)]) ,
+"resultsIn" :   "".join([ "http://ngdb.com/v2/Attribute", str(i)]),
+"@reverse"  :   { "absentFrom": "Version1" }
+}
+			json2 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://ngdb.com/v2/Attribute", str(i)]) ,
+"label":"" ,
+"@reverse" :    { "hasAttribute" : "Version2" }
+}
+			json.dump([json1, json2], f_out, indent=4, sort_keys=True)
+			f_out.write('''
+          </script>
+        </tr>
 ''')
-	
-	if mode == 'r':
-		f_out.write('''
+		elif mode == 't':
+			f_out.write("%i\t\n"%(i))	
+		elif mode == 'u':
+			f_out.write("""<http://example.com/NG/Version1> vo:absentFrom <http://example.com/Changelog#AddChange%i> .
+<http://example.com/Changelog#AddChange%i> a vo:AddChange ;
+	vo:resultsIn <http://example.com/NG/Version2/Column%s> .
+<http://example.com/NG/Version2> vo:hasAttribute <http://example.com/NG/Version2/Column%s> .
+
+"""%(i, i, i, i))
+	if mode == 'r' or mode == 'j':
+		f_out.write('''      </table>
 	      <h3>Rows added by %s</h3>
 	      <table about="Version1" rel="vo:absentFrom">
-'''%(v2))
+'''%(v2.split('/')[-1]))
+	elif mode == 't':
+		f_out.write("\nRows added by %s\n\n"%(v2.split('/')[-1]))
+	elif mode == 'u':
+		f_out.write("\n")
 	
 	print "Added Row"
-	for i, j in row:
+	for i, j in row:#i is the id, j is the file
 	        if mode == 'r':	                #print i, v2_sheet.cell(i,0).value
 			out = u'''        <tr about="AddChange%i" typeof="vo:AddChange">
-	          <td property="vo:resultsIn" resource="Attribute%i" typeof="vo:Attribute">%i</td>
-	          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
-	          <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
-	        </tr>
+          <td property="vo:resultsIn" resource="Attribute%i" typeof="vo:Attribute">%i</td>
+          <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
+          <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
+        </tr>
 '''%(i, i, i, i, j, i)
+		elif mode == 'j':
+			out = u'''        <tr id="AddChange%i" about="v2:Attribute%i">
+          <td>%i</td>
+          <td property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
+          <script type="application/ld+json">
+'''%(i, i, i, j)
+		elif mode == 't':
+			out = u"%i\t%s\n"%(i, j)
+		elif mode == 'u':
+			out = u"""<http://example.com/NG/Version1> vo:absentFrom <http://example.com/Changelog#AddChange%i> .
+<http://example.com/Changelog#AddChange%i> a vo:AddChange ;
+	vo:resultsIn <http://example.com/NG/Version2/%s> .
+<http://example.com/NG/Version2> vo:hasAttribute <http://example.com/NG/Version2/%s> .
+
+"""%(i, i, i, i)
                 f_out.write(out.encode('utf8'))
-	if mode == 'r':
+		if mode == 'j':
+			json1 = {
+"@context":context,
+"@type":"vo:AddChange" ,
+"@id": "".join([host, "AddChange", str(i)]) ,
+"resultsIn" :   "".join([ "http://ngdb.com/v2/Attribute", str(i)]),
+"@reverse"  :   { "absentFrom": "Version1" }
+}
+			json2 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://ngdb.com/v2/Attribute", str(i)]) ,
+"label": j ,
+"@reverse" :    { "hasAttribute" : "Version2" }
+}
+			json.dump([json1, json2], f_out, indent=4, sort_keys=True)
+			f_out.write('''
+          </script>
+        </tr>
+''')
+
+	if mode == 'r' or mode == 'j':
 		f_out.write('''      </table>
 ''')
-		
+	elif mode == 't' or mode == 'u':
+		f_out.write("\n")
 	
 def write_header(f_out, mode):
 	if mode == 'j' or mode == 'r':
@@ -213,6 +431,38 @@ def write_header(f_out, mode):
   </head>
   <body vocab="http://www.w3.org/nw/prov#" prefix="vo: https://orion.tw.rpi.edu/~blee/VersionOntology.owl# v1: http://ngdb.com/v1/ v2: http://ngdb.com/v2/">
 ''')
+	if mode == 'j':
+		f_out.write('''  <script type="application/ld+json">
+''')
+		json1 = {
+"@context":context,
+"@type":"vo:Version",
+"@id":"Version1",
+"label":"ngdbv1"
+}
+		json2 = {
+"@context":context,
+"@type":"vo:Version",
+"@id":"Version2",
+"label":"DB_final-55-7262_2015_03_08.xlsx"
+}
+		json.dump([json1,json2], f_out, indent=4, sort_keys=True)
+		f_out.write("\n  </script>\n")
+	if mode == 'u':
+		f_out.write("""@prefix vo: <http://orion.tw.rpi.edu/~blee/VersionOntology.owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.com/NG/Version1> a vo:Version ;
+        skos:prefLabel "ngdbv1" .
+
+<http://example.com/NG/Version2> a vo:Version ;
+        skos:prefLabel "DB_final-55-7262_2015_03_08.xlsx" .
+
+""")
 
 def write_footer(f_out, mode):
 	if mode == 'r':
@@ -248,6 +498,13 @@ def compare(v1s, v2, fn_out, mode):
 	write_added(v2, new_col, new_row, f_out, mode)
 	write_removed(v2, old_col, old_row, f_out, mode)
 
+	if mode == 'r' or mode == 'j':
+		f_out.write('''
+      <h3>Change Log</h3>
+''')
+	elif mode == 't':
+		f_out.write("Change Log\n")
+
 	workbook_name = ''
 	for i in range(3,v2_sheet.nrows):
 		v2_row = v2_sheet.row(i)
@@ -280,6 +537,9 @@ if __name__ == "__main__":
 	elif '-txt' in sys.argv:
 		mode = 't'
 		out_name = 'changelog.txt'
+	elif '-ttl' in sys.argv:
+		mode = 'u'
+		out_name = 'changelog.ttl'
 
 	v2_dir = join(separator, 'data', 'NGdata', 'v2')
 	v1_dir = join(separator, 'data', 'NGdata', 'v1')

@@ -1,0 +1,5391 @@
+ParageneticModeTable_Cu_6.8.2016.xlsx to ParageneticModeTable_Cu_8.21.2016.xlsx
+
+Columns added to ParageneticModeTable_Cu_8.21.2016.xlsx
+4	Z (chemical formula units in the unit cell)
+5	Chemistry Elements
+11	Metamorphic
+30	structure type
+31	   a   
+32	   b   
+33	   c   
+34	   ?   
+35	   ?   
+36	   ?   
+37	   volume   
+38	   crystal system   
+39	   point group   
+40	   space group   
+41	multiplicity
+42	   lattice   
+
+Columns added to ParageneticModeTable_Cu_6.8.2016.xlsx
+Column #	Header
+5	Total (corrected)
+32	Localities with Mineral (including parents)
+
+
+Change Log
+
+Abswurmbachite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Agaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_3_Cu^2+^Te^6+^O_5_(OH)_2_(CO_3_)	Pb^2+^_3_Cu^2+^Te^6+^O_5_(OH)_2_(CO_3_)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Agardite-(Ce)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Ce(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Ce^3+^(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00065	          
+
+
+Agardite-(La)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_La(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_La^3+^(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00010	          
+
+
+Agardite-(Nd)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Nd(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Nd^3+^(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+30	( 8)	      16.0	      13.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	MD35_190-00001	          
+
+
+Agardite-(Y)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Y(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Y^3+^(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Aikinite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_029	          
+
+
+Ajoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_3_Cu^2+^_20_Al_3_Si_29_O_76_(OH)_16_Â·8H_2_O	K_3_Cu^2+^_20_Al_3_Si_29_O_76_(OH)_16_·8H_2_O
+30	( 8)	      11.0	      12.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00073	          
+
+
+Aktashite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      14.0	      13.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00007	          
+
+
+Aldridgeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cd2+,Ca)(Cu2+,Zn2+)4(S6+O4)2(OH)6·3H2O	(Cd^2+^,Ca)(Cu^2+^,Zn^2+^)_4_(S^6+^O_4_)_2_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Algodonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_1-x_As_x_ (x ~0.15)	Cu_1-x_As_x_; x = 1/7
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Be-00016	          
+
+
+Allochalcoselite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+Cu2+5Pb2+O2(Se4+O3)2Cl5	Cu^1+^Cu^2+^_5_Pb^2+^O_2_(Se^4+^O_3_)_2_Cl_5_
+10	(13)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Alpersite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Mg,Cu^2+^)SO_4_Â·7H_2_O	(Mg,Cu^2+^)S^6+^O_4_·7H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00894	          
+
+
+Alumoklyuchevskite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Ammineite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Cl2(N3-H3)2	Cu^2+^Cl_2_(N^3-^H_3_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Andreadiniite
+Column v1	Column v2	Version 1	Version 2
+ 8	(10)	***Paper not yet published	       0.0
+36	(50)	  Hg-00019	          
+
+
+Andychristyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCu^2+^Te^6+^O_5_(H_2_O)	Pb^2+^Cu^2+^Te^6+^O_5_(H_2_O)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Andyrobertsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCdCu_5_(AsO_4_)_4_[As(OH)_2_O_2_]Â·2H_2_O	KCd^2+^Cu^2+^_5_(As^5+^O_4_)_4_[As^5+^(OH)_2_O_2_]·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Angelaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	PR51_265-00007	          
+
+
+Anilite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	PorphCu-00048	          
+
+
+Annivite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+30	( 8)	       5.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00267	          
+
+
+Anthonyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(OH)_2_Â·3H_2_O	Cu^2+^(OH)_2_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002199	          
+
+
+Antipinite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KNa_3_Cu_2_(C_2_O_4_)_4_	KNa_3_Cu^2+^_2_(C_2_O_4_)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Antlerite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00299	          
+
+
+Apachite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_9_Si_10_O_29_Â·11H_2_O	Cu^2+^_9_Si_10_O_29_·11H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00010	          
+
+
+Arcubisite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00259	          
+
+
+Argentotennantite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00102	          
+
+
+Arhbarite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_MgAsO_4_(OH)_3_	Cu^2+^_2_MgAs^5+^O_4_(OH)_3_
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00065	          
+
+
+Arsentsumebite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu(AsO_4_)(SO_4_)(OH)	Pb^2+^_2_Cu^2+^(As^5+^O_4_)(SO_4_)(OH)
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Arsmirandite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_18_Cu_12_Fe^3+^O_8_(AsO_4_)_8_Cl_5_	Na_18_Cu^2+^_12_Fe^3+^O_8_(As^5+^O_4_)_8_Cl_5_
+10	(13)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Arthurite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFe^3+^_2_(AsO_4_)_2_(OH)_2_Â·4H_2_O	Cu^2+^Fe^3+^_2_(As^5+^O_4_)_2_(OH)_2_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000555	          
+
+
+Arzrunite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu_4_SO_4_(OH)_4_Cl_6_Â·2H_2_O	Pb^2+^_2_Cu^2+^_4_S^6+^O_4_(OH)_4_Cl_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Ashburtonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	HPb_4_Cu_4_(Si_4_O_12_)(HCO_3_)_4_(OH)_4_Cl	HPb^2+^_4_Cu^2+^_4_(Si_4_O_12_)(HCO_3_)_4_(OH)_4_Cl
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Astrocyanite-(Ce)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Ce_2_(UO_2_)(CO_3_)_5_(OH)_2_Â·1.5H_2_O	Cu^2+^_2_Ce^3+^_2_(U^6+^O_2_)(CO_3_)_5_(OH)_2_·1.5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Atacamite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Cl(OH)_3_	Cu^2+^_2_Cl(OH)_3_
+11	(14)	          	       0.0
+36	(50)	 vms-00054	          
+
+
+Athabascaite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      14.0	      13.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00086	          
+
+
+Atlasovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Fe^3+^Bi^3+^O_4_(SO_4_)_5_Â·KCl	Cu^2+^_6_Fe^3+^Bi^3+^O_4_(SO_4_)_5_·KCl
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Attikaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_3_Cu_2_Al_2_(AsO_4_)_4_(OH)_4_Â·2H_2_O	Ca_3_Cu^2+^_2_Al_2_(As^5+^O_4_)_4_(OH)_4_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Aubertite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^Al(SO_4_)_2_ClÂ·14H_2_O	Cu^2+^Al(SO_4_)_2_Cl·14H_2_O
+30	( 8)	      10.0	       8.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00002	          
+
+
+Auriacusite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Fe^3+^Cu^2+^AsO_4_O	Fe^3+^Cu^2+^As^5+^O_4_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002528	          
+
+
+Aurichalcite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Zn,Cu^2+^)_5_(CO_3_)_2_(OH)_6_	Zn^2+^_5_(CO_3_)_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002511	          
+
+
+Auricupride
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      15.0	      14.0
+ 9	(12)	          	       0.0
+10	(13)	       1.0	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_025	          
+
+
+Avdoninite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_2_Cu_5_Cl_8_(OH)_4_Â·2H_2_O	K_2_Cu^2+^_5_Cl_8_(OH)_4_·2H_2_O
+30	( 8)	       5.0	       4.0
+11	(14)	          	       0.0
+36	(50)	Kristen002455	          
+
+
+Averievite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_O_2_(VO_4_)_2_Â·CuCl_2_	Cu^2+^_5_O_2_(V^5+^O_4_)_2_·Cu^2+^Cl^1-^_2_
+10	(13)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Azurite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(CO_3_)_2_(OH)_2_	Cu^2+^_3_(CO_3_)_2_(OH)_2_
+ 9	(12)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Babanekite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(AsO_4_)_2_Â·8H_2_O	Cu^2+^_3_(As^5+^O_4_)_2_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Bairdite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu^2+^_4_Te^6+^_2_O_10_(OH)_2_(SO_4_)Â·H_2_O	Pb_2_Cu^2+^_4_Te^6+^_2_O_10_(OH)_2_(S^6+^O_4_)·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Balkanite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00072	          
+
+
+Balyakinite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Bambollaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(Se,Te)_2_	   CuSe_2_
+30	( 8)	       3.0	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00034	          
+
+
+Bandylite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuB(OH)_4_Cl	Cu^2+^B(OH)_4_Cl
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00649	          
+
+
+Barahonaite-(Al)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ca,Cu,Na,Fe^3+^,Al)_12_Al_2_(AsO_4_)_8_(OH,Cl)_x_Â·nH_2_O	(Ca,Cu^2+^,Na,Fe^3+^,Al)_12_Al_2_(As^5+^O_4_)_8_(OH,Cl)_x_·nH_2_O
+30	( 8)	       5.0	       4.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000120	          
+
+
+Barahonaite-(Fe)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ca,Cu2+,Na,Fe3+,Al)12Fe3+2(As5+O4)8(OH,Cl)x·nH2O	(Ca,Cu^2+^,Na,Fe^3+^,Al)_12_Fe^3+^_2_(As^5+^O_4_)_8_(OH,Cl)_x_·nH_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Barlowite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_BrF(OH)_6_	Cu^2+^_4_BrF(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Barquillite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_(Cd,Fe^2+^)GeS_4_	Cu_2_CdGeS_4_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Barrotite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+9Al(HSiO4)2(SO4)(HAs5+O4)0.5(OH)12·8H2O	Cu^2+^_9_Al(HSiO_4_)_2_(SO_4_)(HAs^5+^O_4_)_0.5_(OH)_12_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00046	          
+
+
+Bayldonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3Pb2+O(As5+O3OH)2(OH)2	Cu^2+^_3_Pb^2+^O(As^5+^O_3_OH)_2_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Beaverite-(Cu)
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Bechererite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Zn2+7Cu2+(OH)13[SiO(OH)3S6+O4]	Zn^2+^_7_Cu^2+^(OH)_13_[SiO(OH)_3_S^6+^O_4_]
+30	( 8)	      14.0	       9.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Belendorffite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       4.0	       2.0
+36	(50)	  Hg-00015	          
+
+
+Bellidoite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       6.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Bellingerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3(I5+O3)6·2H2O	Cu^2+^_3_(I^5+^O_3_)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00002	          
+
+
+Belloite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+(OH)Cl	Cu^2+^(OH)Cl
+30	( 8)	       5.0	       4.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002528	          
+
+
+Benleonardite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      15.0	      12.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD25_50-00005	          
+
+
+Berryite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Berzelianite
+Column v1	Column v2	Version 1	Version 2
+36	(50)	  Hg-00117	          
+
+
+Betekhtinite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002401	          
+
+
+Bezsmertnovite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       5.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Chen2007tbl01-47	          
+
+
+Bilibinskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Au_3_Cu_2_PbÂ·nTeO_2_	Au_3_Cu_2_Pb·nTe^4+^O_2_
+30	( 8)	       5.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	AGS78_506-00002	          
+
+
+Birchite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cd2+2Cu2+2(P5+O4)2S6+O4·5H2O	Cd^2+^_2_Cu^2+^_2_(P^5+^O_4_)_2_S^6+^O_4_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Bleasdaleite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca2Cu2+5(Bi3+,Cu2+)(P5+O4)4(H2O,OH,Cl)13	Ca_2_Cu^2+^_5_(Bi^3+^,Cu^2+^)(P^5+^O_4_)_4_(H_2_O,OH,Cl)_13_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000016	          
+
+
+Blossite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+2V5+2O7	Cu^2+^_2_V^5+^_2_O_7_
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+
+
+Bluebellite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+6(I5+O3(OH)3)(OH)7Cl	Cu^2+^_6_(I^5+^O_3_(OH)_3_)(OH)_7_Cl
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Bobkingite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_5_Cl_2_(OH)_8_Â·2H_2_O	Cu^2+^_5_Cl_2_(OH)_8_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002528	          
+
+
+Bobmeyerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_4_(Al_3_Cu)(Si_4_O_12_)(S_0.5_Si_0.5_O_4_)(OH)_7_ClÂ·3H_2_O	Pb^2+^_4_(Al_3_Cu^2+^)(Si_4_O_12_)(S^6+^_0.5_Si_0.5_O_4_)(OH)_7_Cl·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Bogdanovite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       6.0	       5.0
+ 9	(12)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Boleite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KAg1+9Pb2+26Cu2+24Cl62(OH)48	KAg^1+^_9_Pb^2+^_26_Cu^2+^_24_Cl_62_(OH)_48_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Bonattite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+S6+O4·3H2O	Cu^2+^S^6+^O_4_·3H_2_O
+30	( 8)	      17.0	      19.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002463	          
+
+
+Boothite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+S6+O4·7H2O	Cu^2+^S^6+^O_4_·7H_2_O
+30	( 8)	      14.0	      16.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Borisenkoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3[(V5+,As5+)O4]2	Cu^2+^_3_[(V^5+^,As^5+^)O_4_]_2_
+30	( 8)	          	       1.0
+
+
+Bornite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+14	(17)	      20.0	      40.0
+15	(18)	     2.346	     1.533
+16	(19)	    46.929	    61.328
+17	(20)	     0.543	     0.288
+18	(21)	    2005.0	    1978.0
+19	(22)	  171910.0	  200424.0
+36	(50)	Kristen002030	          
+
+
+Bortnikovite
+Column v1	Column v2	Version 1	Version 2
+ 8	(10)	   18,5,61	   5,18,61
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Botallackite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+2Cl(OH)3	Cu^2+^_2_Cl(OH)_3_
+36	(50)	sedexmvt-00221	          
+
+
+Bournonite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Bradaczekite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCu2+4(As5+O4)3	NaCu^2+^_4_(As^5+^O_4_)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Braithwaiteite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCu^2+^_5_(Ti^4+^Sb^5+^)O_2_(AsO_4_)_4_[AsO_3_(OH)]_2_Â·8H_2_O	NaCu^2+^_5_(Ti^4+^Sb^5+^)O_2_(As^5+^O_4_)_4_[As^5+^O_3_(OH)]_2_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Briartite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00446	          
+
+
+Brochantite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+4S6+O4(OH)6	Cu^2+^_4_S^6+^O_4_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+14	(17)	      60.0	      48.0
+15	(18)	     3.907	     3.585
+16	(19)	   234.413	   172.078
+17	(20)	     0.661	     0.642
+18	(21)	    2003.0	    2010.0
+19	(22)	   97703.0	  168540.0
+36	(50)	PorphCu-00291	          
+
+
+Brodtkorbite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00050	          
+
+
+Brumadoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Te^6+^O_4_(OH)_4_Â·5H_2_O	Cu^2+^_3_Te^6+^O_4_(OH)_4_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Bukovite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      10.0	       9.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Předbořice, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic	P?edbo?ice, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic
+36	(50)	  Hg-00011	          
+
+
+Burnsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCdCu_7_O_2_(SeO_3_)_2_Cl_9_	KCd^2+^Cu^2+^_7_O_2_(Se^4+^O_3_)_2_Cl_9_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Buttgenbachite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_36_(NO_3_)_2_Cl_6_(OH)_64_Â·nH_2_O	Cu^2+^_36_(N^5+^O_3_)_2_Cl_6_(OH)_64_·nH_2_O
+30	( 8)	      11.0	       8.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002199	          
+
+
+Cabriite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       9.0	       7.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD36_189-00001	          
+
+
+Calcioandyrobertsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCaCu_5_(AsO_4_)_4_[As(OH)_2_O_2_]Â·2H_2_O	KCaCu^2+^_5_(As^5+^O_4_)_4_[As^5+^(OH)_2_O_2_]·2H_2_O
+30	( 8)	       4.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Calciopetersite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Ca(PO_4_)_2_(PO_3_OH)(OH)_6_Â·3H_2_O	Cu^2+^_6_Ca(PO_4_)_2_(PO_3_OH)(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000114	          
+
+
+Caledonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Pb_5_(SO_4_)_3_(CO_3_)(OH)_6_	Cu^2+^_2_Pb^2+^_5_(S^6+^O_4_)_3_(CO_3_)(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Callaghanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Mg_2_CO_3_(OH)_6_Â·2H_2_O	Cu^2+^_2_Mg_2_CO_3_(OH)_6_·2H_2_O
+30	( 8)	       8.0	       6.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Calumetite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(OH)_2_Â·2H_2_O	Cu^2+^(OH)_2_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00058	          
+
+
+Calvertite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Camerolaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_Al_3_(OH)_18_(H_2_O)_2_[Sb(OH)_6_](SO_4_)	Cu^2+^_6_Al_3_(OH)_18_(H_2_O)_2_[Sb^5+^(OH)_6_](S^6+^O_4_)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EJM21_817tbl02-00027	          
+
+
+Cameronite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Campigliaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_Mn^2+^(SO_4_)_2_(OH)_6_Â·4H_2_O	Cu^2+^_4_Mn^2+^(S^6+^O_4_)_2_(OH)_6_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002300	          
+
+
+Carbonatecyanotrichite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_Al_2_CO_3_(OH)_12_Â·2H_2_O	Cu^2+^_4_Al_2_CO_3_(OH)_12_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00057	          
+
+
+Carrollite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+Co3+2S4	Cu^1+^Co^3+^_2_S_4_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Catamarcaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kaitlynn000007	          
+
+
+Centennialite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu_3_Cl_2_(OH)_6_Â·nH_2_O  (n ~ 0.7)	CaCu^2+^_3_Cl_2_(OH)_6_·nH_2_O (n ~ 0.7)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002199	          
+
+
+Cernyite
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Černýite	 ?ernýite
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002494	          
+
+
+Ceruleite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Al_7_(AsO_4_)_4_(OH)_13_Â·11.5H_2_O	Cu^2+^_2_Al_7_(As^5+^O_4_)_4_(OH)_13_·11.5H_2_O
+30	( 8)	      16.0	      13.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00426	          
+
+
+Cesbronite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(Te^4+^O_3_)_2_(OH)_6_Â·2H_2_O	Cu^2+^_5_(Te^4+^O_3_)_2_(OH)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00180	          
+
+
+Chalcanthite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuSO_4_Â·5H_2_O	Cu^2+^S^6+^O_4_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Chalcoalumite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuAl_4_SO_4_(OH)_12_Â·3H_2_O	Cu^2+^Al_4_S^6+^O_4_(OH)_12_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002479	          
+
+
+Chalcocite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Chalcocyanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	 Cu2+S6+O4	Cu^2+^S^6+^O_4_
+30	( 8)	      11.0	       9.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00397	          
+
+
+Chalcomenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuSe^4+^O_3_Â·2H_2_O	Cu^2+^Se^4+^O_3_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00086	          
+
+
+Chalconatronite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_Cu(CO_3_)_2_Â·3H_2_O	Na_2_Cu^2+^(CO_3_)_2_·3H_2_O
+30	( 8)	      19.0	      15.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00058	          
+
+
+Chalcophyllite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_18_Al_2_(AsO_4_)_4_(SO_4_)_3_(OH)_24_Â·36H_2_O	Cu^2+^_18_Al_2_(As^5+^O_4_)_4_(S^6+^O_4_)_3_(OH)_24_·36H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001373	          
+
+
+Chalcopyrite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG97_873-00014	          
+
+
+Chalcosiderite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFe^3+^_6_(PO_4_)_4_(OH)_8_Â·4H_2_O	Cu^2+^Fe^3+^_6_(PO_4_)_4_(OH)_8_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00007	          
+
+
+Chalcostibite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Be-00047	          
+
+
+Chalcothallite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       3.0	       1.0
+ 9	(12)	          	       1.0
+10	(13)	          	       0.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	  Be-00043	          
+
+
+Chameanite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Předbořice, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic	P?edbo?ice, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic
+36	(50)	  Hg-00011	          
+
+
+Chanabayaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuCl(N3C2H2)(NH3)·0.25H2O	CuCl(N_3_C_2_H_2_)(NH_3_)·0.25H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Chatkalite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       1.0
+10	(13)	          	       0.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00117	          
+
+
+Chenevixite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(Fe^3+^,Al)(AsO_4_)(OH)_2_	Cu^2+^(Fe^3+^,Al)(As^5+^O_4_)(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002297	          
+
+
+Chenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPb_4_(SO_4_)_2_(OH)_6_	Cu^2+^Pb^2+^_4_(S^6+^O_4_)_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00010	          
+
+
+Chloromenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+9O2(Se4+O3)4Cl6	Cu^2+^_9_O_2_(Se^4+^O_3_)_4_Cl_6_
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Chlorothionite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K2Cu2+S6+O4Cl2	K_2_Cu^2+^S^6+^O_4_Cl_2_
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Chloroxiphite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_3_CuO_2_Cl_2_(OH)_2_	Pb^2+^_3_Cu^2+^O_2_Cl_2_(OH)_2_
+30	( 8)	       9.0	       8.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00182	          
+
+
+Choloalite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Pb2+,Ca)3(Cu2+,Sb5+)3Te4+6O18Cl1-	(Pb^2+^,Ca)_3_(Cu^2+^,Sb^5+^)_3_Te^4+^_6_O_18_Cl^1-^
+30	( 8)	       6.0	       4.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00180	          
+
+
+Christelite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Zn_3_Cu_2_(SO_4_)_2_(OH)_6_Â·4H_2_O	Zn^2+^_3_Cu^2+^_2_(S^6+^_4_)_2_(OH)_6_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Chrysocolla
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu_2-x_Al_x_)H_2-x_Si_2_O_5_(OH)_4_Â·nH_2_O	(Cu^2+^_2-x_Al_x_)H_2-x_Si_2_O_5_(OH)_4_·nH_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EG97_873-00021	          
+
+
+Chrysothallite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_6_Cu_6_Tl^3+^Cl_17_(OH)_4_Â·H_2_O	K_6_Cu^2+^_6_Tl^3+^Cl^1-^_17_(OH)_4_·H_2_O
+30	( 8)	       3.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Chvilevaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Ciriottiite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Claraite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_CO_3_(OH)_4_Â·4H_2_O	Cu^2+^_3_CO_3_(OH)_4_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00106	          
+
+
+Claringbullite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_4_Cl(OH)(OH)_6_	Cu^2+^_4_FCl(OH)_6_
+30	( 8)	      14.0	      12.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00391	          
+
+
+Clinoatacamite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Cl(OH)_3_	Cu^2+^_2_Cl(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00007	          
+
+
+Clinoclase
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_AsO_4_(OH)_3_	Cu^2+^_3_As^5+^O_4_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Cloncurryite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_0.5_(VO)_0.5_Al_2_(PO_4_)_2_F_2_Â·5H_2_O	Cu^2+^_0.5_(V^4+^O)_0.5_Al_2_(P^5+^O_4_)_2_F_2_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Colinowensite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	BaCu2+Si2O6	BaCu^2+^Si_2_O_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Colusite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+12V5+As5+3S2-16	Cu^1+^_12_V^5+^As^5+^_3_S^2-^_16_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Conichalcite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCuAsO_4_(OH)	CaCu^2+^As^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00007	          
+
+
+Connellite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_36_(SO_4_)(OH)_62_Cl_8_Â·6H_2_O	Cu^2+^_36_(S^6+^O_4_)(OH)_62_Cl_8_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002511	          
+
+
+Coparsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_4_O_2_AsO_4_Cl	Cu^2+^_4_O_2_As^5+^O_4_Cl
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Copper
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Cornetite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_PO_4_(OH)_3_	Cu^2+^_3_P^5+^O_4_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00268	          
+
+
+Cornubite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(AsO_4_)_2_(OH)_4_	Cu^2+^_5_(As^5+^O_4_)_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Cornwallite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(AsO_4_)_2_(OH)_4_	Cu^2+^_5_(As^5+^O_4_)_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Covellite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+36	(50)	Kristen002030	          
+
+
+Creaseyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Pb_2_Fe^3+^_2_Si_5_O_17_Â·6H_2_O	Cu^2+^_2_Pb^2+^_2_Fe^3+^_2_Si_5_O_17_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedexmvt-00205	          
+
+
+Crednerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+Mn3+O2	Cu^1+^Mn^3+^O_2_
+30	( 8)	      33.0	      35.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Crookesite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      12.0	       8.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Petrovice, Nové Město Na Moravě, Vysočina Region, Moravia (Mähren; Maehren), Czech Republic	Petrovice, Nové M?sto Na Morav?, Vyso?ina Region, Moravia (Mähren; Maehren), Czech Republic
+36	(50)	  Hg-00065	          
+
+
+Cryptochalcite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K2Cu2+5O(S6+O4)5	K_2_Cu^2+^_5_O(S^6+^O_4_)_5_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Cualstibite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_AlSb(OH)_12_	Cu^2+^_2_AlSb^5+^(OH)_12_
+30	( 8)	       5.0	       9.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EJM21_817tbl02-00027	          
+
+
+Cubanite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Cumengeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_21_Cu_20_Cl_42_(OH)_40_Â·6H_2_O	Pb^2+^_21_Cu^2+^_20_Cl_42_(OH)_40_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Cuprite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	    Cu1+2O	Cu^1+^_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000079	          
+
+
+Cuproauride
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Cuprobismutite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Emily000504	          
+
+
+Cuprocopiapite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^Fe^3+^_4_(SO_4_)_6_(OH)_2_Â·20H_2_O	Cu^2+^Fe^3+^_4_(SO_4_)_6_(OH)_2_·20H_2_O
+30	( 8)	      10.0	       9.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002524	          
+
+
+Cuproiridsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Ir3+2S2-4	Cu^2+^Ir^3+^_2_S^2-^_4_
+30	( 8)	      19.0	      15.0
+ 9	(12)	          	       1.0
+10	(13)	          	       0.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00047	          
+
+
+Cuprokalininite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Cr3+_2_S_4_	Cu^2+^Cr^3+^_2_S^2-^_4_
+ 9	(12)	          	       0.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Cr-00031	          
+
+
+Cupromakopavonite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Cupromakovickyite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Băiţa Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania	B?i?a Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania
+36	(50)	  Mo-00019	          
+
+
+Cupromolybdite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Cuproneyite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Băiţa Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania	B?i?a Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania
+36	(50)	  Mo-00019	          
+
+
+Cupropavonite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      11.0	      13.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Cupropearceite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Cupropolybasite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Cuprorhodsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Rh3+2S2-4	Cu^2+^Rh^3+^_2_S^2-^_4_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00047	          
+
+
+Cuprorivaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu2+Si4O10	CaCu^2+^Si_4_O_10_
+30	( 8)	       8.0	       7.0
+36	(50)	  Hg-00059	          
+
+
+Cuprosklodowskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(UO_2_)_2_(SiO_3_OH)_2_Â·6H_2_O	Cu^2+^(U^6+^O_2_)_2_(SiO_3_OH)_2_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002129	          
+
+
+Cuprospinel
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Cuprostibite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      13.0	      10.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Cuprotungstite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Cyanochroite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_2_Cu(SO_4_)_2_Â·6H_2_O	K_2_Cu^2+^(S^6+^O_4_)_2_·6H_2_O
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	EMBC2002_65_PNC_age	          
+
+
+Cyanotrichite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_Al_2_SO_4_(OH)_12_Â·2H_2_O	Cu^2+^_4_Al_2_S^6+^O_4_(OH)_12_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00584	          
+
+
+Cyprine
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       1.0	       7.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Danbaite
+Column v1	Column v2	Version 1	Version 2
+36	(50)	MD26_550-00002	          
+
+
+Danielsite
+Column v1	Column v2	Version 1	Version 2
+12	(15)	          	       0.0
+36	(50)	  Hg-00002	          
+
+
+Daomanite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_028	          
+
+
+Decrespignyite-(Y)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Y_4_Cu(CO_3_)_4_Cl(OH)_5_Â·2H_2_O	Y^3+^_4_Cu^2+^(CO_3_)_4_Cl(OH)_5_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Delafossite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00048	          
+
+
+Deloryite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_(UO_2_)Mo_2_O_8_(OH)_6_	Cu^2+^_4_(U^6+^O_2_)(Mo^6+^O_4_)_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00013	          
+
+
+Demesmaekerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu_5_(UO_2_)_2_(Se^4+^O_3_)_6_(OH)_6_Â·2H_2_O	Pb^2+^_2_Cu^2+^_5_(U^6+^O_2_)_2_(Se^4+^O_3_)_6_(OH)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Derriksite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_(UO_2_)(Se^4+^O_3_)_2_(OH)_6_	Cu^2+^_4_(U^6+^O_2_)(Se^4+^O_3_)_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Devilline
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu_4_(SO_4_)_2_(OH)_6_Â·3H_2_O	CaCu^2+^_4_(S^6+^O_4_)_2_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00955	          
+
+
+Diaboleite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPb_2_Cl_2_(OH)_4_	Cu^2+^Pb^2+^_2_Cl_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedexmvt-00205	          
+
+
+Diegogattaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_CaCu_2_Si_8_O_20_Â·H_2_O	Na_2_CaCu^2+^_2_Si_8_O_20_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Digenite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+12	(15)	          	       0.0
+15	(18)	     0.918	     1.585
+16	(19)	     2.755	     4.755
+17	(20)	     0.579	       1.0
+18	(21)	    1991.0	    1969.0
+19	(22)	   41143.0	   42709.0
+36	(50)	Kristen002030	          
+
+
+Dioptase
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuSiO_3_Â·H_2_O	Cu^2+^SiO_3_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00272	          
+
+
+Dioskouriite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu2+4Cl6(OH)4·4H2O	CaCu^2+^_4_Cl_6_(OH)_4_·4H_2_O
+30	( 8)	          	       1.0
+
+
+Dixenite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+10	(13)	          	       0.0
+36	(50)	Kristen002401	          
+
+
+Djerfisherite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_026	          
+
+
+Djurleite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+36	(50)	Mo-N382_703-0001	          
+
+
+Dmisokolovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K3Cu2+5AlO2(As5+O4)4	K_3_Cu^2+^_5_AlO_2_(As^5+^O_4_)_4_
+ 9	(12)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Dolerophanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+2OS6+O4	Cu^2+^_2_OS^6+^O_4_
+30	( 8)	       7.0	       4.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Domerockite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_(AsO_4_)(AsO_3_OH)(OH)_3_Â·H_2_O	Cu^2+^_4_(As^5+^O_4_)(As^5+^O_3_OH)(OH)_3_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Domeykite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Domeykite-beta
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Domeykite-β	Domeykite-?
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Be-00017	          
+
+
+Dravertite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Mg(S6+O4)2	Cu^2+^Mg(S^6+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Duftite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCuAsO_4_(OH)	Pb^2+^Cu^2+^As^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Dzierzanowskite
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Dzierżanowskite	Dzier?anowskite
+ 8	(10)	*Description not yet published	       0.0
+13	(16)	Dzierżanowskite	Dzier?anowskite
+36	(50)	DeepDive-Co-0055	          
+
+
+Eckerite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Eckhardite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ca,Pb)Cu^2+^Te^6+^O_5_Â·H_2_O	(Ca,Pb^2+^)Cu^2+^Te^6+^O_5_·H_2_O
+30	( 8)	       3.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Eclarite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      17.0	      12.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Hnúšťa, Rimavská Sobota Co., Banská Bystrica Region, Slovakia	Hnúš?a, Rimavská Sobota Co., Banská Bystrica Region, Slovakia
+36	(50)	GC53_166_001	          
+
+
+Edwardsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Cd_2_(SO_4_)_2_(OH)_6_Â·4H_2_O	Cu^2+^_3_Cd^2+^_2_(S^6+^O_4_)_2_(OH)_6_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Effenbergerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	BaCu2+Si4O10	BaCu^2+^Si_4_O_10_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Eldragonite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Eleomelanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(K2Pb2+)Cu2+4O2(S6+O4)4	(K_2_Pb^2+^)Cu^2+^_4_O_2_(S^6+^O_4_)_4_
+30	( 8)	          	       1.0
+
+
+Elyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPb_4_(SO_4_)O_2_(OH)_4_Â·H_2_O	Cu^2+^Pb^2+^_4_(S^6+^O_4_)O_2_(OH)_4_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Emilite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Emplectite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+Bi3+S2-2	Cu^1+^Bi^3+^S^2-^_2_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	TCM41_307-00035	          
+
+
+Enargite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Engelhauptite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCu_3_(V_2_O_7_)(OH)_2_Cl	KCu^2+^_3_(V^5+^_2_O_7_)(OH)_2_Cl
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Erazoite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Ericlaxmanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_O(AsO_4_)_2_	Cu^2+^_4_O(As^5+^O_4_)_2_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Erikapohlite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_(Zn,Cu,Mg)_4_Ca_2_(AsO_4_)_6_Â·2H_2_O	Cu^2+^_3_(Zn^2+^,Cu^2+^,Mg)_4_Ca_2_(As^5+^O_4_)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Eriochalcite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuCl_2_Â·2H_2_O	Cu^2+^Cl_2_·2H_2_O
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00114	          
+
+
+Eskebornite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00086	          
+
+
+Eucairite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Euchlorine
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KNaCu2+3O(S6+O4)3	KNaCu^2+^_3_O(S^6+^O_4_)_3_
+30	( 8)	       7.0	       3.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Euchroite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_AsO_4_(OH)Â·3H_2_O	Cu^2+^_2_As^5+^O_4_(OH)·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002299	          
+
+
+Eurekadumpite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Zn)_16_(Te^4+^O_3_)_2_(AsO_4_)_3_Cl(OH)_18_Â·7H_2_O	(Cu^2+^,Zn^2+^)_16_(Te^4+^O_3_)_2_(As^5+^O_4_)_3_Cl^1-^(OH)_18_·7H_2_O
+30	( 8)	       3.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Famatinite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Favreauite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbBiCu_6_O_4_(SeO_3_)_4_(OH)Â·H_2_O	Pb^2+^Bi^3+^Cu^2+^_6_O_4_(Se^4+^O_3_)_4_(OH)·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Fedotovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K2Cu2+3O(S6+O4)3	K_2_Cu^2+^_3_O(S^6+^O_4_)_3_
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00126	          
+
+
+Felbertalite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00117	          
+
+
+Feodosiyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_11_Mg_2_Cl_18_(OH)_8_Â·16H_2_O	Cu^2+^_11_Mg_2_Cl_18_(OH)_8_·16H_2_O
+30	( 8)	       0.0	       1.0
+ 8	(10)	*Description not yet published	       0.0
+
+
+Ferhodsite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Ferrokesterite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       9.0	       8.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen000289	          
+
+
+Ferrostalderite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Ferrovalleriite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	2(Fe,Cu)SÂ·1.53[(Fe,Al,Mg)(OH)_2_]	2(Fe,Cu)S·1.53[(Fe^2+^,Al,Mg)(OH)_2_]
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	GCA59_2071-00002	          
+
+
+Fingerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+11O2(V5+O4)6	Cu^2+^_11_O_2_(V^5+^O_4_)_6_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Fletcherite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Ni3+2S2-4	Cu^2+^Ni^3+^_2_S^2-^_4_
+30	( 8)	      10.0	      13.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Florensovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^1+^(Cr^3+^_1.5_Sb^5+^_0.5_)S_4_	Cu^1+^(Cr^3+^_1.5_Sb^5+^_0.5_)S^2-^_4_
+ 9	(12)	          	       0.0
+10	(13)	          	       0.0
+36	(50)	  Cr-00031	          
+
+
+Foretite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Al_2_(AsO_4_)(OH,O,H_2_O)_6_	Cu^2+^_2_Al_2_(As^5+^O_4_)(OH,O,H_2_O)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00014	          
+
+
+Fornacite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPb_2_(CrO_4_)(AsO_4_)(OH)	Cu^2+^Pb^2+^_2_(Cr^6+^O_4_)(As^5+^O_4_)(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Francisite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3Bi3+(Se4+O3)2O2Cl	Cu^2+^_3_Bi^3+^(Se^4+^O_3_)_2_O_2_Cl
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00007	          
+
+
+Frankhawthorneite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Te^6+^O_4_(OH)_2_	Cu^2+^_2_Te^6+^O_4_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Freedite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^1+^Pb_8_(As^3+^O_3_)_2_O_3_Cl_5_	Cu^1+^Pb^2+^_8_(As^3+^O_3_)_2_O_3_Cl_5_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Be-00016	          
+
+
+Freibergite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00255	          
+
+
+Friedrichite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Fuettererite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_3_Cu^2+^_6_Te^6+^O_6_(OH)_7_Cl_5_	Pb^2+^_3_Cu^2+^_6_Te^6+^O_6_(OH)_7_Cl^1-^_5_
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Fukuchilite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	sedcu-00368	          
+
+
+Furutobeite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Gabrielite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Galkhaite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+30	( 8)	      14.0	      11.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00007	          
+
+
+Gallite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       5.0	       6.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Gartrellite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCuFe^3+^(AsO_4_)_2_(OH)Â·H_2_O	Pb^2+^Cu^2+^Fe^3+^(As^5+^O_4_)_2_(OH)·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Geerite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+10	(13)	          	       1.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	Kristen000016	          
+
+
+Geffroyite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_018	          
+
+
+Geminite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^(AsO_3_OH)Â·H_2_O	Cu^2+^(As^5+^O_3_OH)·H_2_O
+30	( 8)	       8.0	       7.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00065	          
+
+
+Georgbokiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+5O2(Se4+O3)2Cl2	Cu^2+^_5_O_2_(Se^4+^O_3_)_2_Cl_2_
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Georgeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_CO_3_(OH)_2_	Cu^2+^_2_CO_3_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Gerhardtite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_NO_3_(OH)_3_	Cu^2+^_2_N^5+^O_3_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Germanite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	CGSN10_99-Tsumeb	          
+
+
+Germanocolusite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Giessenite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Mária Mine, Rožňava (Rosenau; Rozsnyó), Rožňava Co., Košice Region, Slovakia	Mária Mine, Rož?ava (Rosenau; Rozsnyó), Rož?ava Co., Košice Region, Slovakia
+36	(50)	Emily000545	          
+
+
+Gilalite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_Si_6_O_17_Â·7H_2_O	Cu^2+^_5_Si_6_O_17_·7H_2_O
+30	( 8)	       5.0	       6.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00067	          
+
+
+Gillardite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_NiCl_2_(OH)_6_	Cu^2+^_3_Ni^2+^Cl^1-^_2_(OH)_6_
+30	( 8)	       2.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Gilmarite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_(AsO_4_)(OH)_3_	Cu^2+^_3_(As^5+^O_4_)(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EJM21_817tbl02-00027	          
+
+
+Giraudite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+ 9	(12)	          	       1.0
+10	(13)	          	       0.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	  Co-00001	          
+
+
+Gladite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	TCM41_307-00035	          
+
+
+Glaukosphaerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuNiCO_3_(OH)_2_	Cu^2+^Ni^2+^CO_3_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EG105_1057_035	          
+
+
+Goldfieldite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002456	          
+
+
+Goldquarryite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuCd_2_Al_3_(PO_4_)_4_F_3_Â·10H_2_O	Cu^2+^Cd^2+^_2_Al_3_(PO_4_)_4_F_3_·10H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Gortdrumite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00018	          
+
+
+Goudeyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Al(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Al(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+30	( 8)	      16.0	      15.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Graemite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^Te^4+^O_3_Â·H_2_O	Cu^2+^Te^4+^O_3_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Grandviewite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Al_9_(SO_4_)_2_(OH)_29_	Cu^2+^_3_Al_9_(S^6+^O_4_)_2_(OH)_29_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Grigorievite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3Fe3+2Al2(V5+O4)6	Cu^2+^_3_Fe^3+^_2_Al_2_(V^5+^O_4_)_6_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Grundmannite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Gruzdevite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       4.0	       3.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00042	          
+
+
+Guanacoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Mg_3_(OH)_4_(AsO_4_)_2_Â·4H_2_O	Cu^2+^_2_Mg_3_(As^5+^O_4_)_2_(OH)_4_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00065	          
+
+
+Guildite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFe^3+^(SO_4_)_2_(OH)Â·4H_2_O	Cu^2+^Fe^3+^(S^6+^O_4_)_2_(OH)·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Hakite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Uranium Mine No. 16 (Shaft No. 16), Háje, Příbram, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic	Uranium Mine No. 16 (Shaft No. 16), Háje, P?íbram, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic
+36	(50)	  Cu-00008	          
+
+
+Hammarite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Emily000555	          
+
+
+Hansblockite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Hg)(Bi,Pb)Se2	(Cu,Hg)(Bi,Pb)Se_2_
+30	( 8)	          	       1.0
+ 8	(10)	          	       0.0
+
+
+Hatertite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na2(Ca,Na)(Fe3+,Cu2+)2(As5+O4)3	Na_2_(Ca,Na)(Fe^3+^,Cu^2+^)_2_(As^5+^O_4_)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Haycockite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Lubin, Lubin District, Legnica, Lower Silesia (Dolnośląskie), Poland	Lubin, Lubin District, Legnica, Lower Silesia (Dolno?l?skie), Poland
+36	(50)	sedcu-00548	          
+
+
+Haydeeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Mg(OH)_6_Cl_2_	Cu^2+^_3_Mg(OH)_6_Cl^1-^_2_
+ 6	( 7)	          	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Hemusite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	       1.0	       1,2
+30	( 8)	       7.0	       6.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00117	          
+
+
+Henmilite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu[B(OH)_4_]_2_(OH)_4_	Ca_2_Cu^2+^[B(OH)_4_]_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Henryite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       4.0	       3.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Hentschelite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFe^3+^_2_(PO_4_)_2_(OH)_2_	Cu^2+^Fe^3+^_2_(PO_4_)_2_(OH)_2_
+30	( 8)	      17.0	      16.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00009	          
+
+
+Herbertsmithite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Zn(OH)_6_Cl_2_	Cu^2+^_3_Zn^2+^(OH)_6_Cl_2_
+30	( 8)	      15.0	      14.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00066	          
+
+
+Hermannjahnite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Zn2+(S6+O4)2	Cu^2+^Zn^2+^(S^6+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Hermannroseite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu(PO_4_)(OH)	CaCu^2+^(PO_4_)(OH)
+ 6	( 7)	          	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Hlousekite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ni,Co)Cu_4_(AsO_4_)_2_(AsO_3_OH)_2_Â·9H_2_O	(Ni^2+^,Co^2+^)Cu^2+^_4_(As^5+^O_4_)_2_(As^5+^O_3_OH)_2_·9H_2_O
+30	( 8)	       1.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Hodgesmithite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu2+,Zn2+)6Zn2+(S6+O4)2(OH)10·3H2O	(Cu^2+^,Zn^2+^)_6_Zn^2+^(S^6+^O_4_)_2_(OH)_10_·3H_2_O
+30	( 8)	          	       1.0
+ 8	(10)	          	       0.0
+
+
+Hodrusite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      19.0	      21.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00005	          
+
+
+Hoganite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(CH_3_COO)_2_Â·H_2_O	Cu^2+^(CH_3_COO)_2_·H_2_O
+30	( 8)	       1.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Hongshiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	 (Pt,Fe)Cu	      PtCu
+30	( 8)	      16.0	      15.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	PR204_40-00001	          
+
+
+Housleyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_6_CuTe_4_O_18_(OH)_2_	Pb^2+^_6_Cu^2+^Te^6+^_4_O_18_(OH)_2_
+30	( 8)	       5.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Howardevansite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCu^2+^Fe^3+^_2_(VO_4_)_3_	NaCu^2+^Fe^3+^_2_(V^5+^O_4_)_3_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Hydrombobomkulite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ni,Cu)Al_4_(NO_3_)_2_(SO_4_)(OH)_12_Â·14H_2_O	(Ni^2+^,Cu^2+^)Al_4_(N^5+^O_3_)_2_(S^6+^O_4_)(OH)_12_·14H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002479	          
+
+
+Hydrowoodwardite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Al)_9_(SO_4_)_2_(OH)_18_Â·nH_2_O	(Cu^2+^_1-x_Al_x_)(S^6+^O_4_)_x/2_(OH)_2_·nH_2_O (x < 0.5, n > 3x/2)
+30	( 8)	      12.0	      11.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000555	          
+
+
+Idaite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+36	(50)	PorphCu-00048	          
+
+
+Ilinskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCu2+5O2(Se4+O3)2Cl3	NaCu^2+^_5_O_2_(Se^4+^O_3_)_2_Cl_3_
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Inaglyite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	GCA59_2071-00006	          
+
+
+Iranite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_10_Cu(CrO_4_)_6_(SiO_4_)_2_(OH)_2_	Pb^2+^_10_Cu^2+^(Cr^6+^O_4_)_6_(SiO_4_)_2_(OH)_2_
+30	( 8)	      11.0	      10.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00036	          
+
+
+Ishiharaite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kaitlynn000007	          
+
+
+Isocubanite
+Column v1	Column v2	Version 1	Version 2
+36	(50)	Kristen002456	          
+
+
+Itelmenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na4Mg3Cu2+3(S6+O4)8	Na_4_Mg_3_Cu^2+^_3_(S^6+^O_4_)_8_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Ivanyukite-Cu
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuTi_4_(SiO_4_)_3_O_2_(OH)_2_Â·7H_2_O	Cu^2+^Ti^4+^_4_(SiO_4_)_3_O_2_(OH)_2_·7H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kaitlynn000151	          
+
+
+Iyoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	MnCuCl(OH)_3_	Mn^2+^Cu^2+^Cl(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Izoklakeite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      20.0	      21.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00234	          
+
+
+Jacquesdietrichite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_BO(OH)_5_	Cu^2+^_2_BO(OH)_5_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Jagueite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00088	          
+
+
+Jalpaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD36_189-00001	          
+
+
+Jaskolskiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_x_Pb_2+x_(Sb,Bi)_2-x_S_5_  (x~0.2)	Cu_0.2_Pb_2.2_(Sb,Bi)_1.8_S_5_
+30	( 8)	      13.0	      12.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00234	          
+
+
+Jensenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_Te^6+^O_6_Â·2H_2_O	Cu^2+^_3_Te^6+^O_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00034	          
+
+
+Joanneumite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(C_3_N_3_O_3_H_2_)_2_(NH_3_)_2_	Cu(C_3_N_3_O_3_H_2_)_2_(N^3-^H_3_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Johannite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(UO_2_)_2_(SO_4_)_2_(OH)_2_Â·8H_2_O	Cu^2+^(U^6+^O_2_)_2_(S^6+^O_4_)_2_(OH)_2_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+33	(47)	Předbořice, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic	P?edbo?ice, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic
+36	(50)	JG54_1-00004	          
+
+
+Johillerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCu2+Mg3(As5+O4)3	NaCu^2+^Mg_3_(As^5+^O_4_)_3_
+30	( 8)	       4.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Joteite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_CuAl[AsO_4_][AsO_3_(OH)]_2_(OH)_2_Â·5H_2_O	Ca_2_Cu^2+^Al[As^5+^O_4_][As^5+^O_3_(OH)]_2_(OH)_2_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Juabite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu_10_(Te^4+^O_3_)_4_(AsO_4_)_4_(OH)_2_Â·4H_2_O	CaCu^2+^_10_(Te^4+^O_3_)_4_(As^5+^O_4_)_4_(OH)_2_·4H_2_O
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Juangodoyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na2Cu2+(CO3)2	Na_2_Cu^2+^(CO_3_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Juanitaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Ca,Fe)_10_Bi(AsO_4_)_4_(OH)_11_Â·2H_2_O	(Cu^2+^,Ca,Fe^2+^)_10_Bi^3+^(As^5+^O_4_)_4_(OH)_11_·2H_2_O
+30	( 8)	       4.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000120	          
+
+
+Junoite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      14.0	      12.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Kainotropite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+4Fe3+O2(V5+2O7)(V5+O4)	Cu^2+^_4_Fe^3+^O_2_(V^5+^_2_O_7_)(V^5+^O_4_)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Kaliochalcite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCu_2_(SO_4_)_2_(OH)Â·H_2_O	KCu^2+^_2_(S^6+^O_4_)_2_(OH)·H_2_O
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Kamchatkite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCu2+3O(S6+O4)2Cl	KCu^2+^_3_O(S^6+^O_4_)_2_Cl
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Kapellasite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Zn(OH)_6_Cl_2_	Cu^2+^_3_Zn^2+^(OH)_6_Cl^1-^_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Kesterite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Keutschite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Keyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_Zn_4_Cd_2_(AsO_4_)_6_Â·2H_2_O	Cu^2+^_3_Zn^2+^_4_Cd^2+^_2_(As^5+^O_4_)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Khaidarkanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_Al_3_(OH)_14_F_3_Â·2H_2_O	Cu^2+^_4_Al_3_(OH)_14_F_3_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PR51_265-00007	          
+
+
+Kharaelakhite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       2.0	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	GCA59_2071-00002	          
+
+
+Khatyrkite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+
+
+Khinite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_PbTe^6+^O_6_(OH)_2_	Cu^2+^_3_Pb^2+^Te^6+^O_6_(OH)_2_
+30	( 8)	      14.0	       6.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Kiddcreekite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       6.0	       8.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Kinoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu_2_Si_3_O_10_Â·2H_2_O	Ca_2_Cu^2+^_2_Si_3_O_10_·2H_2_O
+30	( 8)	      17.0	      14.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002199	          
+
+
+Kipushite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_(PO_4_)_2_(OH)_6_Â·H_2_O	Cu^2+^_6_(PO_4_)_2_(OH)_6_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Kitagohaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Klajite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	MnCu_4_(AsO_4_)_2_(AsO_3_OH)_2_Â·9H_2_O	Mn^2+^Cu^2+^_4_(As^5+^O_4_)_2_(As^5+^O_3_OH)_2_·9H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Klockmannite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Klyuchevskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K3Cu2+3Fe3+O2(S6+O4)4	K_3_Cu^2+^_3_Fe^3+^O_2_(S^6+^O_4_)_4_
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Kobellite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Kobyashevite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(SO_4_)_2_(OH)_6_Â·4H_2_O	Cu^2+^_5_(S^6+^O_4_)_2_(OH)_6_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Kolwezite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuCoCO_3_(OH)_2_	Cu^2+^Co^2+^CO_3_(OH)_2_
+30	( 8)	      10.0	       7.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00387	          
+
+
+Kolymite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       6.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	PorphCu-00154	          
+
+
+Konderite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Kostovite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      20.0	      19.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Koutekite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      16.0	      15.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Be-00016	          
+
+
+Kozyrevskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+4O(As5+O4)2	Cu^2+^_4_O(As^5+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Krohnkite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_Cu(SO_4_)_2_Â·2H_2_O	Na_2_Cu^2+^(S^6+^O_4_)_2_·2H_2_O
+30	( 8)	      22.0	      20.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002168	          
+
+
+Krupkaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00117	          
+
+
+Krutaite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+30	( 8)	       7.0	       8.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Ktenasite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Zn)_5_(SO_4_)_2_(OH)_6_Â·6H_2_O	(Cu^2+^,Zn^2+^)_5_(S^6+^O_4_)_2_(OH)_6_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Kunatite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFe^3+^_2_(PO_4_)_2_(OH)_2_Â·4H_2_O	Cu^2+^Fe^3+^_2_(P^5+^O_4_)_2_(OH)_2_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000016	          
+
+
+Kupcikite
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Kupčíkite	Kup?íkite
+30	( 8)	       6.0	       7.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	TCM41_307-00035	          
+
+
+Kuramite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	sedcu-00387	          
+
+
+Kusachiite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Kutinaite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       4.0	       5.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Emily000267	          
+
+
+Lammerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3(As5+O4)2	Cu^2+^_3_(As^5+^O_4_)_2_
+30	( 8)	       9.0	       6.0
+36	(50)	CGSN10_99-Tsumeb	          
+
+
+Lammerite-beta
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Lammerite-β	Lammerite-?
+ 4	( 3)	Cu2+3(As5+O4)2	Cu^2+^_3_(As^5+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+13	(16)	Lammerite-β	Lammerite-?
+36	(50)	  Mo-00047	          
+
+
+Langite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_SO_4_(OH)_6_Â·2H_2_O	Cu^2+^_4_S^6+^O_4_(OH)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Lapeyreite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_O[AsO_3_(OH)]_2_Â·H_2_O	Cu^2+^_3_O[As^5+^O_3_(OH)]_2_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00046	          
+
+
+Lapieite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       2.0	       3.0
+36	(50)	  Hg-00059	          
+
+
+Larosite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Launayite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Lautenthalite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCu_4_(SO_4_)_2_(OH)_6_Â·3H_2_O	Pb^2+^Cu^2+^_4_(S^6+^O_4_)_2_(OH)_6_·3H_2_O
+30	( 8)	      18.0	      17.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000248	          
+
+
+Lautite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	sedexmvt-00128	          
+
+
+Lavendulan
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCaCu_5_(AsO_4_)_4_ClÂ·5H_2_O	NaCaCu^2+^_5_(As^5+^O_4_)_4_Cl·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Lavinskyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K(LiCu)Cu_6_(Si_4_O_11_)_2_(OH)_4_	K(LiCu^2+^)Cu^2+^_6_(Si_4_O_11_)_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Leightonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_2_Ca_2_Cu(SO_4_)_4_Â·2H_2_O	K_2_Ca_2_Cu^2+^(S^6+^O_4_)_4_·2H_2_O
+30	( 8)	       7.0	       5.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Leisingite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuMg_2_Te^6+^O_6_Â·6H_2_O	Cu^2+^Mg_2_Te^6+^O_6_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Lemanskiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCaCu_5_(AsO_4_)_4_ClÂ·5H_2_O	NaCaCu^2+^_5_(As^5+^O_4_)_4_Cl·5H_2_O
+30	( 8)	       6.0	       5.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Lengenbachite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       4.0	       2.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Leningradite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb2+Cu2+3(V5+O4)2Cl1-2	Pb^2+^Cu^2+^_3_(V^5+^O_4_)_2_Cl^1-^_2_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Leogangite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_10_(AsO_4_)_4_SO_4_(OH)_6_Â·8H_2_O	Cu^2+^_10_(As^5+^O_4_)_4_S^6+^O_4_(OH)_6_·8H_2_O
+30	( 8)	      14.0	      10.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00106	          
+
+
+Leverettite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_CoCl_2_(OH)_6_	Cu^2+^_3_Co^2+^Cl_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	MM77_3047-00001	          
+
+
+Levyclaudite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Libethenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_PO_4_(OH)	Cu^2+^_2_P^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00358	          
+
+
+Liebauite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca3Cu2+5Si9O26	Ca_3_Cu^2+^_5_Si_9_O_26_
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       0.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Liguriaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K(LiCu)Cu_6_(Si_4_O_11_)_2_(OH)_4_	K(LiCu^2+^)Cu^2+^_6_(Si_4_O_11_)_2_(OH)_4_
+ 8	(10)	*Description not yet published	       0.0
+
+
+Likasite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_NO_3_(OH)_5_Â·2H_2_O	Cu^2+^_3_N^5+^O_3_(OH)_5_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Linarite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCuSO_4_(OH)_2_	Pb^2+^Cu^2+^S^6+^O_4_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EG97_873-00021	          
+
+
+Lindackerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(AsO_4_)_2_(AsO_3_OH)_2_Â·9H_2_O	Cu^2+^_5_(As^5+^O_4_)_2_(As^5+^O_3_OH)_2_·9H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Lindgrenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(Mo^6+^O_4_)_2_(OH)_2_	Cu^2+^_3_(Mo^6+^O_4_)_2_(OH)_2_
+30	( 8)	      20.0	      19.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00239	          
+
+
+Lindstromite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Liroconite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_AlAsO_4_(OH)_4_Â·4H_2_O	Cu^2+^_2_AlAs^5+^O_4_(OH)_4_·4H_2_O
+30	( 8)	      20.0	      18.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001399	          
+
+
+Lisiguangite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Litidionite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KNaCuSi_4_O_10_	KNaCu^2+^Si_4_O_10_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Luddenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Pb_2_Si_5_O_14_Â·14H_2_O	Cu^2+^_2_Pb^2+^_2_Si_5_O_14_·14H_2_O
+30	( 8)	       4.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Ludjibaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(PO_4_)_2_(OH)_4_	Cu^2+^_5_(P^5+^O_4_)_2_(OH)_4_
+30	( 8)	       9.0	      10.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Luetheite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Al_2_(AsO_4_)_2_(OH)_4_Â·H_2_O	Cu^2+^_2_Al_2_(As^5+^O_4_)_2_(OH)_4_·H_2_O
+30	( 8)	       4.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00271	          
+
+
+Lukrahnite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca(Cu,Zn)(Fe^3+^,Zn)(AsO_4_)_2_(OH,H_2_O)_2_	Ca(Cu^2+^,Zn^2+^)(Fe^3+^,Zn^2+^)(As^5+^O_4_)_2_(OH,H_2_O)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Luzonite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Lyonsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_Fe^3+^_4_(VO_4_)_6_	Cu^2+^_3_Fe^3+^_4_(V^5+^O_4_)_6_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Macquartite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Pb_7_(CrO_4_)_4_(SiO_4_)_2_(OH)_2_	Cu^2+^_2_Pb^2+^_7_(Cr^6+^O_4_)_4_(SiO_4_)_2_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Mahnertite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Na,Ca,K)Cu_3_(AsO_4_)_2_ClÂ·5H_2_O	(Na,Ca,K)Cu^2+^_3_(As^5+^O_4_)_2_Cl·5H_2_O
+30	( 8)	       2.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00426	          
+
+
+Maikainite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00038	          
+
+
+Makovickyite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Băiţa Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania	B?i?a Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania
+36	(50)	  Mo-00019	          
+
+
+Malachite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_CO_3_(OH)_2_	Cu^2+^_2_CO_3_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Malanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Pt3+2S2-4	Cu^2+^Pt^3+^_2_S^2-^_4_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002099	          
+
+
+Malyshevite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Cr-00008	          
+
+
+Mammothite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_6_Cu_4_AlSb^5+^O_2_(SO_4_)_2_Cl_4_(OH)_16_	Pb^2+^_6_Cu^2+^_4_AlSb^5+^O_2_(S^6+^O_4_)_2_Cl_4_(OH)_16_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Markascherite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_MoO_4_(OH)_4_	Cu^2+^_3_Mo^6+^O_4_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00244	          
+
+
+Marklite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+5(CO3)2(OH)6·6H2O	Cu^2+^_5_(CO_3_)_2_(OH)_6_·6H_2_O
+30	( 8)	          	       1.0
+ 8	(10)	          	       0.0
+
+
+Marshite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+30	( 8)	       9.0	      11.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Marthozite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^(UO_2_)_3_(Se^4+^O_3_)_2_O_2_Â·8H_2_O	Cu^2+^(UO_2_)_3_(Se^4+^O_3_)_2_O_2_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Mawsonite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Mbobomkulite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ni,Cu)Al_4_(NO_3_,SO_4_)_2_(OH)_12_Â·3H_2_O	(Ni^2+^,Cu^2+^)Al_4_(N^5+^O_3_,S^6+^O_4_)_2_(OH)_12_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002479	          
+
+
+Mcalpineite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Te^6+^O_6_	Cu^2+^_3_Te^6+^O_6_
+30	( 8)	       9.0	       8.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Mcbirneyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(VO_4_)_2_	Cu^2+^_3_(V^5+^O_4_)_2_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Mcconnellite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^1+^CrO_2_	Cu^1+^Cr^3+^O_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	CGSN10_99-Tsumeb	          
+
+
+Mcguinnessite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuMgCO_3_(OH)_2_	Cu^2+^MgCO_3_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002511	          
+
+
+Mckinstryite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Medenbachite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Bi_2_Fe^3+^Cu^2+^(AsO_4_)_2_O(OH)_3_	Bi^3+^_2_Fe^3+^Cu^2+^(As^5+^O_4_)_2_O(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002290	          
+
+
+Meerschautite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ag1+,Cu1+)6Pb2+43-2xSb3+44+2xS2-112Ox (x ~0.5)	(Ag^1+^,Cu^1+^)_6_Pb^2+^_43-2x_Sb^3+^_44+2x_S^2-^_112_O_x_ (x ~0.5)
+ 8	(10)	*Description not yet published	       0.0
+
+
+Melanarsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K3Cu2+7Fe3+O4(As5+O4)4	K_3_Cu^2+^_7_Fe^3+^O_4_(As^5+^O_4_)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Melanothallite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	 Cu2+2OCl2	Cu^2+^_2_OCl_2_
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Mendozavilite-NaCu
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00567	          
+
+
+Meneghinite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00234	          
+
+
+Metatorbernite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(UO_2_)_2_(PO_4_)_2_Â·8H_2_O	Cu^2+^(U^6+^O_2_)_2_(P^5+^O_4_)_2_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00756	          
+
+
+Metazeunerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(UO_2_)_2_(AsO_4_)_2_Â·8H_2_O	Cu^2+^(U^6+^O_2_)_2_(As^5+^O_4_)_2_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001399	          
+
+
+Mgriite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00001	          
+
+
+Middlebackite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+2C2O4(OH)2	Cu^2+^_2_C_2_O_4_(OH)_2_
+30	( 8)	          	       1.0
+ 8	(10)	          	       0.0
+
+
+Miersite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+30	( 8)	       9.0	       8.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Miharaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Millsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+Te4+O3·2H2O	Cu^2+^Te^4+^O_3_·2H_2_O
+30	( 8)	          	       1.0
+ 8	(10)	          	       0.0
+
+
+Minohlite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Zn)_7_(SO_4_)_2_(OH)_10_Â·8H_2_O	(Cu^2+^,Zn^2+^)_7_(S^6+^O_4_)_2_(OH)_10_·8H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Misakiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Mn(OH)_6_Cl_2_	Cu^2+^_3_Mn^2+^(OH)_6_Cl_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	GCA59_2071-00007	          
+
+
+Mitscherlichite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_2_CuCl_4_Â·2H_2_O	K_2_Cu^2+^Cl_4_·2H_2_O
+30	( 8)	       2.0	       3.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Mixite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Bi(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Bi^3+^(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001373	          
+
+
+Mohite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00117	          
+
+
+Mojaveite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_[Te^6+^O_4_(OH)_2_](OH)_7_Cl	Cu^2+^_6_[Te^6+^O_4_(OH)_2_](OH)_7_Cl^1-^
+30	( 8)	       5.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Molybdofornacite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPb_2_MoO_4_AsO_4_(OH)	Cu^2+^Pb^2+^_2_Mo^6+^O_4_As^5+^O_4_(OH)
+30	( 8)	      15.0	      17.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00038	          
+
+
+Montetrisaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_(SO_4_)(OH)_10_Â·2H_2_O	Cu^2+^_6_(S^6+^O_4_)(OH)_10_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Mooihoekite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      16.0	      13.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	JP35_1717-00001	          
+
+
+Moolooite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuC_2_O_4_Â·nH_2_O	Cu^2+^C_2_O_4_·nH_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00057	          
+
+
+Mottramite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCuVO_4_(OH)	Pb^2+^Cu^2+^V^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000079	          
+
+
+Mrazekite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Bi_2_Cu_3_(PO_4_)_2_O_2_(OH)_2_Â·2H_2_O	Bi^3+^_2_Cu^2+^_3_(P^5+^O_4_)_2_O_2_(OH)_2_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+14	(17)	      21.0	      84.0
+15	(18)	     3.249	      4.44
+16	(19)	    68.239	   372.955
+17	(20)	      0.74	     0.695
+18	(21)	    1992.0	    1994.0
+19	(22)	   71934.0	   79140.0
+36	(50)	Kristen002428	          
+
+
+Muckeite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Mummeite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002526	          
+
+
+Munakataite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu_2_(Se^4+^O_3_)SO_4_(OH)_4_	Pb^2+^_2_Cu^2+^_2_(Se^4+^O_3_)S^6+^O_4_(OH)_4_
+30	( 8)	      15.0	      12.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002300	          
+
+
+Murdochite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+12Pb4+2O15Cl2	Cu^2+^_12_Pb^4+^_2_O_15_Cl_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Murunskite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002515	          
+
+
+Mushistonite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002501	          
+
+
+Nabokoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+7Te4+O4(S6+O4)5·KCl1-	Cu^2+^_7_Te^4+^O_4_(S^6+^O_4_)_5_·KCl^1-^
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Nakauriite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_8_(SO_4_)_4_(CO_3_)(OH)_6_Â·48H_2_O	Cu^2+^_8_(S^6+^O_4_)_4_(CO_3_)(OH)_6_·48H_2_O
+30	( 8)	      12.0	      11.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00047	          
+
+
+Namibite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(BiO)_2_VO_4_(OH)	Cu^2+^(Bi^3+^O)_2_V^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00007	          
+
+
+Nantokite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00048	          
+
+
+Natrochalcite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCu_2_(SO_4_)_2_(OH)Â·H_2_O	NaCu^2+^_2_(S^6+^O_4_)_2_(OH)·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00180	          
+
+
+Nekrasovite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      11.0	       9.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00117	          
+
+
+Nevadaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu^2+^,[box],Al,V^3+^)_6_[Al_8_(PO_4_)_8_F_8_](OH)_2_Â·22H_2_O	(Cu^2+^,[box],Al,V^3+^)_6_[Al_8_(PO_4_)_8_F_8_](OH)_2_·22H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Neyite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      11.0	      13.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen000190	          
+
+
+Nickenichite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Na,Ca,Cu2+)1.6(Mg,Fe3+,Al)3(As5+O4)3	(Na,Ca,Cu^2+^)_1.6_(Mg,Fe^3+^,Al)_3_(As^5+^O_4_)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Nicksobolevite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+7(Se4+O3)2O2Cl1-6	Cu^2+^_7_(Se^4+^O_3_)_2_O_2_Cl^1-^_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Niedermayrite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_Cd(SO_4_)_2_(OH)_6_Â·4H_2_O	Cu^2+^_4_Cd^2+^(S^6+^O_4_)_2_(OH)_6_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Nielsenite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_028	          
+
+
+Nissonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Mg_2_(PO_4_)_2_(OH)_2_Â·5H_2_O	Cu^2+^_2_Mg_2_(P^5+^O_4_)_2_(OH)_2_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00007	          
+
+
+Nordstromite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	MD29_150_Berglagen	          
+
+
+Novakite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Černý Důl (Schwarzenthal), Krkonoše Mtn (Riesengebirge), Hradec Králové Region, Bohemia (Böhmen; Boehmen), Czech Republic	?erný D?l (Schwarzenthal), Krkonoše Mtn (Riesengebirge), Hradec Králové Region, Bohemia (Böhmen; Boehmen), Czech Republic
+36	(50)	IAEA-CN-128_Sulovsky_0005	          
+
+
+Nowackiite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002524	          
+
+
+Nuffieldite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_1.4_Pb_2.4_Bi_2.4_Sb_0.2_S_7_	Pb_2_Cu_1.4_(Pb_0.4_Bi_0.4_Sb_0.2_)Bi_2_S_7_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00234	          
+
+
+Nukundamite
+Column v1	Column v2	Version 1	Version 2
+12	(15)	          	       0.0
+36	(50)	  Hg-00102	          
+
+
+Numanoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_4_CuB_4_O_6_(CO_3_)_2_(OH)_6_	Ca_4_Cu^2+^B_4_O_6_(CO_3_)_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Obradovicite-KCu
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	[K_2_(H_2_O)_17_Cu^2+^(H_2_O)_6_][Mo^6+^_8_As_2_Fe^3+^_3_O_34_(OH)_3_]	[K_2_(H_2_O)_17_Cu^2+^(H_2_O)_6_][Mo^6+^_8_As^5+^_2_Fe^3+^_3_O_34_(OH)_3_]
+30	( 8)	       1.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00007	          
+
+
+Obradovicite-NaCu
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	[Na_2_(H_2_O)_17_Cu^2+^(H_2_O)_6_][Mo^6+^_8_As_2_Fe^3+^_3_O_34_(OH)_3_]	[Na_2_(H_2_O)_17_Cu^2+^(H_2_O)_6_][Mo^6+^_8_As^5+^_2_Fe^3+^_3_O_34_(OH)_3_]
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00007	          
+
+
+Olivenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_AsO_4_(OH)	Cu^2+^_2_As^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Omsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ni,Cu)_2_Fe^3+^(OH)_6_[Sb(OH)_6_]	(Ni^2+^,Cu^2+^)_2_Fe^3+^(OH)_6_[Sb^5+^(OH)_6_]
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Ondrusite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu_4_(AsO_4_)_2_(AsO_3_OH)_2_Â·10H_2_O	CaCu^2+^_4_(As^5+^O_4_)_2_(As^5+^O_3_OH)_2_·10H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Oosterboschite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       4.0	       5.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00048	          
+
+
+Orickite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFeS_2_Â·nH_2_O	CuFeS_2_·nH_2_O
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002524	          
+
+
+Orthoserpierite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu_4_(SO_4_)_2_(OH)_6_Â·3H_2_O	CaCu^2+^_4_(S^6+^O_4_)_2_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001399	          
+
+
+Osarizawaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPbAl_2_(SO_4_)_2_(OH)_6_	Cu^2+^Pb^2+^Al_2_(S^6+^O_4_)_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	EG97_873-00021	          
+
+
+Oulankaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00064	          
+
+
+Ovamboite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Owensite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Be-00008	          
+
+
+Paarite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Paceite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu(CH3COO)2·6H2O	CaCu(CH_3_COO)_2_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Paderaite
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Padĕraite	 Pad?raite
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Băiţa Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania	B?i?a Mining District (Baita Bihor; Rézbánya), Nucet, Bihor Co., Romania
+36	(50)	  Mo-00019	          
+
+
+Palladinite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Pd2+,Cu2+)O	(Pd^2+^,Cu^2+^)O
+ 8	(10)	  *No data	       0.0
+36	(50)	PR204_40-00001	          
+
+
+Papagoite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCuAlSi_2_O_6_(OH)_3_	CaCu^2+^AlSi_2_O_6_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00011	          
+
+
+Parageorgbokiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+5O2(Se4+O3)2Cl2	Cu^2+^_5_O_2_(Se^4+^O_3_)_2_Cl_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Paramelaconite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	       1.0	       1,2
+30	( 8)	      10.0	       9.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002299	          
+
+
+Paratacamite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_(Cu,Zn)(OH)_6_Cl_2_	Cu^2+^_3_(Cu^2+^,Zn^2+^)(OH)_6_Cl^1-^_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00054	          
+
+
+Paratacamite-(Mg)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(Mg,Cu)Cl_2_(OH)_6_	Cu^2+^_3_(Mg,Cu^2+^)Cl_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Paratacamite-(Ni)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(Ni,Cu)Cl_2_(OH)_6_	Cu^2+^_3_(Ni^2+^,Cu^2+^)Cl_2_(OH)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Paratimroseite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCu_2_(TeO_6_)Â·H_2_O	Pb^2+^Cu^2+^_2_(Te^6+^O_6_)·H_2_O
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Paratooite-(La)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(La3+,Ca,Na,Sr)6Cu2+(CO3)8	(La^3+^,Ca,Na,Sr)_6_Cu^2+^(CO_3_)_8_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Parawulffite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K5Na3Cu2+8(S6+O4)8O4	K_5_Na_3_Cu^2+^_8_(S^6+^O_4_)_8_O_4_
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Parnauite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_9_(AsO_4_)_2_(SO_4_)(OH)_10_Â·7H_2_O	Cu^2+^_9_(As^5+^O_4_)_2_(S^6+^O_4_)(OH)_10_·7H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00065	          
+
+
+Pauladamsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_(SeO_3_)(SO_4_)(OH)_4_Â·2H_2_O	Cu^2+^_4_(Se^4+^O_3_)(S^6+^O_4_)(OH)_4_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Paxite
+Column v1	Column v2	Version 1	Version 2
+12	(15)	          	       0.0
+36	(50)	  Mo-00057	          
+
+
+Pearceite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Pekoite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00117	          
+
+
+Pellouxite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00019	          
+
+
+Penzhinite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Permingeatite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       5.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Uranium Mine No. 11A (Shaft No. 11A), Bytíz, Příbram, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic	Uranium Mine No. 11A (Shaft No. 11A), Bytíz, P?íbram, Central Bohemia Region, Bohemia (Böhmen; Boehmen), Czech Republic
+36	(50)	  Cu-00008	          
+
+
+Petersite-(Ce)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_Ce(PO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Ce^3+^(PO_4_)_3_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Petersite-(Y)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Y(PO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_Y(PO_4_)_3_(OH)_6_·3H_2_O
+ 8	(10)	      12,7	      7,12
+ 9	(12)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen000114	          
+
+
+Petrovicite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Petrukite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+2Fe2+SnS4	Cu^1+^_2_Fe^2+^SnS_4_
+30	( 8)	       9.0	       8.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen000289	          
+
+
+Philipsburgite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Zn)_6_(AsO_4_,PO_4_)_2_(OH)_6_Â·H_2_O	(Cu^2+^,Zn^2+^)_6_(As^5+^O_4_,PO_4_)_2_(OH)_6_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Philoxenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(K,Na,Pb)4(Na,Ca)2(Mg,Cu)3(Fe3+0.5Al0.5)(SO4)8	(K,Na,Pb)_4_(Na,Ca)_2_(Mg,Cu)_3_(Fe^3+^_0.5_Al_0.5_)(SO_4_)_8_
+30	( 8)	          	       1.0
+
+
+Phosphogartrellite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCuFe^3+^(PO_4_)_2_(OH,H_2_O)_2_	Pb^2+^Cu^2+^Fe^3+^(P^5+^O_4_)_2_(OH,H_2_O)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Piypite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K4Cu2+4O2(S6+O4)4·(Na,Cu1+)Cl	K_4_Cu^2+^_4_O_2_(S^6+^O_4_)_4_·(Na,Cu^1+^)Cl
+ 6	( 7)	       2.0	       1,2
+30	( 8)	       5.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Pizgrischite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Plancheite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_8_(Si_4_O_11_)_2_(OH)_4_Â·H_2_O	Cu^2+^_8_(Si_4_O_11_)_2_(OH)_4_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00268	          
+
+
+Plumboagardite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_(Pb,La,Nd,Ce,Ca)(AsO_4_)_3_(OH)_6_Â·3H_2_O	Cu^2+^_6_(Pb^2+^,La^3+^,Nd^3+^,Ce^3+^,Ca)(As^5+^O_4_)_3_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00001	          
+
+
+Poitevinite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuSO_4_Â·H_2_O	Cu^2+^SO_4_·H_2_O
+30	( 8)	       6.0	      11.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Polybasite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00234	          
+
+
+Ponomarevite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K4Cu2+4OCl10	K_4_Cu^2+^_4_OCl_10_
+30	( 8)	       3.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Popovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+5O2(As5+O4)2	Cu^2+^_5_O_2_(As^5+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Posnjakite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_SO_4_(OH)_6_Â·H_2_O	Cu^2+^_4_S^6+^O_4_(OH)_6_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Pradetite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CoCu_4_(AsO_4_)_2_(AsO_3_OH)_2_Â·9H_2_O	Co^2+^Cu^2+^_4_(As^5+^O_4_)_2_(As^5+^O_3_OH)_2_·9H_2_O
+30	( 8)	       2.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Prewittite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KPb2+1.5Zn2+Cu2+6O2(Se4+O3)2Cl1-10	KPb^2+^_1.5_Zn^2+^Cu^2+^_6_O_2_(Se^4+^O_3_)_2_Cl^1-^_10_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Proudite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       3.0	       4.0
+ 9	(12)	          	       1.0
+10	(13)	          	       0.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+
+
+Pseudoboleite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_31_Cu_24_Cl_62_(OH)_48_	Pb^2+^_31_Cu^2+^_24_Cl_62_(OH)_48_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Pseudojohannite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(UO_2_)_4_O_4_(SO_4_)_2_(OH)_2_Â·12H_2_O	Cu^2+^_3_(U^6+^O_2_)_4_O_4_(S^6+^O_4_)_2_(OH)_2_·12H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Pseudolyonsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(VO_4_)_2_	Cu^2+^_3_(V^5+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Pseudomalachite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(PO_4_)_2_(OH)_4_	Cu^2+^_5_(P^5+^O_4_)_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Puninite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_Cu_3_O(SO_4_)_3_	Na_2_Cu^2+^_3_O(S^6+^O_4_)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Pushcharovskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_0.6_Cu_18_[AsO_2_(OH)_2_]_4_[AsO_3_OH]_10_(AsO_4_)(OH)_9.6_Â·18.6H_2_O	K_0.6_Cu^2+^_18_[As^5+^O_2_(OH)_2_]_4_[As^5+^O_3_OH]_10_(As^5+^O_4_)(OH)_9.6_·18.6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Putoranite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       3.0	       2.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	GCA59_2071-00002	          
+
+
+Putzite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kaitlynn000007	          
+
+
+Quetzalcoatlite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_Zn_6_Te^6+^_2_O_12_(OH)_6_Â·(Ag,Pb,[box])Cl	Cu^2+^_3_Zn^2+^_6_Te^6+^_2_O_12_(OH)_6_·(Ag^1+^,Pb^2+^,[box])Cl^1-^
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00180	          
+
+
+Radovanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Fe^3+^(AsO_4_)(AsO_2_(OH))_2_Â·H_2_O	Cu^2+^_2_Fe^3+^(As^3+^O_2_OH)_2_(As^5+^O_4_)·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00046	          
+
+
+Raisaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuMg[Te^6+^O_4_(OH)_2_]Â·6H_2_O	Cu^2+^Mg[Te^6+^O_4_(OH)_2_]·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Rajite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuTe^4+^_2_O_5_	Cu^2+^Te^4+^_2_O_5_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00118	          
+
+
+Ramsbeckite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_15_(SO_4_)_4_(OH)_22_Â·6H_2_O	Cu^2+^_15_(S^6+^O_4_)_4_(OH)_22_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002444	          
+
+
+Ransomite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuFe^3+^_2_(SO_4_)_4_Â·6H_2_O	Cu^2+^Fe^3+^_2_(S^6+^O_4_)_4_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Redgillite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_SO_4_(OH)_10_Â·H_2_O	Cu^2+^_6_S^6+^O_4_(OH)_10_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000555	          
+
+
+Reichenbachite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(PO_4_)_2_(OH)_4_	Cu^2+^_5_(P^5+^O_4_)_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-01011	          
+
+
+Renierite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu1+,Zn)11Fe4(Ge4+,As5+)2S16	(Cu^1+^,Zn)_11_Fe_4_(Ge^4+^,As^5+^)_2_S_16_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00047	          
+
+
+Rhodostannite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Richelsdorfite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu_5_Sb^5+^(AsO_4_)_4_(OH)_6_ClÂ·6H_2_O	Ca_2_Cu^2+^_5_Sb^5+^(As^5+^O_4_)_4_(OH)_6_Cl·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00106	          
+
+
+Rickardite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3-x_Te_2_	Cu_2.64-3.00_Te_2_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EG105_1057_029	          
+
+
+Rohaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Be-00043	          
+
+
+Rollandite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(AsO_4_)_2_Â·4H_2_O	Cu^2+^_3_(As^5+^O_4_)_2_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00046	          
+
+
+Romanorlovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_8_Cu_6_Cl_17_(OH)_3_	K_8_Cu^2+^_6_Cl_17_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Roquesite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Rosasite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuZnCO_3_(OH)_2_	Cu^2+^Zn^2+^CO_3_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000079	          
+
+
+Roshchinite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Rosieresite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbxCuyAlz(PO4)m·nH2O	Pb_x_Cu_y_Al_z_(PO_4_)_m_·nH_2_O
+ 6	( 7)	          	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Rouaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_NO_3_(OH)_3_	Cu^2+^_2_N^5+^O_3_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Roubaultite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_O_2_(UO_2_)_3_(CO_3_)_2_(OH)_2_Â·4H_2_O	Cu^2+^_2_O_2_(U^6+^O_2_)_3_(CO_3_)_2_(OH)_2_·4H_2_O
+30	( 8)	       3.0	       4.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Routhierite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       7.0	       6.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00007	          
+
+
+Rouxelite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Magurka, Partizánska Lupča, Liptovský Mikuláš Co., Žilina Region, Slovakia	Magurka, Partizánska Lup?a, Liptovský Mikuláš Co., Žilina Region, Slovakia
+36	(50)	  Hg-00012	          
+
+
+Roxbyite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	DeepDive-Co-0023	          
+
+
+Rruffite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu(AsO_4_)_2_Â·2H_2_O	Ca_2_Cu^2+^(As^5+^O_4_)_2_·2H_2_O
+30	( 8)	       4.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Sabatierite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Bukov Mine, Rožná Deposit, Žďár Nad Sázavou, Vysočina Region, Moravia (Mähren; Maehren), Czech Republic	Bukov Mine, Rožná Deposit, Ž?ár Nad Sázavou, Vyso?ina Region, Moravia (Mähren; Maehren), Czech Republic
+36	(50)	  Hg-00084	          
+
+
+Sabelliite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_ZnAsO_4_(OH)_3_	Cu^2+^_2_Zn^2+^As^5+^O_4_(OH)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Sakuraiite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen001940	          
+
+
+Salesite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(IO_3_)(OH)	Cu^2+^(I^5+^O_3_)(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00002	          
+
+
+Salzburgite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Samaniite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       1.0	       2.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Sampleite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	NaCaCu_5_(PO_4_)_4_ClÂ·5H_2_O	NaCaCu^2+^_5_(P^5+^O_4_)_4_Cl·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002479	          
+
+
+Sanguite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Santarosaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuB_2_O_4_	Cu^2+^B_2_O_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Saranchinaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_Cu(SO_4_)_2_	Na_2_Cu^2+^(S^6+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Sarrabusite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_5_Cu(SeO_3_)_4_Cl_4_	Pb^2+^_5_Cu^2+^(Se^4+^O_3_)_4_Cl_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Schlemaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Co-00001	          
+
+
+Schmiederite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Pb_2_(Se^4+^O_3_)(Se^6+^O_4_)(OH)_4_	Cu^2+^_2_Pb^2+^_2_(Se^4+^O_3_)(Se^6+^O_4_)(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Schuilingite-(Nd)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPbNd(CO_3_)_3_(OH)Â·1.5H_2_O	Cu^2+^Pb^2+^Nd^3+^(CO_3_)_3_(OH)·1.5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00394	          
+
+
+Schulenbergite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Zn)_7_(SO_4_)_2_(OH)_10_Â·3H_2_O	(Cu^2+^,Zn^2+^)_7_(S^6+^O_4_)_2_(OH)_10_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002300	          
+
+
+Scottyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	BaCu_2_Si_2_O_7_	BaCu^2+^_2_Si_2_O_7_
+30	( 8)	       4.0	       5.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00059	          
+
+
+Selenojalpaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Selenopolybasite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       3.0	       5.0
+36	(50)	EG98_1029_tbl_1_014	          
+
+
+Seligmannite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Emily000215	          
+
+
+Sengierite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_(UO_2_)_2_(VO_4_)_2_(OH)_2_Â·6H_2_O	Cu^2+^_2_(U^6+^O_2_)_2_(V^5+^O_4_)_2_(OH)_2_·6H_2_O
+30	( 8)	      11.0	      12.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Serpierite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca(Cu,Zn)_4_(SO_4_)_2_(OH)_6_Â·3H_2_O	Ca(Cu^2+^,Zn^2+^)_4_(S^6+^O_4_)_2_(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002511	          
+
+
+Shadlunite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       3.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	GCA59_2071-00002	          
+
+
+Shattuckite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_(SiO_3_)_4_(OH)_2_	Cu^2+^_5_(SiO_3_)_4_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00391	          
+
+
+Shchurovskyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_2_CaCu_6_O_2_(AsO_4_)_4_	K_2_CaCu^2+^_6_O_2_(As^5+^O_4_)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Shilovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(NH_3_)_4_(NO_3_)_2_	Cu^2+^(N^3-^H_3_)_4_(N^5+^O_3_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Shubnikovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu^2+^_8_(AsO_4_)_6_Cl(OH)Â·7H_2_O(?)	Ca_2_Cu^2+^_8_(As^5+^O_4_)_6_Cl(OH)·7H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00067	          
+
+
+Siderotil
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Fe,Cu)SO_4_Â·5H_2_O	(Fe^2+^,Cu^2+^)S^6+^O_4_·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00261	          
+
+
+Sieleckiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Al_4_(PO_4_)_2_(OH)_12_Â·2H_2_O	Cu^2+^_3_Al_4_(P^5+^O_4_)_2_(OH)_12_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00021	          
+
+
+Sinnerite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Skaergaardite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Skinnerite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       9.0	      11.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	EJM21_817tbl02-00027	          
+
+
+Slavkovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_13_(AsO_4_)_6_(AsO_3_OH)_4_Â·23H_2_O	Cu^2+^_13_(As^5+^O_4_)_6_(As^5+^O_3_OH)_4_·23H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00009	          
+
+
+Sorbyite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       5.0	       4.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00043	          
+
+
+Sorosite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_1+x_(Sn,Sb)	Cu_1.1-1.2_(Sn,Sb)
+ 8	(10)	     61,12	     12,61
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Soucekite
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Součekite	 Sou?ekite
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+13	(16)	Součekite	 Sou?ekite
+36	(50)	Kristen002013	          
+
+
+Spaltiite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Spangolite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_6_AlSO_4_(OH)_12_ClÂ·3H_2_O	Cu^2+^_6_AlS^6+^O_4_(OH)_12_Cl·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002300	          
+
+
+Spertiniite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	 Cu(OH)_2_	Cu^2+^(OH)_2_
+30	( 8)	      17.0	      16.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00357	          
+
+
+Spionkopite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Mo-N382_703-0001	          
+
+
+Stalderite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Stannite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	TCM41_307-00035	          
+
+
+Stannoidite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu1+8Fe3+2(Fe2+,Zn2+)Sn4+2S2-12	Cu^1+^_8_Fe^3+^_2_(Fe^2+^,Zn^2+^)Sn^4+^_2_S^2-^_12_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Starovaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	KCu_5_O(VO_4_)_3_	KCu^2+^_5_O(V^5+^O_4_)_3_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Stavelotite-(La)
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Sterryite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Steverustite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb^2+^_5_Cu^1+^(S^6+^O_3_S^2-^)_3_(OH)_5_Â·2H_2_O	Pb^2+^_5_Cu^1+^(S^6+^O_3_S^2-^)_3_(OH)_5_·2H_2_O
+30	( 8)	      15.0	      13.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Stibiocolusite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00155	          
+
+
+Stoiberite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_O_2_(VO_4_)_2_	Cu^2+^_5_O_2_(V^5+^O_4_)_2_
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+
+
+Stranskiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuZn_2_(AsO_4_)_2_	Cu^2+^Zn^2+^_2_(As^5+^O_4_)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00024	          
+
+
+Strashimirite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_(AsO_4_)_2_(OH)_2_Â·2.5H_2_O	Cu^2+^_4_(As^5+^O_4_)_2_(OH)_2_·2.5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00106	          
+
+
+Stringhamite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCuSiO_4_Â·H_2_O	CaCu^2+^SiO_4_·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00055	          
+
+
+Stromeyerite
+Column v1	Column v2	Version 1	Version 2
+12	(15)	          	       0.0
+36	(50)	Kristen002296	          
+
+
+Sugakiite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	GCA59_2071-00007	          
+
+
+Sulvanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+3V3+S2-4	Cu^2+^_3_V^3+^S^2-^_4_
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	sedcu-00387	          
+
+
+Szenicsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_MoO_4_(OH)_4_	Cu^2+^_3_Mo^6+^O_4_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00280	          
+
+
+Taimyrite-I
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       9.0	       8.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00064	          
+
+
+Talnakhite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	JP35_1717-00001	          
+
+
+Tangdanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu_9_(AsO_4_)_4_(SO_4_)_0.5_(OH)_9_Â·9H_2_O	Ca_2_Cu^2+^_9_(As^5+^O_4_)_4_(S^6+^O_4_)_0.5_(OH)_9_·9H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00362	          
+
+
+Tangeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCuVO_4_(OH)	CaCu^2+^V^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00057	          
+
+
+Tarkianite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Mo-00059	          
+
+
+Tatyanaite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00085	          
+
+
+Teineite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^Te^4+^O_3_Â·2H_2_O	Cu^2+^Te^4+^O_3_·2H_2_O
+30	( 8)	      11.0	      13.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Tennantite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002296	          
+
+
+Tenorite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	       CuO	   Cu^2+^O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	PorphCu-00291	          
+
+
+Tetra-auricupride
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      20.0	      21.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	PR204_40-00001	          
+
+
+Tetrahedrite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       1.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002030	          
+
+
+Thalcusite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen002515	          
+
+
+Theisite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_Zn_5_As_2_O_8_(OH)_14_	Cu^2+^_5_Zn^2+^_5_As^5+^_2_O_8_(OH)_14_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00106	          
+
+
+Theoparacelsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_(OH)_2_As_2_O_7_	Cu^2+^_3_(OH)_2_As^5+^_2_O_7_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00046	          
+
+
+Thometzekite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCu^2+^_2_(AsO_4_)_2_Â·2H_2_O	Pb^2+^Cu^2+^_2_(As^5+^O_4_)_2_·2H_2_O
+30	( 8)	       9.0	      10.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001373	          
+
+
+Timroseite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu_5_(TeO_6_)_2_(OH)_2_	Pb^2+^_2_Cu^2+^_5_(Te^6+^O_6_)_2_(OH)_2_
+30	( 8)	       8.0	       4.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Tintinaite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	      20.0	      22.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+33	(47)	Straková, Betliar (Betler; Betlér), Rožňava Co., Košice Region, Slovakia	Straková, Betliar (Betler; Betlér), Rož?ava Co., Košice Region, Slovakia
+36	(50)	Emily000545	          
+
+
+Tlalocite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_10_Zn_6_(Te^4+^O_3_)(Te^6+^O_4_)_2_Cl(OH)_25_Â·27H_2_O	Cu^2+^_10_Zn^2+^_6_(Te^4+^O_3_)(Te^6+^O_4_)_2_Cl^1-^(OH)_25_·27H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00034	          
+
+
+Tlapallite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	H_6_(Ca,Pb)_2_(Cu,Zn)_3_O_2_SO_4_(Te^4+^O_3_)_4_(Te^6+^O_4_)	H_6_Ca_2_Cu^2+^_3_S^6+^O_4_(Te^4+^O_3_)_4_(Te^6+^O_6_)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00180	          
+
+
+Tolbachite
+Column v1	Column v2	Version 1	Version 2
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	UBCMDRUSP2_1_Bisbee01	          
+
+
+Tondiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_MgCl_2_(OH)_6_	Cu^2+^_3_MgCl_2_(OH)_6_
+30	( 8)	       3.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Torbernite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(UO_2_)_2_(PO_4_)_2_Â·12H_2_O	Cu^2+^(U^6+^O_2_)_2_(PO_4_)_2_·12H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002511	          
+
+
+Trippkeite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00046	          
+
+
+Tschortnerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_4_(K,Ca,Sr,Ba)_3_Cu_3_Al_12_Si_12_O_48_(OH)_8_Â·20H_2_O	Ca_4_(K,Ca,Sr,Ba)_3_Cu^2+^_3_Al_12_Si_12_O_48_(OH)_8_·20H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Be-00008	          
+
+
+Tsumebite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_2_Cu(PO_4_)(SO_4_)(OH)	Pb^2+^_2_Cu^2+^(P^5+^O_4_)(S^6+^O_4_)(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Tulameenite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	JP35_1717-00001	          
+
+
+Turanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_5_(VO_4_)_2_(OH)_4_	Cu^2+^_5_(V^5+^O_4_)_2_(OH)_4_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001379	          
+
+
+Turquoise
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuAl_6_(PO_4_)_4_(OH)_8_Â·4H_2_O	Cu^2+^Al_6_(P^5+^O_4_)_4_(OH)_8_·4H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002505	          
+
+
+Tyrolite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu_9_(AsO_4_)_4_(CO_3_)(OH)_8_Â·11H_2_O	Ca_2_Cu^2+^_9_(As^5+^O_4_)_4_(CO_3_)(OH)_8_·11H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00362	          
+
+
+Tyrrellite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2+(Co3+,Ni3+)2Se2-4	Cu^2+^(Co^3+^,Ni^3+^)_2_Se^2-^_4_
+30	( 8)	      13.0	      10.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00086	          
+
+
+Ulrichite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CaCu(UO_2_)(PO_4_)_2_Â·4H_2_O	CaCu^2+^(U^6+^O_2_)(P^5+^O_4_)_2_·4H_2_O
+ 9	(12)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	Kristen000016	          
+
+
+Umangite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00117	          
+
+
+Urusovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuAlO(AsO_4_)	Cu^2+^AlO(As^5+^O_4_)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Utahite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_5_Zn_3_(TeO_4_)_4_(OH)_8_Â·7H_2_O	Cu^2+^_5_Zn^2+^_3_(Te^6+^O_4_)_4_(OH)_8_·7H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00180	          
+
+
+Valleriite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	2[(Fe,Cu)S]·1.53[(Mg,Al)(OH)2]	2[(Fe,Cu)S]·1.53[(Mg,Al)(OH)_2_]
+ 9	(12)	          	       0.0
+12	(15)	          	       0.0
+14	(17)	      26.0	       4.0
+15	(18)	     2.624	       1.0
+16	(19)	    68.211	       4.0
+17	(20)	     0.558	       0.5
+18	(21)	    1939.0	    1968.0
+19	(22)	   15973.0	   22307.0
+36	(50)	Kristen002030	          
+
+
+Vandenbrandeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuUO_2_(OH)_4_	Cu^2+^U^6+^O_2_(OH)_4_
+ 6	( 7)	          	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Vasilite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00085	          
+
+
+Vasilseverginite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_9_O_4_(AsO_4_)_2_(SO_4_)_2_	Cu^2+^_9_O_4_(As^5+^O_4_)_2_(S^6+^O_4_)_2_
+30	( 8)	       0.0	       1.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Vauquelinite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuPb_2_(CrO_4_)(PO_4_)(OH)	Cu^2+^Pb^2+^_2_(Cr^6+^O_4_)(P^5+^O_4_)(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	 vms-00061	          
+
+
+Velikite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00042	          
+
+
+Vergasovaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_O(MoO_4_)(SO_4_)	Cu^2+^_3_O(Mo^6+^O_4_)(S^6+^O_4_)
+30	( 8)	       2.0	       1.0
+ 9	(12)	          	       1.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00126	          
+
+
+Veselovskyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	ZnCu_4_(AsO_4_)_2_(AsO_3_OH)_2_Â·9H_2_O	Zn^2+^Cu^2+^_4_(As^5+^O_4_)_2_(As^5+^O_3_OH)_2_·9H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Vesignieite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Ba(VO_4_)_2_(OH)_2_	Cu^2+^_3_Ba(V^5+^O_4_)_2_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002307	          
+
+
+Veszelyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_3_PO_4_(OH)_3_Â·2H_2_O	Cu^2+^_3_PO_4_(OH)_3_·2H_2_O
+30	( 8)	      20.0	      22.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Villamaninite
+Column v1	Column v2	Version 1	Version 2
+ 6	( 7)	          	       2.0
+30	( 8)	       9.0	      10.0
+11	(14)	          	       0.0
+36	(50)	  Co-00062	          
+
+
+Vinciennite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00253	          
+
+
+Voglite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_2_Cu(UO_2_)(CO_3_)_4_Â·6H_2_O	Ca_2_Cu^2+^(U^6+^O_2_)(CO_3_)_4_·6H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen002438	          
+
+
+Volborthite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_V_2_O_7_(OH)_2_Â·2H_2_O	Cu^2+^_3_V^5+^_2_O_7_(OH)_2_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Cr-00008	          
+
+
+Vonbezingite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Ca_6_Cu_3_(SO_4_)_3_(OH)_12_Â·2H_2_O	Ca_6_Cu^2+^_3_(S^6+^O_4_)_3_(OH)_12_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Vulcanite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00844	          
+
+
+Wallisite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00030	          
+
+
+Wallkilldellite-(Fe)
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ca,Cu)_4_Fe_6_(AsO_4_,SiO_4_)_4_(OH)_8_Â·18H_2_O	(Ca,Cu^2+^)_4_Fe^2+^_6_(As^5+^O_4_,SiO_4_)_4_(OH)_8_·18H_2_O
+30	( 8)	       4.0	       3.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	sedcu-00422	          
+
+
+Watanabeite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+
+
+Watkinsonite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       1.0
+10	(13)	          	       0.0
+11	(14)	          	       1.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00003	          
+
+
+Weissite
+Column v1	Column v2	Version 1	Version 2
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	  Hg-00053	          
+
+
+Wesselsite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	SrCuSi_4_O_10_	SrCu^2+^Si_4_O_10_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Wheatleyite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_Cu(C_2_O_4_)_2_Â·2H_2_O	Na_2_Cu^2+^(C_2_O_4_)_2_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Whelanite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_Ca_6_[Si_6_O_17_(OH)](CO_3_)(OH)_3_Â·2H_2_O	Cu^2+^_2_Ca_6_[Si_6_O_17_(OH)](CO_3_)(OH)_3_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00055	          
+
+
+Wherryite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Pb_7_Cu_2_(SO_4_)_4_(SiO_4_)_2_(OH)_2_	Pb^2+^_7_Cu^2+^_2_(S^6+^O_4_)_4_(SiO_4_)_2_(OH)_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Wilhelmramsayite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_FeS_3_Â·2H_2_O	Cu_3_FeS_3_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kaitlynn000151	          
+
+
+Wittichenite
+Column v1	Column v2	Version 1	Version 2
+12	(15)	          	       0.0
+36	(50)	  Co-00114	          
+
+
+Woodwardite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu,Al)_9_(SO_4_)_2_(OH)_18_Â·nH_2_O	(Cu^2+^,Al)_9_(S^6+^O_4_)_2_(OH)_18_·nH_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00039	          
+
+
+Wooldridgeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_2_CaCu^2+^_2_(P_2_O_7_)_2_Â·10H_2_O	Na_2_CaCu^2+^_2_(P_2_O_7_)_2_·10H_2_O
+30	( 8)	       1.0	       2.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+
+
+Wroewolfeite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_4_SO_4_(OH)_6_Â·2H_2_O	Cu^2+^_4_S^6+^O_4_(OH)_6_·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00005	          
+
+
+Wulffite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	K_3_NaCu_4_(SO_4_)_4_O_2_	K_3_NaCu^2+^_4_(S^6+^O_4_)_4_O_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Xingzhongite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Cu2+,Pb2+,Fe2+)Ir3+2S2-4	(Cu^2+^,Pb^2+^,Fe^2+^)Ir^3+^_2_S^2-^_4_
+30	( 8)	       5.0	       4.0
+10	(13)	          	       0.0
+12	(15)	          	       0.0
+36	(50)	 vms-00398	          
+
+
+Xocomecatlite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_TeO_4_(OH)_4_	Cu^2+^_3_Te^6+^O_4_(OH)_4_
+30	( 8)	       7.0	       6.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen001915	          
+
+
+Yakhontovite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	(Ca,Na,K)_0.2_(Cu,Fe,Mg)_2_Si_4_O_10_(OH)_2_Â·3H_2_O	(Ca,Na,K)_0.2_(Cu^2+^,Fe,Mg)_2_Si_4_O_10_(OH)_2_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	P22_462_fig1_008	          
+
+
+Yancowinnaite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	PbCuAl(AsO_4_)_2_OHÂ·H_2_O	Pb^2+^Cu^2+^Al(As^5+^O_4_)_2_OH·H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Yaroshevskite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_9_O_2_(VO_4_)_4_Cl_2_	Cu^2+^_9_O_2_(V^5+^O_4_)_4_Cl_2_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Yarrowite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+36	(50)	sedcu-00169	          
+
+
+Yurmarinite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Na_7_(Fe^3+^,Mg,Cu)_4_(AsO_4_)_6_	Na_7_(Fe^3+^,Mg,Cu^2+^)_4_(As^5+^O_4_)_6_
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Mo-00047	          
+
+
+Yvonite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(AsO_3_OH)Â·2H_2_O	Cu^2+^(As^5+^O_3_OH)·2H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Kristen000027	          
+
+
+Zalesiite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu^2+^_6_Ca(AsO_4_)_2_(AsO_3_OH)(OH)_6_Â·3H_2_O	Cu^2+^_6_Ca(As^5+^O_4_)_2_(As^5+^O_3_OH)(OH)_6_·3H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Co-00065	          
+
+
+Zapatalite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_3_Al_4_(PO_4_)_3_(OH)_9_Â·4H_2_O	Cu^2+^_3_Al_4_(P^5+^O_4_)_3_(OH)_9_·4H_2_O
+30	( 8)	       7.0	       6.0
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	  Hg-00106	          
+
+
+Zdenekite
+Column v1	Column v2	Version 1	Version 2
+ 1	( 0)	Zdenĕkite	 Zden?kite
+ 4	( 3)	NaPbCu_5_(AsO_4_)_4_ClÂ·5H_2_O	NaPb^2+^Cu^2+^_5_(As^5+^O_4_)_4_Cl·5H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+36	(50)	Emily000048	          
+
+
+Zeunerite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu(UO_2_)_2_(AsO_4_)_2_Â·12H_2_O	Cu^2+^(U^6+^O_2_)_2_(As^5+^O_4_)_2_·12H_2_O
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+14	(17)	     106.0	      31.0
+15	(18)	     3.162	     2.825
+16	(19)	    335.16	     87.58
+17	(20)	      0.47	      0.57
+19	(22)	   97285.0	  412820.0
+36	(50)	Kristen002129	          
+
+
+Ziesite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu_2_V^5+^_2_O_7_	Cu^2+^_2_V^5+^_2_O_7_
+10	(13)	          	       1.0
+11	(14)	          	       0.0
+
+
+Zincobriartite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	Cu2(Zn,Fe)(Ge,Ga)S4	Cu_2_(Zn,Fe)(Ge,Ga)S_4_
+30	( 8)	          	       1.0
+ 8	(10)	          	       0.0
+13	(16)	   Ziesite	          
+14	(17)	      22.0	          
+15	(18)	     4.459	          
+16	(19)	    98.107	          
+17	(20)	       1.0	          
+18	(21)	    2009.0	          
+19	(22)	  164189.0	          
+
+
+Zincolibethenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuZnPO_4_OH	Cu^2+^Zn^2+^P^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+13	(16)	          	Zincolibethenite
+14	(17)	          	      36.0
+15	(18)	          	     2.948
+16	(19)	          	   106.117
+17	(20)	          	      0.57
+36	(50)	Emily000048	          
+
+
+Zincolivenite
+Column v1	Column v2	Version 1	Version 2
+ 4	( 3)	CuZnAsO_4_(OH)	Cu^2+^Zn^2+^As^5+^O_4_(OH)
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+13	(16)	Zincolibethenite	Zincolivenite
+14	(17)	      36.0	      32.0
+15	(18)	     2.948	      2.75
+16	(19)	   106.117	      88.0
+17	(20)	      0.57	      0.55
+18	(21)	          	    2007.0
+19	(22)	          	  160894.0
+36	(50)	Emily000048	          
+
+
+Zlatogorite
+Column v1	Column v2	Version 1	Version 2
+ 9	(12)	          	       0.0
+11	(14)	          	       0.0
+13	(16)	Zincolivenite	Zlatogorite
+14	(17)	      32.0	       4.0
+15	(18)	      2.75	       1.5
+16	(19)	      88.0	       6.0
+17	(20)	      0.55	      0.75
+18	(21)	    2007.0	    1994.0
+19	(22)	  160894.0	   57210.0
+

@@ -1,0 +1,144 @@
+Change Log pit_iop_v2_strat.dbf to ascii files
+Key = (PIT, IOP, TOP, BOT)
+
+Shape Entries not in Ascii Files
+
+Shape Columns not in Ascii Files
+LAYER_NAME
+
+Ascii Entries not in Shape Files
+
+Ascii Columns not in Shape Files
+
+Modified Entries
+('fssp14', 'iop2', 54, 53)
+Column|	Shape|	Ascii
+BOT|	53|	53.5
+
+('fssp14', 'iop2', 53, 49)
+Column|	Shape|	Ascii
+TOP|	53|	53.5
+
+('nisp01', 'iop1', 9, 7)
+Column|	Shape|	Ascii
+BOT|	7|	7.5
+
+('nisp01', 'iop1', 7, 0)
+Column|	Shape|	Ascii
+TOP|	7|	7.5
+
+('nisp03', 'iop1', 16, 15)
+Column|	Shape|	Ascii
+TOP|	16|	16.5
+BOT|	15|	15.5
+
+('nisp03', 'iop1', 15, 9)
+Column|	Shape|	Ascii
+TOP|	15|	15.5
+
+('nisp04', 'iop1', 10, 9)
+Column|	Shape|	Ascii
+BOT|	9|	9.5
+
+('nisp04', 'iop1', 9, 6)
+Column|	Shape|	Ascii
+TOP|	9|	9.5
+
+('nisp05', 'iop1', 8, 7)
+Column|	Shape|	Ascii
+TOP|	8|	8.5
+BOT|	7|	7.5
+
+('nisp05', 'iop1', 7, 0)
+Column|	Shape|	Ascii
+TOP|	7|	7.5
+
+('nisp06', 'iop1', 9, 8)
+Column|	Shape|	Ascii
+TOP|	9|	9.5
+BOT|	8|	8.5
+
+('nisp06', 'iop1', 8, 0)
+Column|	Shape|	Ascii
+TOP|	8|	8.5
+
+('nisp07', 'iop1', 8, 7)
+Column|	Shape|	Ascii
+BOT|	7|	7.5
+
+('nisp07', 'iop1', 7, 0)
+Column|	Shape|	Ascii
+TOP|	7|	7.5
+
+('nisp08', 'iop1', 13, 12)
+Column|	Shape|	Ascii
+BOT|	12|	12.5
+
+('nisp08', 'iop1', 12, 0)
+Column|	Shape|	Ascii
+TOP|	12|	12.5
+
+('nisp11', 'iop1', 17, 16)
+Column|	Shape|	Ascii
+TOP|	17|	17.5
+
+('rbsp05', 'iop2', 149, 148)
+Column|	Shape|	Ascii
+BOT|	148|	148.5
+
+('rbsp05', 'iop2', 148, 98)
+Column|	Shape|	Ascii
+TOP|	148|	148.5
+
+('bardsley01', 'iop1', 5, 0)
+Column|	Shape|	Ascii
+TOP|	5|	5.5
+
+('kelly05', 'iop3', 6, 0)
+Column|	Shape|	Ascii
+BOT|	0|	0.5
+
+('kelly05', 'iop3', 0, 0)
+Column|	Shape|	Ascii
+TOP|	0|	0.5
+
+('koenig02', 'iop3', 2, 0)
+Column|	Shape|	Ascii
+BOT|	0|	0.5
+
+('koenig02', 'iop3', 0, 0)
+Column|	Shape|	Ascii
+TOP|	0|	0.5
+
+('koenig04', 'iop3', 11, 0)
+Column|	Shape|	Ascii
+BOT|	0|	0.5
+
+('koenig04', 'iop3', 0, 0)
+Column|	Shape|	Ascii
+TOP|	0|	0.5
+
+('koenig12', 'iop3', 2, 0)
+Column|	Shape|	Ascii
+BOT|	0|	0.5
+
+('koenig12', 'iop3', 0, 0)
+Column|	Shape|	Ascii
+TOP|	0|	0.5
+
+('koenig16', 'iop3', 3, 0)
+Column|	Shape|	Ascii
+BOT|	0|	0.5
+
+('koenig16', 'iop3', 0, 0)
+Column|	Shape|	Ascii
+TOP|	0|	0.5
+
+('molotch03', 'iop4', 7, 0)
+Column|	Shape|	Ascii
+TOP|	7|	7.5
+
+('painter05', 'iop3', 8, 0)
+Column|	Shape|	Ascii
+TOP|	8|	8.5
+
