@@ -9,13 +9,17 @@ def extracting(f, d):
 	soup = BeautifulSoup(fp, 'html5lib')
 	fp.close()
 
+	print 'extracting...'
 	js = soup.find_all('script')
 	items = [item for sublist in js for item in json.loads(sublist.text)]
 
+	print 'loading...'
 	g = rdflib.Graph()
 	g.parse(data = json.dumps(items), format='json-ld')
 
+	print 'writing...'
 	g.serialize(destination=d, format='turtle')
+	print 'written'
 
 if __name__ == "__main__":
 	l = glob.glob('Changelog*.html')

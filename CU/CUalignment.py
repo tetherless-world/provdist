@@ -45,13 +45,18 @@ changelog.write('''<html>
 workbook = xlrd.open_workbook(v1_file)
 sheet_v1 = workbook.sheet_by_name('Database')
 #Maps the Excel key to it's appropriate row number
-v1_indicators = {b.value:a for a, b in list(enumerate(sheet_v1.col(2)))}
+v1_indicators = {}
+for a, b in list(enumerate(sheet_v1.col(2)[1:])):
+	if b.value not in v1_indicators:
+		v1_indicators[b.value]=[a]
+	else:
+		v1_indicators[b.value].append(a)
 v1_row = sheet_v1.row(3)
 
 workbook = xlrd.open_workbook(v2_file)
 #sheet_v2 = workbook.sheet_by_name('all groups sorted')
 sheet_v2 = workbook.sheet_by_name('ParageneticModeTable_Cu_8.21.20')
-v2_indicators = {b.value:a for a, b in list(enumerate(sheet_v2.col(1)))}
+v2_indicators = {b.value:a for a, b in list(enumerate(sheet_v2.col(1)[1:]))}
 v2_row = sheet_v2.row(v2_indicators[v1_row[2].value])
 
 
@@ -72,12 +77,31 @@ for i in range(0,sheet_v2.ncols):
 	v2_value = formatText(sheet_v2.cell(0,i).value)
 	if v1_index == -1:
 		print i, v2_value
-		changelog.write('''        <tr about="AddChange%i" typeof="vo:Change">
+		changelog.write('''        <tr about="AddChange%i" typeof="vo:AddChange">
           <td property="vo:resultsIn" resource="Attribute%i" typeof="vo:Attribute">%i</td>
           <td about="Attribute%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
           <span about="Version2" property="vo:hasAttribute" resource="Attribute%i"/>
         </tr>
 '''%(i, i, i, i, v2_value, i))
+changelog.write('''      </table>
+''')
+
+changelog.write('''
+      <h3>Rows added to %s</h3>
+      <table about="Version1" rel="vo:absentFrom">
+'''%(filename2))
+
+print "Added"
+for i in v2_indicators.keys():
+	if i not in v1_indicators.keys():
+		print i, v2_value
+		out = u'''        <tr about="AddChange%s" typeof="vo:AddChange">
+          <td property="vo:resultsIn" resource="Attribute%s" typeof="vo:Attribute">%i</td>
+          <td about="Attribute%s" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
+          <span about="Version2" property="vo:hasAttribute" resource="Attribute%s"/>
+        </tr>
+'''%(i, i, v2_indicators[i], i, i, i)
+		changelog.write(out.encode('utf8'))
 changelog.write('''      </table>
 ''')
 
@@ -105,6 +129,21 @@ changelog.write('''      </table>
 
 ''')
 
+print "Removed"
+for i in v1_indicators.keys():
+	if i not in v2_indicators.keys():
+		for j in v1_indicators[i]:
+			out = u'''        <tr resource="InvlidateChange%s%i" rev="vo:invalidatedBy" typeof="vo:Change">
+          <td resource="Attribute%s%i" rev="vo:Undergoes">%i</td>
+          <td about="Attribute%s%i" property="http://www.w3.org/2000/01/rdf-schema#label">%s</td>
+          <span about="Version1" property="vo:hasAttribute" resource="Attribute%s%i"/>
+        </tr>
+'''%(i, j, i, j, j, i, j, i, i, j)
+	changelog.write(out.encode('utf8'))
+changelog.write('''      </table>
+
+''')
+
 ########################################
 ####                                ####
 ####           MODIFY               ####
@@ -126,7 +165,7 @@ for j in range(1,sheet_v2.nrows):
 		print v2_key, "not found"
 		continue
 	else:
-		v1_row = sheet_v1.row(v1_indicators[v2_row[1].value])
+		v1_row = sheet_v1.row(v1_index[0])
 	changelog.write('''  <div about="Version1" rel="vo:hasAttribute">
     <div resource="v2:%s" typeof="vo:Attribute">
       <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>

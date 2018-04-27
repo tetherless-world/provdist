@@ -43,13 +43,18 @@ changelog.write("\n")
 workbook = xlrd.open_workbook(v1_file)
 sheet_v1 = workbook.sheet_by_name('Database')
 #Maps the Excel key to it's appropriate row number
-v1_indicators = {b.value:a for a, b in list(enumerate(sheet_v1.col(2)))}
+v1_indicators = { }
+for a, b in list(enumerate(sheet_v1.col(2)[1:])):
+	if b.value not in v1_indicators:
+		v1_indicators[b.value]=[a]
+	else:
+		v1_indicators[b.value].append(a)
 v1_row = sheet_v1.row(3)
 
 workbook = xlrd.open_workbook(v2_file)
 #sheet_v2 = workbook.sheet_by_name('all groups sorted')
 sheet_v2 = workbook.sheet_by_name('ParageneticModeTable_Cu_8.21.20')
-v2_indicators = {b.value:a for a, b in list(enumerate(sheet_v2.col(1)))}
+v2_indicators = {b.value:a for a, b in list(enumerate(sheet_v2.col(1)[1:]))}
 v2_row = sheet_v2.row(v2_indicators[v1_row[2].value])
 
 
@@ -71,6 +76,17 @@ for i in range(0,sheet_v2.ncols):
 '''%(i, v2_value))
 changelog.write("\n")
 
+changelog.write('''Rows added to %s\n'''%(filename2))
+
+print "Added"
+for i in v2_indicators.keys():
+	if i not in v1_indicators.keys():
+		print v2_indicators[i], i
+		out = u'''%i\t%s
+'''%(v2_indicators[i], i)
+		changelog.write(out.encode('utf8'))
+changelog.write("\n")
+
 ########################################
 ####                                ####
 ####            REMOVE              ####
@@ -86,6 +102,21 @@ for i in [5, 32]:
 	v1_value = formatText(sheet_v1.cell(0,i).value)
 	changelog.write('''%i\t%s
 '''%(i, v1_value))
+changelog.write('''
+''')
+
+changelog.write('''Rows added to %s
+Row #\tMineral
+'''%(filename1))
+
+print "Removed"
+for i in v1_indicators.keys():
+	if i not in v2_indicators.keys():
+		for j in v1_indicators[i]:
+			print j, i
+			out = u'''%i\t%s
+'''%(j, i)
+			changelog.write(out.encode('utf8'))
 changelog.write('''
 ''')
 
@@ -110,7 +141,7 @@ for j in range(1,sheet_v2.nrows):
 		print v2_key, "not found"
 		continue
 	else:
-		v1_row = sheet_v1.row(v1_indicators[v2_row[1].value])
+		v1_row = sheet_v1.row(v1_index[0])
 	changelog.write('''
 %s
 Column v1\tColumn v2\tVersion 1\tVersion 2\n'''%(v2_key))

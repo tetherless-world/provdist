@@ -68,13 +68,19 @@ changelog.write("\n      </script>\n    </h2>\n")
 workbook = xlrd.open_workbook(v1_file)
 sheet_v1 = workbook.sheet_by_name('Database')
 #Maps the Excel key to it's appropriate row number
-v1_indicators = {b.value:a for a, b in list(enumerate(sheet_v1.col(2)))}
+v1_indicators = {}
+for a, b in list(enumerate(sheet_v1.col(2)[1:])):
+	if b.value not in v1_indicators:
+		v1_indicators[b.value]=[a]
+	else:
+		v1_indicators[b.value].append(a)
+print [(i, len(v1_indicators[i])) for i in v1_indicators.keys() if len(v1_indicators[i]) > 1]
 v1_row = sheet_v1.row(3)
 
 workbook = xlrd.open_workbook(v2_file)
 #sheet_v2 = workbook.sheet_by_name('all groups sorted')
 sheet_v2 = workbook.sheet_by_name('ParageneticModeTable_Cu_8.21.20')
-v2_indicators = {b.value:a for a, b in list(enumerate(sheet_v2.col(1)))}
+v2_indicators = {b.value:a for a, b in list(enumerate(sheet_v2.col(1)[1:]))}
 v2_row = sheet_v2.row(v2_indicators[v1_row[2].value])
 
 
@@ -98,12 +104,12 @@ for i in range(0,sheet_v2.ncols):
 	v1_index = indexConvert(i)
 	v2_value = formatText(sheet_v2.cell(0,i).value)
 	if v1_index == -1:
-		print i, v2_value
 		changelog.write('''        <tr id="AddChange%i" about="v2:Attribute%i">
           <td>%i</td>
           <td>%s</td>
           <script type="application/ld+json">
-'''%(i, i, i, v2_value))
+'''%(i, i, i, v2_value)) 
+		
 		json1 = {
 "@context":context,
 "@type":"vo:AddChange" ,
@@ -126,6 +132,48 @@ for i in range(0,sheet_v2.ncols):
 changelog.write('''      </table>
 ''')
 
+changelog.write('''
+      <h3>Rows added to %s</h3>
+      <table about="Version1" rel="vo:absentFrom">
+        <tr>
+          <th>Row # V2</th>
+          <th>Header</th>
+        </tr>
+'''%(filename2))
+
+for i in v2_indicators.keys():
+	if i not in v1_indicators.keys():
+		print v2_indicators[i], i
+		out = u'''        <tr id="AddChange%s" about="v2:Attribute%s">
+          <td>%i</td>
+          <td>%s</td>
+          <script type="application/ld+json">
+'''%(i, i, v2_indicators[i], i)
+		changelog.write(out.encode('utf8'))
+		json1 = {
+"@context":context,
+"@type":"vo:AddChange" ,
+"@id": "".join([host, "AddChange", i]) ,
+"resultsIn" :   "".join([ "http://CUdb.com/v2/Attribute", i]),
+"@reverse"  :   { "absentFrom": "Version1" }
+}
+		json2 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://CUdb.com/v2/Attribute", i]) ,
+"label":i ,
+"@reverse" :    { "hasAttribute" : "Version2" }
+}
+		json.dump([json1, json2], changelog, indent=4, sort_keys=True)
+		changelog.write('''
+          </script>
+        </tr>
+''')
+changelog.write('''      </table>
+''')
+
+		
+
 ########################################
 ####                                ####
 ####            REMOVE              ####
@@ -144,7 +192,7 @@ changelog.write('''
 print "Removed"
 for i in [5, 32]:
 	v1_value = formatText(sheet_v1.cell(0,i).value)
-	changelog.write('''        <tr id="InvalidateChange%i" about="v1:Attribute%i">
+	changelog.write('''        <tr id="InvalidateColumn%i" about="v1:Column%i">
           <td>%i</td>
           <td>%s</td>
           <script type="application/ld+json">
@@ -152,19 +200,62 @@ for i in [5, 32]:
 	json1 = {
 "@context":context,
 "@type":"vo:Attribute" ,
-"@id":"".join(["http://CUdb.com/v1/Attribute", str(i)]) ,
+"@id":"".join(["http://CUdb.com/v1/Column", str(i)]) ,
 "label":v1_value ,
-"undergoes":"".join([host, "InvalidateChange", str(i)]) ,
+"undergoes":"".join([host, "InvalidateColumn", str(i)]) ,
 "@reverse" :    { "hasAttribute" : "Version1" }
 }
 	json2 = {
 "@context":context,
 "@type":"vo:InvalidateChange" ,
-"@id": "".join([host, "InvalidateChange", str(i)]) ,
+"@id": "".join([host, "InvalidateColumn", str(i)]) ,
 "invalidatedBy" :   "Version2",
 }
 	json.dump([json1, json2], changelog, indent=4, sort_keys=True)
 	changelog.write('''
+          </script>
+        </tr>
+''')
+changelog.write('''      </table>
+
+''')
+
+changelog.write('''
+      <h3>Rows added to %s</h3>
+      <table about="Version2">
+        <tr>
+          <th>Row # V1</th>
+          <th>Header</th>
+        </tr>
+'''%(filename1))
+
+print "Removed"
+for i in v1_indicators.keys():
+	if i not in v2_indicators.keys():
+		print v1_indicators[i], i
+		for j in v1_indicators[i]:
+			out = '''        <tr id="InvalidateChange%s%i" about="v1:Attribute%s%i">
+          <td>%i</td>
+          <td>%s</td>
+          <script type="application/ld+json">
+'''%(i, j, i, j, j, i)
+			changelog.write(out.encode('utf8'))
+			json1 = {
+"@context":context,
+"@type":"vo:Attribute" ,
+"@id":"".join(["http://CUdb.com/v1/Attribute", i, str(j)]) ,
+"label":i ,
+"undergoes":"".join([host, "InvalidateChange", i, str(j)]) ,
+"@reverse" :    { "hasAttribute" : "Version1" }
+}
+			json2 = {
+"@context":context,
+"@type":"vo:InvalidateChange" ,
+"@id": "".join([host, "InvalidateChange", i, str(j)]) ,
+"invalidatedBy" :   "Version2",
+}
+			json.dump([json1, json2], changelog, indent=4, sort_keys=True)
+			changelog.write('''
           </script>
         </tr>
 ''')
@@ -193,7 +284,9 @@ for j in range(1,sheet_v2.nrows):
 		print v2_key, "not found"
 		continue
 	else:
-		v1_row = sheet_v1.row(v1_indicators[v2_row[1].value])
+		v1_row = sheet_v1.row(v1_index[0])
+		if len(v1_index) > 1:
+			print "Oh no, it has more than one row"
 	changelog.write('''
       <div about="v1:%s"">
         <span style="font-weight:bold" property="http://www.w3.org/2000/01/rdf-schema#label">%s</span>
