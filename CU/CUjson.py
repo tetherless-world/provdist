@@ -71,7 +71,7 @@ sheet_v1 = workbook.sheet_by_name('Database')
 v1_indicators = {}
 for a, b in list(enumerate(sheet_v1.col(2)[1:])):
 	if b.value not in v1_indicators:
-		v1_indicators[b.value]=[a]
+		v1_indicators[b.value]=[a+1]
 	else:
 		v1_indicators[b.value].append(a)
 print [(i, len(v1_indicators[i])) for i in v1_indicators.keys() if len(v1_indicators[i]) > 1]
