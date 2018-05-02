@@ -1,0 +1,56 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix vo: <http://orion.tw.rpi.edu/~blee/VersionOntology.owl#> .
+
+:ngdb rdfs:label "Global Data Base on 3He/4He in on-shore free-circulated subsurface fluids (concise description)" .
+
+:version1 a vo:Version ;
+	dct:isVersionOf :ngdb ;
+	dcat:distribution :ngdbv1 ;
+	pav:version "0.1" .
+
+:ngdbv1 a schema:Datasest ;
+	dct:hasPart :Africa ;
+	dct:hasPart :America ;
+	dct:hasPart :Antarctica ;
+	dct:hasPart :Australia ;
+	dct:hasPart :HE ;
+	dct:hasPart :Europe ;
+	dct:hasPart :FSU ;
+	dct:hasPart :Russia .
+
+:Africa a schema:Dataset ;
+	rdfs:label "Africa_062.xlsx" .
+
+:America a schema:Dataset ;
+	rdfs:label "America_906.xlsx" .
+
+:Antarctica a schema:Dataset ;
+	rdfs:label "Antarctica_018.xlsx" .
+
+:Australia a schema:Dataset ;
+	rdfs:label "Australia_249.xlsx" .
+
+:HE a schema:Dataset ;
+	rdfs:label "DB_HE_6733.xlsx" .
+
+:Europe a schema:Dataset ;
+	rdfs:label "Europe_2462.xlsx" .
+
+:FSU a schema:Dataset ;
+	rdfs:label "FSU_816.xlsx" .
+
+:Russia a schema:Dataset ;
+	rdfs:label "RUSSIA_1246.xlsx" .
+
+:version2 a vo:Version ;
+	pav:previousVersion :version1 ;
+	dct:isVersionof :ngdb ;
+	dcat:distribution :ngdbv2 ;
+	pav:version "0.2" .
+
+:ngdbv2 a schema:Dataset ;
+	rdfs:label "DB_final-55-7262_2015_03_08.xlsx" .
