@@ -129,6 +129,11 @@ changelog.write('''      </table>
 
 ''')
 
+changelog.write('''
+      <h3>Rows removed from %s</h3>
+      <table about="Version2">
+'''%(filename1))
+
 print "Removed"
 for i in v1_indicators.keys():
 	if i not in v2_indicators.keys():
@@ -139,7 +144,7 @@ for i in v1_indicators.keys():
           <span about="Version1" property="vo:hasAttribute" resource="Attribute%s%i"/>
         </tr>
 '''%(i, j, i, j, j, i, j, i, i, j)
-	changelog.write(out.encode('utf8'))
+			changelog.write(out.encode('utf8'))
 changelog.write('''      </table>
 
 ''')
