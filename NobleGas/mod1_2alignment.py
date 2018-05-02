@@ -544,7 +544,7 @@ if __name__ == "__main__":
 	v2_dir = join(separator, 'data', 'NGdata', 'v2')
 	v1_dir = join(separator, 'data', 'NGdata', 'v1')
 	
-	excel_files = glob.glob(join(v1_dir, '*.xlsx'))
+	excel_files = glob.glob("/data/NGdata/v1/DB_HE_6733.xlsx") #join(v1_dir, '*.xlsx'))
 	
 	v1_file = join(v1_dir, 'America_906.xlsx')
 	v2_file = join(v2_dir, 'DB_final-55-7262_2015_03_08.xlsx')
